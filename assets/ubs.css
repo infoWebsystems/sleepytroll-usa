@@ -245,6 +245,8 @@ body  span.for-mobile {
 .c-pointer{
     cursor: pointer;
 }
-
+.ann_span{
+    color: #F6E9E0;
+}
 
 /* 10/8/2023 End */
