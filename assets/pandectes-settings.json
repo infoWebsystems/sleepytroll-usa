@@ -1,11 +1,16 @@
 {
   "store": {
+    "id": 80228516147,
     "plan": "basic",
-    "theme": "New Theme USA V0.1 -Tik+Newsec",
+    "theme": "sleepytroll-usa\/main",
     "primaryLocale": "en",
-    "adminMode": false
+    "adminMode": false,
+    "headless": false,
+    "storefrontRootDomain": "",
+    "checkoutRootDomain": "",
+    "storefrontAccessToken": ""
   },
-  "tsPublished": 1705656531,
+  "tsPublished": 1718007596,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -318,7 +323,7 @@
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
-      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0802\/2851\/6147\/t\/35\/assets\/pandectes-logo.png?v=1705484108\" alt=\"Sleepytroll USA\" \/>"
+      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0802\/2851\/6147\/t\/38\/assets\/pandectes-logo.png?v=1718007147\" alt=\"Sleepytroll USA\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
@@ -333,7 +338,7 @@
     "revokable": true,
     "animateRevokable": false,
     "revokableReset": false,
-    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0802\/2851\/6147\/t\/35\/assets\/pandectes-reopen-logo.png?v=1705484108",
+    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0802\/2851\/6147\/t\/38\/assets\/pandectes-reopen-logo.png?v=1718007149",
     "revokablePlacement": "bottom-left",
     "revokableMarginHorizontal": 15,
     "revokableMarginVertical": 15,
@@ -360,7 +365,7 @@
   },
   "banner": {
     "resetTs": 1697632633,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "hybridStrict": false,
@@ -547,7 +552,7 @@
         "firstParty": true,
         "retention": "14 day(s)",
         "expires": 14,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "Tracks landing pages."
         }
@@ -560,7 +565,7 @@
         "firstParty": true,
         "retention": "14 day(s)",
         "expires": 14,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "Tracks landing pages."
         }
@@ -588,7 +593,7 @@
         "firstParty": true,
         "retention": "90 day(s)",
         "expires": 90,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "Cookie is placed by Google Tag Manager to track conversions."
         }
@@ -601,7 +606,7 @@
         "firstParty": true,
         "retention": "90 day(s)",
         "expires": 90,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "Cookie is placed by Facebook to track visits across websites."
         }

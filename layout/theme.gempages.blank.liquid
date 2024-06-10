@@ -14,6 +14,7 @@
 	{% render 'pandectes-rules' %}
 	
 	
+	
     
 
     <meta charset="utf-8">
@@ -94,7 +95,7 @@
     {% render 'gem-app-header-scripts' %}
     <!-- End_Gem_Page_Header_Script -->
 
-    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=839345f4"></script>
+{%- comment -%}    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=839345f4"></script> {%- endcomment -%}
     {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}
     {% unless boostersnippet contains 'Liquid error' %}{{ boostersnippet }}{% endunless %}
     {% render 'gp-head' %}
