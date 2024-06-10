@@ -72,18 +72,29 @@
           },
           "message_rWNrgT": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "to get 20% OFF Sleepytroll Baby Rocker",
-              "text-span": "SIGN UP HERE",
+              "text-span": "",
               "url": "",
-              "custom_trigger": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
+              "custom_trigger": ""
+            }
+          },
+          "message_NwLjQa": {
+            "type": "message",
+            "settings": {
+              "text": "Announce something here",
+              "text-span": "",
+              "url": "",
+              "custom_trigger": ""
             }
           }
         },
         "block_order": [
           "message",
           "146f82f4-f294-41de-88b9-bdc2c77d965f",
-          "message_rWNrgT"
+          "message_rWNrgT",
+          "message_NwLjQa"
         ],
         "settings": {
           "enable_sticky": true,
