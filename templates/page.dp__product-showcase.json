@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "163422203355ec139d": {
+      "type": "design_pack_-_about_with_parallax",
+      "settings": {
+        "image_crop": "1:1",
+        "focal_point": "center center",
+        "fancy_text": "Are you ready?",
+        "title": "To get  ~healthy.~",
+        "text": "<p>You are unique and so is your business. Make sure that you are <em>reflecting<\/em> your personality.<\/p>",
+        "text_size": 100,
+        "text_color": "#1b4820",
+        "text_highlight_color": "#6d9e73",
+        "background_color": "#EBEBEB",
+        "show_background_image": true,
+        "animation": "fade-in",
+        "base_width": 80,
+        "max_width": "",
+        "inner_padding": 60,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": true,
+        "heading_font": "muli_n6",
+        "main_font": "muli_n3"
+      }
+    },
+    "1633814948179f7c49": {
+      "type": "design_pack_-_image_with_text_overlap-v2",
+      "blocks": {
+        "template--14247657373798__e8cc668f-516b-4613-b4ab-4f88bce9084e-1671215482497c2b04-2": {
+          "type": "heading",
+          "settings": {
+            "title": "The science behind the juice cleanse",
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "heading_level": "h2"
+          }
+        },
+        "055e7688-6242-4d88-b06c-bc6949e34f20": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is your main area to add in your keywords and get people excited about your product. Why should they choose you?<\/p>"
+          }
+        },
+        "0c0ba4f4-fc01-4de2-84a7-b6f8d2c5da56": {
+          "type": "buttons",
+          "settings": {
+            "button_radius": 50,
+            "button_label_primary": "Learn more",
+            "link_primary": "",
+            "external_link_primary": false,
+            "button_label_color_primary": "#fafafa",
+            "button_background_color_primary": "rgba(0,0,0,0)",
+            "button_label_secondary": "",
+            "link_secondary": "",
+            "external_link_secondary": false,
+            "button_label_color_secondary": "#FFFFFF",
+            "button_background_color_secondary": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "template--14247657373798__e8cc668f-516b-4613-b4ab-4f88bce9084e-1671215482497c2b04-2",
+        "055e7688-6242-4d88-b06c-bc6949e34f20",
+        "0c0ba4f4-fc01-4de2-84a7-b6f8d2c5da56"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "right",
+        "text_size": 115,
+        "text_color": "#fafafa",
+        "text_background_color": "#66966b",
+        "background_color": "#f4f4f4",
+        "animation": "fade-in",
+        "base_width": 80,
+        "max_width": "1000",
+        "inner_padding": 100,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": true,
+        "heading_font": "muli_n6",
+        "main_font": "muli_n3"
+      }
+    },
+    "1633815121c2569be9": {
+      "type": "design_pack_-_diner_menu",
+      "blocks": {
+        "1633815121c2569be9-0": {
+          "type": "menu_item",
+          "settings": {
+            "title": "Kale",
+            "description": "Dark leafy greens that provide extreme anti-oxidents",
+            "price": "8oz"
+          }
+        },
+        "1633815121c2569be9-1": {
+          "type": "menu_item",
+          "settings": {
+            "title": "Kiwi",
+            "description": "Add a little sweetness and natural anti-aging properties",
+            "price": "4"
+          }
+        },
+        "1633815121c2569be9-3": {
+          "type": "menu_item",
+          "settings": {
+            "title": "Spinach",
+            "description": "Another boost of anti-oxidents that help improve inflamation issues",
+            "price": "8oz"
+          }
+        },
+        "1633815121c2569be9-2": {
+          "type": "menu_item",
+          "settings": {
+            "title": "Cilantro",
+            "description": "Helps cleanse the liver",
+            "price": "4oz"
+          }
+        }
+      },
+      "block_order": [
+        "1633815121c2569be9-0",
+        "1633815121c2569be9-1",
+        "1633815121c2569be9-3",
+        "1633815121c2569be9-2"
+      ],
+      "settings": {
+        "title": "Grass is Greener Juice Recipe",
+        "dot_size": "4px",
+        "text_size": 95,
+        "text_color": "#fafafa",
+        "background_color": "#66966b",
+        "base_width": 70,
+        "max_width": "1000",
+        "inner_padding": 100,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": true,
+        "heading_font": "muli_n4",
+        "main_font": "sans-serif"
+      }
+    },
+    "16338167489b029a3f": {
+      "type": "design_pack_-_value_proposition_vertical",
+      "blocks": {
+        "16338167489b029a3f-0": {
+          "type": "icon",
+          "settings": {
+            "scale": 1,
+            "title": "Green Reboot Juice",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium ipsa, illum tempore deleniti sunt quia quam excepturi ut modi sed cupiditate, dignissimos sint quasi accusamus! Recusandae.<\/p>",
+            "link": ""
+          }
+        },
+        "16338167489b029a3f-1": {
+          "type": "icon",
+          "settings": {
+            "scale": 1,
+            "title": "Cucumber Cooler",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium ipsa, illum tempore deleniti sunt quia quam excepturi ut modi sed cupiditate, dignissimos sint quasi accusamus! Recusandae.<\/p>",
+            "link": ""
+          }
+        },
+        "16338167489b029a3f-2": {
+          "type": "icon",
+          "settings": {
+            "scale": 1,
+            "title": "Green Giant Ginger Juice",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium ipsa, illum tempore deleniti sunt quia quam excepturi ut modi sed cupiditate, dignissimos sint quasi accusamus! Recusandae.<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16338167489b029a3f-0",
+        "16338167489b029a3f-1",
+        "16338167489b029a3f-2"
+      ],
+      "settings": {
+        "title": "Jumpstart your morning",
+        "icon_size": 100,
+        "text_size": 120,
+        "heading_color": "#1b4820",
+        "text_color": "#1b4820",
+        "background_color": "#f4f4f4",
+        "color_filter": "none",
+        "animation": "fade-in",
+        "mobile_icon_size": 50,
+        "base_width": 70,
+        "max_width": "800px",
+        "inner_padding": 100,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": true,
+        "heading_font": "muli_n6",
+        "main_font": "muli_n3"
+      }
+    },
+    "1633816016f4d42c3c": {
+      "type": "design_pack_-_newsletter_with_text",
+      "settings": {
+        "heading": "Be the first to know.",
+        "text": "<p>Use this space to explain the value of signing up for your mailing list. Whether it's deals, freebies, blog posts or sending out a downloadable PDF. Having an engaged and active mailing list is a must for any Shopify store.<\/p>",
+        "text_alignment": "left",
+        "form_text": "Sign up for newsletter",
+        "show_first_name": false,
+        "show_last_name": false,
+        "form_position": "right",
+        "text_size": 100,
+        "text_color": "#1b4820",
+        "button_label_color": "#ffffff",
+        "button_background_color": "#2c5e31",
+        "button_radius": 50,
+        "background_color": "#ebebeb",
+        "animation": "fade-in",
+        "show_background_image": true,
+        "enable_parallax": false,
+        "base_width": 90,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": true,
+        "heading_font": "muli_n6",
+        "main_font": "muli_n3"
+      }
+    }
+  },
+  "order": [
+    "163422203355ec139d",
+    "1633814948179f7c49",
+    "1633815121c2569be9",
+    "16338167489b029a3f",
+    "1633816016f4d42c3c"
+  ]
+}

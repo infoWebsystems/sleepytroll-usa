@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "53e56dae-a9ef-426f-9ec7-153ca538648f": {
+      "type": "faq",
+      "blocks": {
+        "template--17692579103002__53e56dae-a9ef-426f-9ec7-153ca538648f-1675155142b445ad2f-0": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--17692579103002__53e56dae-a9ef-426f-9ec7-153ca538648f-1675155142b445ad2f-1": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. All orders are usually shipped between 1-2 bu<\/p>"
+          }
+        },
+        "template--17692579103002__53e56dae-a9ef-426f-9ec7-153ca538648f-1675155142b445ad2f-2": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "41e3f9fc-a166-4690-b820-c715ccef606f": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "a0281e62-a00f-4186-9667-a2deb181c091": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "9961432a-e1d1-4855-8420-dab542107a30": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "a4ff26b7-25f8-49d0-8b61-3b9244218dc9": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "34247883-ec59-4f4f-842a-de7a36e627e3": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "1978b1d1-88f0-4991-a48e-223917889118": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "fef78e8c-984a-491d-a269-c946a68c39d4": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "a5011459-9bc7-4425-82e6-36fc021cbcd0": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "7bd1ad72-5d12-4068-82b6-f5d67b6a060e": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "878836de-0c47-4d86-a2b5-0b808b33fe4d": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17692579103002__53e56dae-a9ef-426f-9ec7-153ca538648f-1675155142b445ad2f-0",
+        "template--17692579103002__53e56dae-a9ef-426f-9ec7-153ca538648f-1675155142b445ad2f-1",
+        "template--17692579103002__53e56dae-a9ef-426f-9ec7-153ca538648f-1675155142b445ad2f-2",
+        "41e3f9fc-a166-4690-b820-c715ccef606f",
+        "a0281e62-a00f-4186-9667-a2deb181c091",
+        "9961432a-e1d1-4855-8420-dab542107a30",
+        "a4ff26b7-25f8-49d0-8b61-3b9244218dc9",
+        "34247883-ec59-4f4f-842a-de7a36e627e3",
+        "1978b1d1-88f0-4991-a48e-223917889118",
+        "fef78e8c-984a-491d-a269-c946a68c39d4",
+        "a5011459-9bc7-4425-82e6-36fc021cbcd0",
+        "7bd1ad72-5d12-4068-82b6-f5d67b6a060e",
+        "878836de-0c47-4d86-a2b5-0b808b33fe4d"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Got questions? We will try to answer them",
+        "content": "<p>We're here to help. Should you wonder about shipping, payments, returns or perhaps the product itself? <\/p><p>Below you'll find our extensive FAQ. If you can't find what you're looking for, don't hesitate to contact us.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#597970",
+        "accordion_text_color": "#ffffff"
+      }
+    },
+    "b5abe18a-0217-4d00-815c-c5cdba491d97": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--17692579103002__b5abe18a-0217-4d00-815c-c5cdba491d97-1675154888f0c1baba-0": {
+          "type": "item",
+          "settings": {
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--17692579103002__b5abe18a-0217-4d00-815c-c5cdba491d97-1675154888f0c1baba-1": {
+          "type": "item",
+          "settings": {
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--17692579103002__b5abe18a-0217-4d00-815c-c5cdba491d97-1675154888f0c1baba-2": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17692579103002__b5abe18a-0217-4d00-815c-c5cdba491d97-1675154888f0c1baba-0",
+        "template--17692579103002__b5abe18a-0217-4d00-815c-c5cdba491d97-1675154888f0c1baba-1",
+        "template--17692579103002__b5abe18a-0217-4d00-815c-c5cdba491d97-1675154888f0c1baba-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Heading",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "8f73fae0-4725-4939-a2b1-ce55b7546e0f": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--17692579103002__8f73fae0-4725-4939-a2b1-ce55b7546e0f-1675159001641b92fe-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "articles",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17692579103002__8f73fae0-4725-4939-a2b1-ce55b7546e0f-1675159001641b92fe-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "53e56dae-a9ef-426f-9ec7-153ca538648f",
+    "b5abe18a-0217-4d00-815c-c5cdba491d97",
+    "main",
+    "contact",
+    "8f73fae0-4725-4939-a2b1-ce55b7546e0f"
+  ]
+}

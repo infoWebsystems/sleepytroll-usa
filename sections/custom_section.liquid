@@ -1,0 +1,218 @@
+<section class =" module-container custom_section">
+  <div class ="section_heading">
+    <h1>{{section.settings.custom_heading}}</h1>
+  </div>
+  
+  <div class ="section_block_class">
+    {% for block in section.blocks %}
+      <div class ="block_heading">
+        <h2>{{block.settings.block_heading}}</h2>
+      </div>
+    <div class ="for_mobile">
+        <div class ="main_block_image">
+          <img src ="{{block.settings.custom_image_picker | img_url:'1024x'}}"> 
+        </div>
+    </div>
+    <div class ="custom_block_settings module-inner">
+      <div class ="custom_block">
+        <div class ="block_part_1">
+        <div class ="custom_block_image">
+          <img src ="{{block.settings.custom_image_1 | img_url:'500x'}}">
+        </div>
+        <div class ="custom_block_para">
+          <div class ="block_title">
+            <h5>{{block.settings.block_icon_heading}}</h5>
+            <p>{{block.settings.icon_para}}</p>
+        </div>
+      </div>
+        </div>
+        <div class ="block_part_2">
+          <div class ="custom_block_image">
+            <img src ="{{block.settings.custom_image_2 | img_url:'500x'}}">
+          </div>
+          <div class ="custom_block_para">
+            <div class ="block_title">
+              <h5>{{block.settings.block_icon_heading_2}}</h5>
+              <p>{{block.settings.icon_para_2}}</p>
+            </div>
+      </div>
+        </div>
+    </div>
+      <div class ="custom_block_section_2">
+        <div class ="main_block_image">
+          <img src ="{{block.settings.custom_image_picker | img_url:'1024x'}}"> 
+        </div>
+      </div>
+      <div class ="custom_block">
+        <div class ="block_part_3">
+        <div class ="custom_block_image">
+          <img src ="{{block.settings.custom_image_3 | img_url:'500x'}}">
+        </div>
+        <div class ="custom_block_para">
+          <div class ="block_title">
+            <h5>{{block.settings.block_icon_heading_3}}</h5>
+            <p>{{block.settings.icon_para_3}}</p>
+        </div>
+      </div>
+        </div>
+        <div class ="block_part_4">
+          <div class ="custom_block_image">
+            <img src ="{{block.settings.custom_image_4 | img_url:'500x'}}">
+          </div>
+          <div class ="custom_block_para">
+            <div class ="block_title">
+              <h5>{{block.settings.icon_heading_4}}</h5>
+              <p>{{block.settings.icon_para_4}}</p>
+            </div>
+      </div>
+        </div>
+    </div>
+    {% endfor %}
+  </div>
+  
+</section>
+  <style>
+    {% for block in section.blocks %}
+    @media (min-width:768px){
+     .custom_block_settings .custom_block_section_2 .main_block_image img{
+        height:{{block.settings.custom_image_height}}px;
+      }
+      .custom_block_image img{
+        height:{{block.settings.custom_icon_height}}px;
+      }
+    }
+    {% endfor %}
+  </style>
+{% schema %}
+  {
+    "name": "Custom Section",
+    "settings": [
+      {
+        "type":"text",
+        "id":"custom_heading",
+		"label":"Custom Section Heading",
+		"default":"Section Heading Here"
+      }
+    ],
+	"blocks":[
+  {
+		"type":"ImageAndText",
+		"name":"Image And Text",
+	"settings":[
+	{
+		"type":"text",
+		"id":"block_heading",
+		"label":"Block Heading",
+		"default":"Block Heading Here"
+	},
+	{
+		"type":"image_picker",
+		"id":"custom_image_picker",
+		"label":"Custom Image"
+	},
+  	{
+  		"type":"range",
+  		"id":"custom_image_height",
+  		"label":"Main Image Height For Desktop",
+  		"step":50,
+  		"unit":"px",
+  		"max":700,
+  		"min":200,
+  		"default":500
+  	},
+    {
+    "type":"range",
+    "id":"custom_icon_height",
+    "label":"Icon Image Height For Desktop",
+    "step":10,
+    "unit":"px",
+    "max":200,
+    "min":20,
+    "default":50
+    },
+	{
+		"type":"image_picker",
+		"id":"custom_image_1",
+		"label":"Custom Image Icon"
+	},
+  	{
+  		"type":"text",
+  		"id":"block_icon_heading",
+  		"label":"Icon Heading",
+  		"default":"Icon Heading"
+  	},
+  	{
+  		"type":"richtext",
+  		"id":"icon_para",
+  		"label":"Icon Paragraph",
+ 		 "default":"<p> Please text here regarding the paragrpah of the subject</p>"
+  	},
+    {
+		"type":"image_picker",
+		"id":"custom_image_2",
+		"label":"Custom Image Icon 2"
+    },
+  	{
+  		"type":"text",
+  		"id":"block_icon_heading_2",
+  		"label":"Icon Heading 2",
+  		"default":"Icon Heading 2"
+  	},
+    {
+		"type":"richtext",
+  		"id":"icon_para_2",
+  		"label":"Icon Paragraph 2",
+  		"default":"<p> Please Text Here regarding the paragraph of the subject</p>"
+    },
+	{
+		"type":"image_picker",
+		"id":"custom_image_3",
+		"label":"Custom Image Icon 3"
+	},
+  	{
+  		"type":"text",
+  		"id":"block_icon_heading_3",
+  		"label":"Icon Heading_3",
+  		"default":"Icon Heading 3"
+  	},
+  	{
+  		"type":"richtext",
+  		"id":"icon_para_3",
+  		"label":"Icon Para 3",
+  		"default":"<p>Please Here Text regarding the paragraph of the subject</p>"
+  	},
+    {
+		"type":"image_picker",
+  		"id":"custom_image_4",
+  		"label":"Custom Image 4"
+    },
+  	{
+  		"type":"text",
+  		"id":"icon_heading_4",
+  		"label":"Icon Heading 4",
+  		"default":"Icon Heading 4"
+  	},
+  	{
+  		"type":"richtext",
+  		"id":"icon_para_4",
+  		"label":"Icon Para 4",
+  		 "default":"<p>Please Here Text regarding the paragraph of the subject</p>"
+  	}
+  
+	]
+  }
+	],
+	"presets":[
+	{
+	"name":"custom section",
+	"category":"content"
+	}	
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

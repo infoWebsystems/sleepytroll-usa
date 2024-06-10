@@ -1,0 +1,172 @@
+<section class="xo-section xo-section--giGcN0 xo-section--spacing-small">
+  <style>
+    .xo-section--giGcN0 {background-color: #CFD9E9;}
+    
+    .xo-custom-1647774752195 { text-align: center !important; }.xo-custom-1647774752195 { text-align: center !important; }.xo-custom-1647774752195 { text-align: center !important; }.xo-custom-1647774752195 { text-align: center !important; }.xo-custom-1647774752195 { text-align: center !important; }.xo-custom-1647774752195 { text-align: center !important; }
+  </style>
+  <div class="xo-container">
+    <div class="xo-row">
+      <div class="xo-col-12">
+        <div class="xo-m-item xo-m-heading xo-m-heading--01 xo-m-item--center" style="--max-width: 68%;">
+          <h2 class="xo-m-heading__title xo-styles-h2-default">{{ section.settings.heading00 }}</h2>
+          <div class="xo-m-heading__text xo-styles-text-default">{{ section.settings.text00 }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="xo-row">
+      <div class="xo-col">
+        <div class=" xo-row xo-repeat xo-row-cols-1 xo-row-cols-lg-2 xo-row-cols-xl-3" style="--xo-repeat-ver-space: 20px; --xo-gutter-x: 20px;">
+          {%- assign defaultBlockClass2 = "" -%}
+          {%- assign customBlockClasses2 = "xo-custom-1647774752195,xo-custom-1647774752195,xo-custom-1647774752195" | split: ',' -%}
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'imagebox02' -%}
+              <div class="xo-repeat__item xo-col" {{ block.shopify_attributes }}>
+                <div class="xo-m-item xo-m-imagebox xo-m-imagebox-02 xo-styles-1650684476130 {% if customBlockClasses2[forloop.index0] -%}{{ customBlockClasses2[forloop.index0] }}{%- else -%}{{ defaultBlockClass2 }}{%- endif -%}">
+                  <div class="xo-m-imagebox__img xo-styles-image-default">
+                    <img src="{{ block.settings.img0 | image_url }}" alt="{{ block.settings.img0.alt }}">
+                  </div>
+                  <h2 class="xo-m-imagebox__heading xo-styles-h2-default">{{ block.settings.heading0 }}</h2>
+                  <div class="xo-m-imagebox__text xo-styles-text-default">{{ block.settings.text0 }}</div>
+                </div>
+              </div>
+              {%- when 'imagebox03' -%}
+              <div class="xo-repeat__item xo-col" {{ block.shopify_attributes }}>
+                <div class="xo-m-item xo-m-imagebox xo-m-imagebox-03 {% if customBlockClasses2[forloop.index0] -%}{{ customBlockClasses2[forloop.index0] }}{%- else -%}{{ defaultBlockClass2 }}{%- endif -%}">
+                  <div class="xo-m-imagebox__img">
+                    <img src="{{ block.settings.img1 | image_url }}" alt="{{ block.settings.img1.alt }}">
+                  </div>
+                  <h3 class="xo-m-imagebox__heading">{{ block.settings.heading1 }}</h3>
+                  <div class="xo-m-imagebox__text">{{ block.settings.text1 }}</div>
+                  {%- if block.settings.button1label != blank -%}
+                    <div class="xo-btn xo-m-imagebox__btn">
+                      <a href="{{ block.settings.button1 }}">
+                        <span>{{ block.settings.button1label }}</span>
+                      </a>
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% stylesheet %}
+  /*XO-SECTIONS STYLES*/
+  .xo-section--giGcN0 .xo-m-item{padding-top:30px;padding-bottom:40px}.xo-section--giGcN0 .xo-m-item img{max-width:50%}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Features 13",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading00",
+      "label": "Heading",
+      "default": "Your heading here"
+    },
+    {
+      "type": "text",
+      "id": "text00",
+      "label": "Text",
+      "default": "Your text here"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "imagebox02",
+      "name": "ImageBox02",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img0",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading0",
+          "label": "Heading",
+          "default": "Heading title"
+        },
+        {
+          "type": "text",
+          "id": "text0",
+          "label": "Text",
+          "default": "Pair text with an image to focus on your chosen product, collection, or blog post."
+        }
+      ]
+    },
+    {
+      "type": "imagebox03",
+      "name": "ImageBox03",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img1",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading1",
+          "label": "Heading",
+          "default": "Heading title"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text",
+          "default": "Pair text with an image to focus on your chosen product, collection, or blog post."
+        },
+        {
+          "type": "url",
+          "id": "button1",
+          "label": "Button link"
+        },
+        {
+          "type": "text",
+          "id": "button1label",
+          "label": "Button text",
+          "default": "Read more"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Features 13",
+      "settings": {
+        "heading00": "Explore our outstanding features",
+        "text00": "Describe a product, make announcements, or welcome customers to your store."
+      },
+      "blocks": [
+        {
+          "type": "imagebox02",
+          "settings": {
+            "heading0": "Plan and Define",
+            "text0": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        {
+          "type": "imagebox02",
+          "settings": {
+            "heading0": "Design and Develop",
+            "text0": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        {
+          "type": "imagebox02",
+          "settings": {
+            "heading0": "Launch and Support",
+            "text0": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

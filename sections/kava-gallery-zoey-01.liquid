@@ -1,0 +1,428 @@
+ {% assign sec_id = section.id | slice: -8, 8  | replace: "-", "_" %}
+
+{%- style -%}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pw-container,
+.pw-container-fluid {
+  width: 100%;
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .pw-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 750px) {
+  .pw-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pw-container {
+    max-width: 960px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width <= 960 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+@media (min-width: 1200px) {
+  .pw-container {
+    max-width: 1140px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width <= 1140 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+@media (min-width: 1400px) {
+  .pw-container {
+    max-width: 1320px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width != 1320 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+.pw-container,
+.pw-container-fluid {
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+}
+
+.pw-section__{{sec_id}} .pw-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(var(--pw-gutter-x, 15px) * -1);
+  margin-left: calc(var(--pw-gutter-x, 15px) * -1);
+}
+
+.pw-section__{{sec_id}} .pw-row > * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+}
+
+@media (min-width: 750px) {
+  .pw-section__{{sec_id}} .pw-col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+.pw-section__{{sec_id}} {
+  --pw-gutter-x: {{section.settings.gutter}}px;
+  padding-top: {{section.settings.section_padding_top}}px;
+  padding-bottom: {{section.settings.section_padding_bottom}}px;
+  line-height: 1.5;
+}
+
+
+.pw-section__{{sec_id}} .pw-section-title::before,
+.pw-section__{{sec_id}} .pw-section-title::after {
+  display: none;
+}
+
+.pw-section__{{sec_id}} .pw-section-title {
+  color: #242424;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: {{section.settings.text_align}};
+}
+
+{% if section.settings.inherit_fonts == false %}
+  .pw-section__{{sec_id}} h1.pw-section-title {
+    font-size: 72px;
+  }
+  .pw-section__{{sec_id}} h2.pw-section-title {
+    font-size: 56px;
+  }
+  .pw-section__{{sec_id}} h3.pw-section-title {
+    font-size: 32px;
+  }
+{% endif %}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(1) .pw-img-wrapper {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/gallery-zoey-01-1.jpg') no-repeat center/cover;
+}
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(2) .pw-img-wrapper {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/gallery-zoey-01-2.jpg') no-repeat center/cover;
+}
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(3) .pw-img-wrapper {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/gallery-zoey-01-3.jpg') no-repeat center/cover;
+}
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(4) .pw-img-wrapper {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/gallery-zoey-01-1.jpg') no-repeat center/cover;
+}
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(5) .pw-img-wrapper {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/gallery-zoey-01-2.jpg') no-repeat center/cover;
+}
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(6) .pw-img-wrapper {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/gallery-zoey-01-3.jpg') no-repeat center/cover;
+}
+
+.pw-section__{{sec_id}} .pw-img-wrapper {
+  position: relative;
+  height: auto;
+  padding-top: {{section.settings.img_proportion}};
+  margin-bottom: calc( var(--pw-gutter-x) * 2 );
+  overflow: hidden;
+}
+
+.pw-section__{{sec_id}} .pw-img-wrapper:hover img {
+  transform: scale(1.03);
+}
+
+.pw-section__{{sec_id}} .pw-img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: transform 0.25s;
+}
+
+@media only screen and (max-width: 749px) {
+  .pw-section__{{sec_id}} {
+    padding-top: {{section.settings.section_padding_top_mobile}}px;
+    padding-bottom: {{section.settings.section_padding_bottom_mobile}}px;
+  }
+  {% if section.settings.inherit_fonts == false %}
+    .pw-section__{{sec_id}} h1.pw-section-title {
+      font-size: 50px;
+    }
+    .pw-section__{{sec_id}} h2.pw-section-title {
+      font-size: 40px;
+    }
+    .pw-section__{{sec_id}} h3.pw-section-title {
+      font-size: 26px;
+    }
+  {% endif %}
+}
+
+{%- endstyle -%}
+
+{% if section.settings.custom_css != blank %}
+  {%- style -%}
+  {{section.settings.custom_css}}
+  {%- endstyle -%}
+{% endif %}
+
+{% if section.settings.is_fullwidth == true %}
+  {% assign container = 'pw-container-fluid' %}
+{% else %}
+  {% assign container = 'pw-container' %}
+{% endif %}
+
+<div class="pw-section__{{sec_id}}">
+  <div class="{{container}}">
+    {% if section.settings.heading_text != blank %}
+      <{{ section.settings.heading_tag }} class="pw-section-title">
+      {{ section.settings.heading_text | escape }}
+      </{{ section.settings.heading_tag }}>
+    {% endif %}
+    <div class="pw-row">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+          <div class="pw-col-md-4" {{ block.shopify_attributes }}>
+            <div class="pw-img-wrapper">
+              {% if block.settings.background_image == blank %}
+                <!--<img src="https://cdn.shopify.com/s/files/1/0560/8249/7605/files/gallery-zoey-01-3.jpg?v=1639643931" loading="lazy">-->
+              {% else %}
+                <img srcset="
+                  {%- if block.settings.background_image.width >= 320 -%}{{ block.settings.background_image | img_url: '320x' }} 320w,{%- endif -%}
+                  {%- if block.settings.background_image.width >= 750 -%}{{ block.settings.background_image | img_url: '750x' }} 750w,{%- endif -%}
+                  {%- if block.settings.background_image.width >= 1500 -%}{{ block.settings.background_image | img_url: '1500x' }} 1500w,{%- endif -%}"
+                  src="{{ block.settings.background_image | img_url: '750x' }}"
+                  alt="{{ block.settings.background_image.alt | escape }}"
+                  sizes="100%"
+                  loading="lazy"
+                >
+              {% endif %}
+            </div>
+          </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+
+{
+  "name": "[Kava] Gallery-Zoey-01",
+  "tag": "section",
+  "class": "kava-gallery kava-gallery-zoey-01",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_fullwidth",
+      "default": false,
+      "label": "Full width section",
+      "info": "Overrides сontent width limit"
+    },
+    {
+      "type": "range",
+      "id": "gutter",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Space between images",
+      "default": 15
+    },
+    {
+      "type": "select",
+      "id": "img_proportion",
+      "label": "Image proportion",
+      "options": [
+        {
+          "value": "100%",
+          "label": "1x1"
+        }, 
+        {
+          "value": "150%",
+          "label": "2x3"
+        }
+      ],
+      "default": "100%"
+    },
+    {
+      "type": "header",
+      "content": "Section heading"
+    },
+    {
+      "type": "textarea",
+      "id": "heading_text",
+      "label": "Heading text",
+      "default": "Gallery"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        }, {
+          "value": "h2",
+          "label": "H2"
+        }, {
+          "value": "h3",
+          "label": "H3"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "checkbox",
+      "id": "inherit_fonts",
+      "default": false,
+      "label": "Inherit font sizes from theme"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Heading align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        }, {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Desktop"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 50
+    },
+     {
+      "type": "header",
+      "content": "Customization"
+    }, 
+    {
+      "type": "number",
+      "id": "container_max_width",
+      "label": "Content width limit (px)",
+      "default": 1320
+    }, 
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+    "blocks": [
+    {
+      "name": "Image",
+      "type": "image",
+      "limit": 9,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "background_image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "[Kava] Gallery-Zoey-01",
+      "settings": {
+        "heading_text" : "Showcase products or services",
+        "heading_tag" : "H2"
+      },
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}

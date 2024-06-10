@@ -1,0 +1,719 @@
+ 
+{% assign sec_id = section.id | slice: -8, 8  | replace: "-", "_" %}
+
+{%- style -%}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pw-container,
+.pw-container-fluid {
+  width: 100%;
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .pw-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 750px) {
+  .pw-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pw-container {
+    max-width: 960px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width <= 960 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+@media (min-width: 1200px) {
+  .pw-container {
+    max-width: 1140px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width <= 1140 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+@media (min-width: 1400px) {
+  .pw-container {
+    max-width: 1320px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width != 1320 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+.pw-btn, .rte a.pw-btn:not(.btn) {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  color: #000;
+  font-weight: 400;
+  white-space: nowrap;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  line-height: 1;
+  min-width: 225px;
+  min-height: 44px;
+  transition: all 0.25s;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.pw-section__{{sec_id}} .pw-btn:last-child {
+  margin-right: 0;
+}
+
+.pw-btn:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.pw-btn::after {
+  display: none !important;
+}
+
+.pw-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.pw-btn.pw-btn-rounded,
+.rte a.pw-btn.pw-btn-rounded:not(.btn) {
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 749px) {
+  .pw-btn, .rte a.pw-btn:not(.btn) {
+    padding: 15px 25px;
+    min-width: 180px;
+  }
+}
+
+.pw-container,
+.pw-container-fluid {
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+}
+
+.pw-section__{{sec_id}} .pw-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(var(--pw-gutter-x, 15px) * -1);
+  margin-left: calc(var(--pw-gutter-x, 15px) * -1);
+}
+
+.pw-section__{{sec_id}} .pw-row > * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+}
+
+.pw-section__{{sec_id}} .pw-col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+@media (min-width: 750px) {
+  .pw-section__{{sec_id}} .pw-col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+  }
+  .pw-section__{{sec_id}} .pw-col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .pw-section__{{sec_id}} .pw-col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .pw-section__{{sec_id}} .pw-col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+.pw-section__{{sec_id}} {
+  --pw-gutter-x: 25px;
+  color: {{section.settings.text_color}};
+  background-color: {{section.settings.background_color}};
+  {% if section.settings.section_height == true %}
+    min-height: 100vh;
+  {% endif %}
+  padding-top: {{section.settings.section_padding_top}}px;
+  padding-bottom: {{section.settings.section_padding_bottom}}px;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.pw-section__{{sec_id}} .pw-section-title::before,
+.pw-section__{{sec_id}} .pw-section-title::after {
+  display: none;
+}
+
+.pw-section__{{sec_id}} .pw-section-title {
+  color: {{section.settings.text_color}};
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 30px;
+  position: relative;
+  max-width: 550px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.pw-section__{{sec_id}} .pw-section-subtitle {
+  color: {{section.settings.text_color}};
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pw-section__{{sec_id}} .pw-section-subtitle::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 180px;
+  height: 4px;
+  background-color: {{section.settings.subtitle_underline_color}};
+}
+
+.pw-section__{{sec_id}} .pw-section-text {
+  color: {{section.settings.text_color}};
+  margin-bottom: 30px;
+}
+
+.pw-section__{{sec_id}} .pw-section-text p {
+  margin-top: 0;
+  color: {{section.settings.text_color}};
+  opacity: 0.65;
+}
+
+.pw-section__{{sec_id}} .pw-partner {
+  display: block;
+  padding-top: {{section.settings.logo_ratio}};
+  height: 0;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.pw-section__{{sec_id}} .pw-partner img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.pw-align-items-center {
+  align-items: center;
+}
+
+.pw-mb-30 {
+  margin-bottom: 30px;
+}
+
+{% if section.settings.inherit_fonts == false %}
+  .pw-btn, .rte a.pw-btn:not(.btn) {
+    font-size: 18px;
+  }
+  .pw-section__{{sec_id}} .pw-section-subtitle {
+    font-size: 32px;
+  }
+  .pw-section__{{sec_id}} h1.pw-section-title {
+    font-size: 72px;
+  }
+  .pw-section__{{sec_id}} h2.pw-section-title {
+    font-size: 56px;
+  }
+  .pw-section__{{sec_id}} h3.pw-section-title {
+    font-size: 32px;
+  }
+  .pw-section__{{sec_id}} .pw-section-text p {
+    font-size: 24px; margin-bottom: 24px;
+  }
+{% endif %}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(1) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-1.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(2) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-2.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(3) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-3.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(4) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-4.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(5) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-5.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(6) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-6.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(7) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-7.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(8) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-8.png') no-repeat center/contain;
+}
+
+.pw-section__{{sec_id}} .pw-col-md-4:nth-child(9) .pw-partner.placeholder {
+  background: url('https://cdn.shopify.com/s/files/1/0560/8249/7605/files/partner-logo-black-9.png') no-repeat center/contain;
+}
+
+@media only screen and (max-width: 749px) {
+  .pw-section__{{sec_id}} {
+    min-height: auto;
+    padding-top: {{section.settings.section_padding_top_mobile}}px;
+    padding-bottom: {{section.settings.section_padding_bottom_mobile}}px;
+  }
+  {% if section.settings.inherit_fonts == false %}
+    .pw-btn, .rte a.pw-btn:not(.btn) {
+      font-size: 16px;
+    }
+    .pw-section__{{sec_id}} .pw-section-subtitle {
+      font-size: 24px;
+    }
+    .pw-section__{{sec_id}} h1.pw-section-title {
+      font-size: 50px;
+    }
+    .pw-section__{{sec_id}} h2.pw-section-title {
+      font-size: 40px;
+    }
+    .pw-section__{{sec_id}} h3.pw-section-title {
+      font-size: 26px;
+    }
+    .pw-section__{{sec_id}} .pw-section-text p {
+      font-size: 20px;
+    }
+  {% endif %}
+}
+
+{%- endstyle -%}
+
+{% if section.settings.custom_css != blank %}
+  {%- style -%}
+  {{section.settings.custom_css}}
+  {%- endstyle -%}
+{% endif %}
+
+<div class="pw-section__{{sec_id}}">
+  <div class="pw-container">
+    <div class="pw-row pw-align-items-center">
+
+      <div class="pw-col-lg-6 pw-mb-30">
+
+        {% for block in section.blocks %}
+          {% case block.type %}
+
+            {% when 'heading' %}
+              {% if block.settings.sub_heading_text != blank %}
+                <p class="pw-section-subtitle" {{ block.shopify_attributes }}>{{ block.settings.sub_heading_text | escape }}</p>
+              {% endif %}
+              {% if block.settings.heading_text != blank %}
+                <{{ block.settings.heading_tag }} class="pw-section-title" {{ block.shopify_attributes }}>
+                {{ block.settings.heading_text | escape }}
+                </{{ block.settings.heading_tag }}>
+              {% endif %}
+
+            {% when 'buttons' %}
+              {% if block.settings.button_label_1 != blank %}
+                <a href="{{block.settings.button_link_1}}" {{ block.shopify_attributes }} 
+                   class="pw-btn {% if block.settings.button_is_rounded == true %} pw-btn-rounded {% endif %}" 
+                   style="background-color: {{block.settings.btn_bg_1}}; color: {{block.settings.btn_color_1}}">
+                  {{block.settings.button_label_1}}
+                </a>
+              {% endif %}
+
+            {% when 'text' %}
+              {% if block.settings.section_text != blank %}
+                <div class="pw-section-text" {{ block.shopify_attributes }}>
+                  {{ block.settings.section_text }}
+                </div>
+              {% endif %}
+
+          {% endcase %}
+        {% endfor %}
+
+      </div>
+
+      <div class="pw-col-lg-6 mb-30">
+        <div class="pw-row">
+
+          {% for block in section.blocks %}
+            {% if block.type == 'partner' %}
+
+              <div class="pw-col-md-4 pw-col-6" {{ block.shopify_attributes }}>
+                {% if block.settings.partner_logo == blank %}
+                  <div class="pw-partner placeholder"></div>
+                {% else %}
+                 {% if block.settings.partner_link == blank %}
+                  <div class="pw-partner">
+                    <img srcset="
+                    {%- if block.settings.partner_logo >= 750 -%}{{ block.settings.partner_logo | img_url: '750x' }} 750w,{%- endif -%}"
+                      src="{{ block.settings.partner_logo | img_url: '750x' }}"
+                      alt="{{ block.settings.partner_logo.alt | escape }}"
+                      sizes="(min-width: 750px) 750px"
+                      width="100%"
+                      height="100%"
+                      loading="lazy"
+                    >
+                  </div>
+                  {% else %}
+                    <a href="{{block.settings.partner_link}}" class="pw-partner">
+                      <img srcset="
+                      {%- if block.settings.partner_logo >= 750 -%}{{ block.settings.partner_logo | img_url: '750x' }} 750w,{%- endif -%}"
+                        src="{{ block.settings.partner_logo | img_url: '750x' }}"
+                        alt="{{ block.settings.partner_logo.alt | escape }}"
+                        sizes="(min-width: 750px) 750px"
+                        width="100%"
+                        height="100%"
+                        loading="lazy"
+                      >
+                    </a>
+                  {% endif %}
+                {% endif %}
+              </div>
+
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+
+{
+  "name": "[Kava] Partners-Lyla-01",
+  "tag": "section",
+  "class": "kava-partners kava-partners-lyla-01",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main settings"
+    }, 
+    {
+      "type": "checkbox",
+      "id": "inherit_fonts",
+      "default": false,
+      "label": "Inherit font sizes from theme"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#262424"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "transparent"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_underline_color",
+      "label": "Line under subheading color",
+      "default": "#6A63FE"
+    },
+    {
+      "type": "select",
+      "id": "logo_ratio",
+      "label": "Partner logo shape",
+      "options": [
+        {
+          "value": "100%",
+          "label": "Square(1x1)"
+        }, {
+          "value": "50%",
+          "label": "Rectangle (2x1)"
+        }, {
+          "value": "33%",
+          "label": "Rectangle (3x1)"
+        }, {
+          "value": "75%",
+          "label": "Rectangle (4x3)"
+        }
+      ],
+      "default": "50%"
+    },
+    {
+      "type": "header",
+      "content": "Desktop"
+    }, 
+    {
+      "type": "checkbox",
+      "id": "section_height",
+      "default": false,
+      "label": "Full screen"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 100
+    }, 
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 50
+    },
+     {
+      "type": "header",
+      "content": "Customization"
+    }, 
+    {
+      "type": "number",
+      "id": "container_max_width",
+      "label": "Content width limit (px)",
+      "default": 1320
+    }, 
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Heading",
+      "type": "heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "sub_heading_text",
+          "label": "Sub heading text",
+          "default": "Sub heading text"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Heading tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            }, {
+              "value": "h2",
+              "label": "H2"
+            }, {
+              "value": "h3",
+              "label": "H3"
+            }
+          ],
+          "default": "h2"
+        },
+        {
+          "type": "textarea",
+          "id": "heading_text",
+          "label": "Heading text",
+          "default": "Heading text"
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "type": "text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "section_text",
+          "label": "Section text",
+          "default": "<p>Section text</p>"
+        }
+      ]
+    },
+    {
+      "name": "Buttons",
+      "type": "buttons",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "Button link"
+        },
+        {
+          "type": "color",
+          "id": "btn_bg_1",
+          "label": "Background color",
+          "default": "#6A63FE"
+        },
+        {
+          "type": "color",
+          "id": "btn_color_1",
+          "label": "Label color",
+          "default": "#fff"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_is_rounded",
+          "default": true,
+          "label": "Rounded"
+        }
+      ]
+    },
+    {
+      "name": "Partner",
+      "type": "partner",
+      "limit": 12,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "partner_logo",
+          "label": "Partner logo"
+        },
+        {
+          "type": "url",
+          "id": "partner_link",
+          "label": "Partner link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "[Kava] Partners-Lyla-01",
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "sub_heading_text": "ADD LOGOS",
+            "heading_text": "Showcase your partners"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "section_text": "<p>This adds credibility to your cause by showcasing your quality relationships with others.</p>"
+          }
+        },
+        {
+          "type": "buttons"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        },
+        {
+          "type": "partner"
+        }
+      ]
+    }
+  ]
+  
+}
+
+{% endschema %}

@@ -1,0 +1,171 @@
+<section id="xo-section--HsYJbl" class="xo-section xo-section-10 xo-section--HsYJbl">
+  <style>
+    
+    .xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }.xo-custom-1666108979490 { text-align: center !important; }
+  </style>
+  <div class="xo-container">
+    <div class="xo-row">
+      <div class="xo-col-12">
+        <div class="xo-m-item xo-m-heading xo-m-heading--01 xo-m-item--center" style="--max-width: 49%;">
+          <h2 class="xo-m-heading__title xo-styles-h2-default">{{ section.settings.heading00 }}</h2>
+          <div class="xo-m-heading__text xo-styles-text-default">{{ section.settings.text00 }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="xo-splide splide " role="group" aria-label="Slider" data-splide="{&quot;type&quot;:&quot;loop&quot;,&quot;perPage&quot;:5,&quot;breakpoints&quot;:{&quot;576&quot;:{&quot;perPage&quot;:2},&quot;768&quot;:{&quot;perPage&quot;:3},&quot;992&quot;:{&quot;perPage&quot;:4}},&quot;perMove&quot;:1,&quot;rewind&quot;:true,&quot;autoplay&quot;:true,&quot;interval&quot;:5000,&quot;autoHeight&quot;:true,&quot;gap&quot;:&quot;10px&quot;,&quot;arrows&quot;:true,&quot;pagination&quot;:false}">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'imagebox01' -%}
+            <li class="splide__slide xo-repeat__item">
+              <div class="xo-m-item xo-m-imagebox xo-m-imagebox-01 xo-custom-1666108979490">
+                <div class="xo-m-imagebox__img xo-styles-1666108894267">
+                  <img src="{{ block.settings.img0 | image_url: width: 600, height: 700 }}" alt="{{ block.settings.img0.alt }}">
+                </div>
+                <h3 class="xo-m-imagebox__heading xo-styles-h3-default">{{ block.settings.heading0 }}</h3>
+              </div>
+            </li>
+            {%- when 'imagebox02' -%}
+            <li class="splide__slide xo-repeat__item">
+              <div class="xo-m-item xo-m-imagebox xo-m-imagebox-02">
+                <div class="xo-m-imagebox__img">
+                  <img src="{{ block.settings.img1 | image_url }}" alt="{{ block.settings.img1.alt }}">
+                </div>
+                <h3 class="xo-m-imagebox__heading">{{ block.settings.heading1 }}</h3>
+                <div class="xo-m-imagebox__text">{{ block.settings.text1 }}</div>
+              </div>
+            </li>
+          {%- endcase -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</section>
+{% stylesheet %}
+  /*XO-SECTIONS STYLES*/
+  .xo-section--HsYJbl .xo-splide{padding:0 10px}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Features 19",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading00",
+      "label": "Heading",
+      "default": "Your heading here"
+    },
+    {
+      "type": "text",
+      "id": "text00",
+      "label": "Text",
+      "default": "Your text here"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "imagebox01",
+      "name": "ImageBox01",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img0",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading0",
+          "label": "Heading",
+          "default": "Heading title"
+        }
+      ]
+    },
+    {
+      "type": "imagebox02",
+      "name": "ImageBox02",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img1",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading1",
+          "label": "Heading",
+          "default": "Heading title"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text",
+          "default": "Pair text with an image to focus on your chosen product, collection, or blog post."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Features 19",
+      "settings": {
+        "heading00": "Our outstanding features",
+        "text00": "We are very proud of the features we provide and stand by every product we carry"
+      },
+      "blocks": [
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "Latest Modern Technology"
+          }
+        },
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "High Quality Design"
+          }
+        },
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "On-time Service"
+          }
+        },
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "Excellent Customer Service"
+          }
+        },
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "Digital Experience"
+          }
+        },
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "Real-Time Analytics"
+          }
+        },
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "Learning Innovation"
+          }
+        },
+        {
+          "type": "imagebox01",
+          "settings": {
+            "heading0": "Creative Solutions"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

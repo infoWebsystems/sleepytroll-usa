@@ -1,0 +1,79 @@
+<section class="xo-section xo-section--EkYavd">
+  <style>
+    
+    
+    .xo-custom-1650360375416 { font-size: 32px !important; }
+  </style>
+  <div class="xo-container">
+    <div class="xo-row xo-flex-row-reverse xo-align-items-center" style="--xo-gutter-x: 4rem;">
+      <div class="xo-col-md-6">
+        <div class="xo-m-item xo-m-img xo-m-img-01">
+          <div class="xo-m-img__img xo-styles-image-default">
+            <img src="{{ section.settings.img00 | image_url }}" alt="{{ section.settings.img00.alt }}">
+          </div>
+        </div>
+      </div>
+      <div class="xo-col-md-6">
+        <div class="xo-m-item xo-m-textbox xo-m-textbox-01">
+          <h2 class="xo-m-textbox__heading xo-styles-h2-default xo-custom-1650360375416">{{ section.settings.heading10 }}</h2>
+          <div class="xo-m-textbox__text xo-styles-text-default">{{ section.settings.text10 }}</div>
+          {%- if section.settings.button10label != blank -%}
+            <div class="xo-btn xo-m-textbox__btn xo-styles-1647938934984">
+              <a href="{{ section.settings.button10 }}">
+                <span>{{ section.settings.button10label }}</span>
+              </a>
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "About 03",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img00",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "heading10",
+      "label": "Heading",
+      "default": "Heading title"
+    },
+    {
+      "type": "text",
+      "id": "text10",
+      "label": "Text",
+      "default": "Pair text with an image to focus on your chosen product, collection, or blog post."
+    },
+    {
+      "type": "url",
+      "id": "button10",
+      "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "button10label",
+      "label": "Button text",
+      "default": "Read more"
+    }
+  ],
+  "presets": [
+    {
+      "name": "About 03",
+      "settings": {
+        "heading10": "We think about and create what you love",
+        "text10": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+        "button10": "#",
+        "button10label": "Read more"
+      }
+    }
+  ]
+}
+{% endschema %}

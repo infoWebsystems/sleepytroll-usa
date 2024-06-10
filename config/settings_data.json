@@ -1,0 +1,1005 @@
+{
+  "current": {
+    "page_width": 1500,
+    "section_vertical_spacing": "medium",
+    "button_border_radius": 60,
+    "input_border_radius": 8,
+    "block_border_radius": 24,
+    "block_shadow_opacity": 10,
+    "block_shadow_vertical_offset": 18,
+    "icon_style": "duo",
+    "background": "#f9f9f9",
+    "text_color": "#1a1a1a",
+    "header_background": "#f6e9e0",
+    "header_text_color": "#0f334b",
+    "footer_background": "#ffffff",
+    "footer_text_color": "#1a1a1a",
+    "primary_button_background": "#1a1a1a",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#0f334b",
+    "secondary_button_text_color": "#ffffff",
+    "product_card_background": "#ededf5",
+    "product_card_text_color": "#1a1a1a",
+    "product_on_sale_accent": "#1a1a1a",
+    "product_primary_badge_background": "#803cee",
+    "heading_font": "poppins_n7",
+    "heading_font_size": "large",
+    "heading_letter_spacing": -2,
+    "enable-custom-heading": true,
+    "custom_heading_font": "QuicheSansMedium",
+    "text_font": "din_next_n4",
+    "enable-custom-body": true,
+    "custom_body_font": "SourceSansMedium",
+    "show_page_transition": true,
+    "heading_apparition": "split_fade",
+    "show_quick_buy": false,
+    "product_color_display": "swatch",
+    "product_image_aspect_ratio": "short_crop",
+    "product_info_alignment": "start",
+    "cart_type": "drawer",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": 99,
+    "social_facebook": "https:\/\/www.facebook.com\/sleepytroll.by.babliss\/",
+    "social_instagram": "https:\/\/www.instagram.com\/sleepytroll_official\/",
+    "social_tiktok": "https:\/\/www.tiktok.com\/@sleepytroll_official",
+    "favicon": "shopify:\/\/shop_images\/sleepytroll-brand-symbol-navy-rgb.svg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/ST-Logo_1204x630_0b894a1a-1cda-42cb-aa43-b287d3862311.webp",
+    "checkout_accent_color": "#597970",
+    "checkout_button_color": "#1a1a1a",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "message": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "text": "Free shipping on orders above 99$ ✈️ No duties or fees",
+              "url": ""
+            }
+          },
+          "146f82f4-f294-41de-88b9-bdc2c77d965f": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "text": "No duties or fees",
+              "url": ""
+            }
+          },
+          "message_rWNrgT": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "text": "Sign up to our newsletter for 20% OFF Sleepytroll Baby Rocker",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "message",
+          "146f82f4-f294-41de-88b9-bdc2c77d965f",
+          "message_rWNrgT"
+        ],
+        "settings": {
+          "enable_sticky": true,
+          "text_size": "text-base",
+          "navigation_mode": "arrows",
+          "scrolling_speed": 27,
+          "background": "#0f334b",
+          "background_gradient": "",
+          "text_color": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "3289b62c-3634-44b8-bf47-b1a84818b475": {
+            "type": "Country",
+            "settings": {
+              "country_img": "shopify:\/\/shop_images\/usa2.png",
+              "country_text": "US",
+              "country_text1": "US",
+              "c-link": "https:\/\/us.sleepytroll.com\/"
+            }
+          },
+          "1e28f069-2000-469d-bee3-494268576668": {
+            "type": "Country",
+            "settings": {
+              "country_img": "shopify:\/\/shop_images\/64px-United-kingdom_flag_icon_round_svg.png",
+              "country_text": "United Kingdom",
+              "country_text1": "UK",
+              "c-link": "https:\/\/uk.sleepytroll.com\/"
+            }
+          },
+          "0a3d2ea1-1402-4ec0-9717-84c168528d4a": {
+            "type": "Country",
+            "settings": {
+              "country_img": "shopify:\/\/shop_images\/EU_Symbol.png",
+              "country_text": "EU + Norway",
+              "country_text1": "EU + Norway",
+              "c-link": "https:\/\/sleepytroll.com\/"
+            }
+          },
+          "7187eea0-8d5c-4c0c-8ace-45b62fd0f4d6": {
+            "type": "Country",
+            "settings": {
+              "country_img": "shopify:\/\/shop_images\/www_582aa00f-a6a4-4b02-a7d8-9e4117846985.png",
+              "country_text": "International",
+              "country_text1": "Int",
+              "c-link": "https:\/\/int.sleepytroll.com\/"
+            }
+          }
+        },
+        "block_order": [
+          "3289b62c-3634-44b8-bf47-b1a84818b475",
+          "1e28f069-2000-469d-bee3-494268576668",
+          "0a3d2ea1-1402-4ec0-9717-84c168528d4a",
+          "7187eea0-8d5c-4c0c-8ace-45b62fd0f4d6"
+        ],
+        "custom_css": [
+          ".text-sm text-subdued {display: hidden;}"
+        ],
+        "settings": {
+          "enable_sticky": true,
+          "hide_on_scroll": true,
+          "logo": "shopify:\/\/shop_images\/Navy_f1d23b5e-0a91-451f-adfc-346bf19c38df.svg",
+          "logo_max_width": 135,
+          "logo_mobile_max_width": 100,
+          "menu": "main-menu",
+          "sidebar_menu": "",
+          "secondary_menu": "",
+          "menu_open_trigger": "click",
+          "opening_from": "bottom",
+          "layout": "logo_left_navigation_center",
+          "show_social_media": true,
+          "show_locale_selector": false,
+          "show_country_selector": false,
+          "show_country_flag": false,
+          "show_country_name": false,
+          "transparent_header_text_color": "#f0f0f0",
+          "transparent_logo": "shopify:\/\/shop_images\/White_23981153-2d4e-4ef1-837e-a2878e17e170.svg",
+          "reduce_padding": true,
+          "background_opacity": 100,
+          "background_blur_radius": 0,
+          "country_text": "Shipping to",
+          "country_img": "shopify:\/\/shop_images\/usa2.png"
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "custom_css": [
+
+        ],
+        "settings": {
+          "show_cart_note": false,
+          "show_shipping_text": true,
+          "show_checkout_button": true,
+          "recommendations_title": "Trending this month",
+          "products": [
+
+          ],
+          "product_card_background": "#ffffff",
+          "product_card_text_color": ""
+        }
+      },
+      "search-drawer": {
+        "type": "search-drawer",
+        "settings": {
+          "full_width": true,
+          "show_article_category": true,
+          "search_products": true,
+          "search_blog_posts": true,
+          "search_pages": true,
+          "search_collections": true,
+          "search_unavailable_products": "last",
+          "search_menu": "",
+          "search_menu_show_title": true
+        }
+      },
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
+        "blocks": {
+          "free-shipping": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-plane",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "#b5c4e4",
+              "icon_color": "#0f334b",
+              "title": "Free shipping",
+              "content": "<p>Free international shipping on orders over 99$.<\/p>"
+            }
+          },
+          "customer-support": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-love",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "#0f334b",
+              "title": "30-day satisfaction guarantee",
+              "content": "<p>Try your Sleepytroll risk-free for 30 days.<\/p>"
+            }
+          },
+          "discount": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-validation",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "#0f334b",
+              "title": "No duty or taxes",
+              "content": "<p>We cover all expenses. Everything is pre-paid.<\/p>"
+            }
+          },
+          "payment": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "picto-lock",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "",
+              "title": "Secure payment",
+              "content": "<p>Tel your customers about your payment methods.<\/p>"
+            }
+          },
+          "9b61fe9d-51fb-413e-bf58-15a399e88a65": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "picto-coupon",
+              "mobile_icon_width": 24,
+              "icon_width": 32,
+              "icon_background_type": "circle",
+              "icon_background": "",
+              "icon_color": "",
+              "title": "Heading",
+              "content": "<p>Short content about your store<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "free-shipping",
+          "customer-support",
+          "discount",
+          "payment",
+          "9b61fe9d-51fb-413e-bf58-15a399e88a65"
+        ],
+        "settings": {
+          "show_section": true,
+          "full_width": true,
+          "heading_tag": "h6",
+          "text_alignment": "center",
+          "icon_spacing": "small",
+          "background": "#f6e9e0",
+          "background_gradient": "",
+          "text_color": "#0f334b"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sleepytroll-brand-symbol-navy-rgb.svg",
+              "image_width": 80,
+              "heading_size": "h3",
+              "title": "Sign up for new stories and personal offers",
+              "content": ""
+            }
+          },
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_menu_title": true
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "About",
+              "content": "<p>Sleepytroll is a Norwegian company focused of making innovative and smart sleeping solutions for children.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "newsletter",
+          "links",
+          "text"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_country_selector": false,
+          "show_country_flag": false,
+          "show_country_name": false,
+          "show_locale_selector": false,
+          "show_privacy_bar": false,
+          "privacy_bar_title": "Cookie policy",
+          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "enable": false,
+          "apparition_delay": 5,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Signup for our newsletter",
+          "button_text": "Subscribe",
+          "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9097558199762247683": {
+        "type": "shopify:\/\/apps\/replaypro\/blocks\/recorder\/9c500141-cbb8-4433-a2e9-4f4b5b3433be",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1173261918193615741": {
+        "type": "shopify:\/\/apps\/geo-pro-geolocation-redirects\/blocks\/geopro\/16fc5313-7aee-4e90-ac95-f50fc7c8b657",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "18408366429334172745": {
+        "type": "shopify:\/\/apps\/pop-convert-pop-ups-banners\/blocks\/app-embed\/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "3667842014806057753": {
+        "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Sound": {
+      "section_vertical_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 24,
+      "block_shadow_opacity": 10,
+      "block_shadow_vertical_offset": 18,
+      "background": "#f0f0f0",
+      "text_color": "#1a1a1a",
+      "header_background": "#f0f0f0",
+      "header_text_color": "#1a1a1a",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1a1a1a",
+      "primary_button_background": "#1a1a1a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f0c417",
+      "secondary_button_text_color": "#1a1a1a",
+      "product_card_text_color": "#1a1a1a",
+      "product_primary_badge_background": "#803cee",
+      "heading_font": "din_next_n7",
+      "heading_font_size": "large",
+      "heading_letter_spacing": -2,
+      "text_font": "din_next_n4",
+      "show_page_transition": true,
+      "heading_apparition": "split_fade",
+      "product_color_display": "swatch",
+      "product_info_alignment": "start",
+      "checkout_accent_color": "#f0c417",
+      "checkout_button_color": "#1a1a1a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message": {
+              "type": "message",
+              "settings": {
+                "text": "Announce something here"
+              }
+            }
+          },
+          "block_order": [
+            "message"
+          ],
+          "settings": {
+            "enable_sticky": false,
+            "text_size": "text-xs",
+            "navigation_mode": "scrolling",
+            "scrolling_speed": 10,
+            "background": "#1a1a1a",
+            "text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky": true,
+            "hide_on_scroll": false,
+            "logo": "{{shop.brand.logo}}",
+            "logo_max_width": 120,
+            "logo_mobile_max_width": 100,
+            "menu": "main-menu",
+            "menu_open_trigger": "click",
+            "opening_from": "bottom",
+            "layout": "logo_left_navigation_center",
+            "show_social_media": true,
+            "show_country_flag": true,
+            "show_country_name": false,
+            "transparent_header_text_color": "#ffffff",
+            "reduce_padding": false,
+            "background_opacity": 100,
+            "background_blur_radius": 0
+          }
+        },
+        "cart-drawer": {
+          "type": "cart-drawer",
+          "settings": {
+            "show_cart_note": true,
+            "show_shipping_text": true,
+            "show_checkout_button": true,
+            "product_card_background": "#ffffff"
+          }
+        },
+        "search-drawer": {
+          "type": "search-drawer",
+          "settings": {
+            "full_width": true,
+            "show_article_category": true,
+            "search_products": true,
+            "search_blog_posts": true,
+            "search_pages": true,
+            "search_collections": true,
+            "search_unavailable_products": "last"
+          }
+        },
+        "static-text-with-icons": {
+          "type": "static-text-with-icons",
+          "blocks": {
+            "free-shipping": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-box",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Free shipping",
+                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+              }
+            },
+            "customer-support": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-customer-support",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Customer service",
+                "content": "<p>Tell your customers how they can reach you.<\/p>"
+              }
+            },
+            "discount": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-coupon",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Refer a friend",
+                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+              }
+            },
+            "payment": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-lock",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Secure payment",
+                "content": "<p>Tel your customers about your payment methods.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "free-shipping",
+            "customer-support",
+            "discount",
+            "payment"
+          ],
+          "settings": {
+            "show_section": true,
+            "full_width": true,
+            "heading_tag": "h6",
+            "text_alignment": "center",
+            "icon_spacing": "small"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "image": "{{shop.brand.logo}}",
+                "image_width": 150,
+                "heading_size": "h3",
+                "title": "Sign up for new stories and personal offers"
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer",
+                "show_menu_title": true
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "newsletter",
+            "links",
+            "text"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true,
+            "show_country_selector": true,
+            "show_country_flag": true,
+            "show_country_name": true,
+            "show_locale_selector": true,
+            "show_privacy_bar": true,
+            "privacy_bar_title": "Cookie policy",
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          }
+        }
+      }
+    },
+    "Home": {
+      "section_vertical_spacing": "medium",
+      "section_boxed_horizontal_spacing": "large",
+      "button_hover_effect": "reverse",
+      "background": "#ffffff",
+      "text_color": "#272727",
+      "success_color": "#708a5c",
+      "warning_color": "#e37e16",
+      "error_color": "#aa2826",
+      "header_background": "#ffffff",
+      "header_text_color": "#272727",
+      "footer_background": "#f2f2f2",
+      "footer_text_color": "#272727",
+      "primary_button_background": "#272727",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3c619e",
+      "secondary_button_text_color": "#ffffff",
+      "product_card_text_color": "#272727",
+      "product_on_sale_accent": "#e34f4f",
+      "product_sold_out_badge_background": "#bebdb9",
+      "product_primary_badge_background": "#3c619e",
+      "heading_font": "futura_n7",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "futura_n4",
+      "heading_apparition": "split_rotation",
+      "color_swatch_style": "rectangle",
+      "product_color_display": "swatch",
+      "cart_type": "drawer",
+      "checkout_body_background_color": "#f2f2f2",
+      "checkout_sidebar_background_color": "#ffffff",
+      "checkout_accent_color": "#3c619e",
+      "checkout_button_color": "#3c619e",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message": {
+              "type": "message",
+              "settings": {
+                "text": "Announce something here"
+              }
+            }
+          },
+          "block_order": [
+            "message"
+          ],
+          "settings": {
+            "enable_sticky": false,
+            "text_size": "text-xs",
+            "navigation_mode": "arrows",
+            "scrolling_speed": 20,
+            "background": "#272727",
+            "text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky": true,
+            "hide_on_scroll": false,
+            "logo": "{{shop.brand.logo}}",
+            "logo_max_width": 120,
+            "logo_mobile_max_width": 100,
+            "menu": "main-menu",
+            "menu_open_trigger": "hover",
+            "opening_from": "bottom",
+            "layout": "logo_center_navigation_inline",
+            "show_social_media": true,
+            "show_country_flag": true,
+            "show_country_name": false,
+            "transparent_header_text_color": "#ffffff",
+            "reduce_padding": false,
+            "background_opacity": 100,
+            "background_blur_radius": 0
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "image": "{{shop.brand.logo}}",
+                "image_width": 150,
+                "heading_size": "h3",
+                "title": "Sign up for new stories and personal offers"
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer",
+                "show_menu_title": true
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "newsletter",
+            "links",
+            "text"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true,
+            "show_locale_selector": true,
+            "show_country_selector": true,
+            "show_country_flag": true,
+            "show_country_name": true,
+            "show_privacy_bar": true,
+            "privacy_bar_title": "Cookie policy",
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          }
+        },
+        "static-text-with-icons": {
+          "type": "static-text-with-icons",
+          "blocks": {
+            "free-shipping": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-box",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Free shipping",
+                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+              }
+            },
+            "customer-support": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-customer-support",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Customer service",
+                "content": "<p>Tell your customers how they can reach you.<\/p>"
+              }
+            },
+            "discount": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-coupon",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Refer a friend",
+                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+              }
+            },
+            "payment": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-lock",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Secure payment",
+                "content": "<p>Tel your customers about your payment methods.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "free-shipping",
+            "customer-support",
+            "discount",
+            "payment"
+          ],
+          "settings": {
+            "show_section": true,
+            "full_width": true,
+            "heading_tag": "h6",
+            "text_alignment": "center",
+            "icon_spacing": "small"
+          }
+        },
+        "cart-drawer": {
+          "type": "cart-drawer",
+          "settings": {
+            "show_cart_note": true,
+            "show_shipping_text": true,
+            "show_checkout_button": true,
+            "product_card_background": "#f2f2f2"
+          }
+        },
+        "search-drawer": {
+          "type": "search-drawer",
+          "settings": {
+            "full_width": false,
+            "show_article_category": true,
+            "search_products": true,
+            "search_blog_posts": true,
+            "search_pages": false,
+            "search_collections": true,
+            "search_unavailable_products": "last"
+          }
+        }
+      }
+    },
+    "Shape": {
+      "page_width": 1440,
+      "section_vertical_spacing": "small",
+      "section_boxed_horizontal_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 20,
+      "icon_stroke_width": 1.5,
+      "button_style": "fill",
+      "button_hover_effect": "reverse",
+      "text_color": "#2a555a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2a555a",
+      "footer_background": "#f7f7f7",
+      "footer_text_color": "#2a555a",
+      "primary_button_background": "#2a555a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#d9967e",
+      "product_card_text_color": "#2a555a",
+      "heading_font": "itc_berkeley_old_style_n4",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "muli_n4",
+      "text_font_size_desktop": 15,
+      "product_color_display": "swatch",
+      "product_info_alignment": "center",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message": {
+              "type": "message",
+              "settings": {
+                "text": "Announce something here"
+              }
+            }
+          },
+          "block_order": [
+            "message"
+          ],
+          "settings": {
+            "enable_sticky": false,
+            "text_size": "text-xs",
+            "navigation_mode": "scrolling",
+            "scrolling_speed": 12,
+            "background": "#2a555a",
+            "text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky": true,
+            "hide_on_scroll": false,
+            "logo": "{{shop.brand.logo}}",
+            "logo_max_width": 120,
+            "logo_mobile_max_width": 100,
+            "menu": "main-menu",
+            "menu_open_trigger": "click",
+            "opening_from": "bottom",
+            "layout": "logo_center_navigation_inline",
+            "show_social_media": true,
+            "show_country_flag": true,
+            "show_country_name": false,
+            "transparent_header_text_color": "#ffffff",
+            "reduce_padding": false,
+            "background_opacity": 20,
+            "background_blur_radius": 20
+          }
+        },
+        "cart-drawer": {
+          "type": "cart-drawer",
+          "settings": {
+            "show_cart_note": true,
+            "show_shipping_text": true,
+            "show_checkout_button": true
+          }
+        },
+        "search-drawer": {
+          "type": "search-drawer",
+          "settings": {
+            "full_width": false,
+            "show_article_category": true,
+            "search_products": true,
+            "search_blog_posts": true,
+            "search_pages": true,
+            "search_collections": true,
+            "search_unavailable_products": "last"
+          }
+        },
+        "static-text-with-icons": {
+          "type": "static-text-with-icons",
+          "blocks": {
+            "free-shipping": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-box",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Free shipping",
+                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+              }
+            },
+            "customer-support": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-customer-support",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Customer service",
+                "content": "<p>Tell your customers how they can reach you.<\/p>"
+              }
+            },
+            "discount": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-coupon",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Refer a friend",
+                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+              }
+            },
+            "payment": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-lock",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Secure payment",
+                "content": "<p>Tel your customers about your payment methods.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "free-shipping",
+            "customer-support",
+            "discount",
+            "payment"
+          ],
+          "settings": {
+            "show_section": true,
+            "full_width": true,
+            "heading_tag": "h4",
+            "text_alignment": "center",
+            "icon_spacing": "small"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "image": "{{shop.brand.logo}}",
+                "image_width": 150,
+                "heading_size": "h3",
+                "title": "Sign up for new stories and personal offers"
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer",
+                "show_menu_title": true
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "newsletter",
+            "links",
+            "text"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true,
+            "show_country_selector": true,
+            "show_country_flag": true,
+            "show_country_name": true,
+            "show_locale_selector": true,
+            "show_privacy_bar": true,
+            "privacy_bar_title": "Cookie policy",
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="page-spacer">
+    <div class="page">
+      <h1 class="h1 text-center">{{ page.title }}</h1>
+
+      {%- if page.content != empty -%}
+        <div class="prose">
+          {{ page.content }}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Page",
+  "class": "shopify-section--main-page",
+  "tag": "section"
+}
+{% endschema %}

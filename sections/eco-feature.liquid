@@ -1,0 +1,462 @@
+<section class="page-width section section-featured-box section-{{ section.id }}-padding" id="section-{{ section.id }}" id="eco-features">
+  <div class="flex-container">
+    <div class="flex-item feature-info-wrap">
+      <div class="feature-info">
+        <h2 class="fi-heading">{{section.settings.text}}</h2>
+        <h5 class="fi-subhead">{{section.settings.sub_text}}</h5>
+        <a href="{{section.settings.button_link}}" class="btn btn-outline">{{section.settings.button_title}}</a>
+      </div>
+    </div>
+    <div class="flex-item feature-items-wrap">
+      <div class="flex-inner-container">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'box' -%}
+            <div class="flex-inner-item">
+              <div class="featur-item">
+                <div class="fi-icon"> <img class="fi-img" src="{{ block.settings.box_image | img_url: 'master' }}"/> </div>
+                <div class="fi-desc"> {{ block.settings.box_title | escape }} </div>
+              </div>
+            </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+    <div class="flex-item tab-button">
+      <div class="feature-info-mob">
+      	 <a href="{{section.settings.button_link}}" class="btn btn-outline">{{section.settings.button_title}}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+
+  .flex-container {display:flex}
+
+  .section-{{ section.id }}-padding {
+    max-width: {{section.settings.section-width}}rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding: 0 5rem;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  
+  @media only screen and (min-width:1300px){
+  .section-featured-box .page-width{
+  }
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px; 
+}
+
+.feature-info-wrap {
+  flex: 0 0 44%; /* to fit the text */
+}
+
+.feature-items-wrap {
+  flex: 0 0 56%; /* to fit the boxes */
+}
+
+.flex-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between; /* to distribute boxes evenly */
+}
+
+.flex-inner-item {
+  flex: 0 0 calc(33.333% - 20px); /* to fit 3 boxes in a row */
+}
+
+
+.feature-info {
+	padding-right: 45px;
+}
+.feature-info .fi-heading {
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.feature-info .fi-subhead {
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.btn.btn-outline {
+  padding: 18px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.featur-item {
+  text-align: center;
+  padding: 20px 10px 15px;
+  max-width: 164px;
+  margin: 0 auto 34px;
+}
+.fi-icon .fi-img {
+  max-width: 95px;
+  margin-bottom: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featur-item .fi-desc {
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width:1280px){
+  .feature-info {
+    padding-right: 20px;
+  }
+}
+@media only screen and (min-width:1025px){
+  .tab-button{
+  	display:none !important;
+  }
+}
+@media only screen and (max-width:1024px){
+
+  .feature-info-wrap,
+  .feature-items-wrap {
+    flex: 0 0 100%; 
+  }
+  .flex-container {
+    flex-direction: column; /* to move the text above and boxes below on smaller screens */
+  }
+  
+  .section-featured-box {
+  }
+  .f-main-grid > .grid__item:first-child,
+  .f-main-grid > .grid__item,
+  .f-main-grid > .grid__item:nth-child(2) {
+    flex: 0 0 100%; /* Flex basis set to fill the entire row */
+  }
+  .f-main-grid > .grid__item:nth-child(2) {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .feature-info .btn{
+    display:none;
+  }
+  .feature-info {
+    padding-right: 0px;
+  }
+  .section-featured-box .page-width {
+  }
+  .feature-info-mob{
+  	margin-top:40px;
+  }
+  .featur-item {
+    max-width: 200px;
+  }
+  .featur-item {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width:575px){
+  .section-featured-box {
+  }
+    .flex-inner-item {
+    flex: 0 0 calc(50% - 20px); /* to fit 2 boxes in a row on smallest screens */
+  }
+  .feature-info .fi-heading {
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  .featur-item {
+    margin: 0 auto 20px;
+  }
+  .feature-info-mob {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .featur-item {
+    margin-left: auto;
+  }
+}
+  
+  .btn.btn-outline{
+    font-size:{{section.settings.button-size}}px;
+    color: {{ section.settings.button-text }};
+    border:1px solid {{ section.settings.button-text }};
+    background-color:transparent;
+    border-radius:40px;
+    box-shadow: 5px 5px 0px 0px {{ section.settings.button-text }};
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .btn.btn-outline:hover{
+    box-shadow: -5px -5px 0px 0px {{ section.settings.button-text }};
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .feature-info .fi-heading{
+    font-size:{{section.settings.titlesize}}px;
+    color: {{ section.settings.color_text }};
+  }
+  .feature-info .fi-subhead{
+    line-height:1.5;
+    font-size:{{section.settings.titlesubhead}}px;
+    color: {{ section.settings.subhead-color }};
+  }
+  .featur-item{
+    background-color:{{section.settings.box-bg-color}};
+    border:1px solid {{ section.settings.box-text-color }};
+    border-radius: 18px;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 3px 4px 0px 0px {{ section.settings.box-text-color }};
+  }
+  .featur-item:hover{
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: -3px -4px 0px 0px {{ section.settings.box-text-color }};
+  }
+  .featur-item .fi-desc{
+    font-size:{{section.settings.box-text}}px;
+    color: {{ section.settings.box-text-color }};
+  }
+  @media only screen and (max-width:575px){
+	.feature-info .fi-heading{
+      font-size:{{section.settings.titlesize_mob}}px;
+    }
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "SS - Eco Features",
+    "tag": "section",
+    "settings": [
+		{
+          "type": "text",
+          "id": "text",
+          "default": "Outstanding Quality backed by a number of reasons. Our product is....",
+          "label": "Title"
+        },
+		{
+          "type": "text",
+          "id": "sub_text",
+          "default": "Special offer to get a discount after testing one of our new products...",
+          "label": "Sub Title"
+        },
+		{
+          "type": "text",
+          "id": "button_title",
+          "default": "Get In Touch",
+          "label": "Button Title"
+        },
+		{
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+		{
+          "type": "header",
+          "content": "Main Title Style"
+		},
+		{
+          "type": "range",
+          "id": "titlesize",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Title Font Size",
+          "default": 30
+        },
+		{
+          "type": "range",
+          "id": "titlesize_mob",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Title Font Size Mobile",
+          "default": 22
+        },
+		{
+          "type": "color",
+          "id": "color_text",
+          "label": "Main Heading Color",
+          "default": "#233E16"
+        },
+		{
+          "type": "header",
+          "content": "Main Sub Title Style"
+		},
+		{
+          "type": "range",
+          "id": "titlesubhead",
+          "min": 0,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "Title Font Size",
+          "default": 16
+        },
+		{
+          "type": "color",
+          "id": "subhead-color",
+          "label": "Sub Heading Color",
+          "default": "#233E16"
+        },
+		{
+          "type": "header",
+          "content": "Main Button Style"
+		},
+		{
+          "type": "range",
+          "id": "button-size",
+          "min": 0,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "Title Font Size",
+          "default": 16
+        },
+		{
+          "type": "color",
+          "id": "button-text",
+          "label": "Button Color",
+          "default": "#233E16"
+        },
+		{
+          "type": "color",
+          "id": "button-text-hover",
+          "label": "Button Hover",
+          "default": "#233E16"
+        },
+		{
+          "type": "header",
+          "content": "box Style"
+		},
+		{
+          "type": "color",
+          "id": "box-bg-color",
+          "label": "Box Background Color",
+          "default": "#fff"
+        },
+		{
+          "type": "range",
+          "id": "box-text",
+          "min": 0,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "Text Size",
+          "default": 16
+        },
+		{
+          "type": "color",
+          "id": "box-text-color",
+          "label": "Text Color",
+          "default": "#233E16"
+        },
+      {
+        "type": "header",
+        "content": "Section padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+           "type": "range",
+           "id": "padding_bottom",
+           "min": 0,
+           "max": 100,
+           "step": 4,
+           "unit": "px",
+           "label": "Padding bottom",
+           "default": 36
+      },
+      {
+        "type": "header",
+        "content": "Section width"
+      },
+      {
+           "type": "range",
+           "id": "section-width",
+           "min": 80,
+           "max": 200,
+           "step": 5,
+           "unit": "rem",
+           "label": "Section width",
+           "default": 120
+      }
+	],
+	"blocks": [
+      {
+        "type": "box",
+        "name": "Select Box",
+        "limit": 6,
+        "settings": [
+          {
+            "type": "text",
+            "id": "box_title",
+            "label": "Box Title",
+            "default":"Kills 99% of all bacteria"
+          },
+          {
+            "type": "image_picker",
+            "id": "box_image",
+            "label": "Box Image"
+          }
+        ]
+      }
+	],
+	"presets": [
+	  {
+		"name": "SS - Eco Features",
+        "blocks": [
+           {
+             "type": "box"
+           },
+		   {
+             "type": "box"
+           },
+		   {
+             "type": "box"
+           },
+		   {
+             "type": "box"
+           },
+		   {
+             "type": "box"
+           },
+           {
+             "type": "box"
+           }
+		]
+	  }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

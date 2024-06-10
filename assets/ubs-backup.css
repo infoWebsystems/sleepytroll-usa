@@ -1,0 +1,246 @@
+/* div#country-drop img {
+    width: 29px;
+}
+div#country img {
+    width: 29px;
+} */
+.country-dropdown {
+    display: none;
+}
+
+
+/* 10/8/2023 Start */
+.header__secondary-nav .select-country {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.header__secondary-nav .select-country svg {
+    fill: #fff;
+    margin: 0 0 0 24px;
+}
+.header__secondary-nav .country-dropdown {
+   background: rgb(240 240 240);
+    color: #000;
+    width: 200px;
+    padding: 10px 10px 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px #00000038;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+}
+.header__secondary-nav .country {
+    position: relative;
+}
+.header__secondary-nav .country-dropdown ul li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+}
+.header__secondary-nav .country-dropdown ul li a {
+    font-size: 16px;
+    color: #121212;
+    line-height: 1;
+}
+.header__secondary-nav .country-dropdown ul li img {
+    width: 22px;
+    margin-right: 10px;
+}
+.header__secondary-nav .select-country svg {
+    width: 29px;
+    height: 100%;
+}
+.index-home .header__secondary-nav .select-country svg {
+    filter: brightness(0) invert(1);
+}
+.index-home .is-filled .country-dropdown {
+    top: 54px;
+}
+body:not(.index-home) .header__secondary-nav .country-dropdown {
+    top: 54px;
+}
+
+
+.header__wrapper .header__secondary-nav {
+    flex-wrap: nowrap;
+}
+.panel__scroller.v-stack.gap-8 .select-country img {
+    width: 30px;
+}
+.panel__scroller.v-stack.gap-8 .select-country {
+    display: flex;
+}
+.panel__scroller.v-stack.gap-8 .country-dropdown {
+    background: translate;
+    border:1px solid #121212;
+    width: 200px;
+    padding: 10px 10px 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px #00000038;
+    color: #121212;
+}
+.panel__scroller.v-stack.gap-8 .country-dropdown ul li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+}
+.panel__scroller.v-stack.gap-8  .country-dropdown ul li img {
+    width: 22px;
+    margin-right: 10px;
+}
+.panel__scroller.v-stack.gap-8  .country-dropdown ul li a {
+    font-size: 16px;
+    color: #121212;
+    line-height: 1;
+}
+.header.is-filled svg{
+  fill:#000;
+}
+.header.is-filled .header__secondary-nav .select-country svg {
+  filter: none;
+}
+.header__secondary-nav .select-country svg {
+    width: 15px;
+    height: 100%; 
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.index-home .header__secondary-nav .select-country svg {
+    filter: brightness(0) invert(1);
+}
+.select-country img {
+    width: 20px;
+    margin-right: 7px;
+}
+.index-home .select-country img {
+    filter: brightness(0) invert(1);
+}
+.is-filled .select-country img {
+    filter: inherit;
+}
+.navigation-drawer .select-country svg.icon.icon-chevron-bottom {
+    margin-left: 5px;
+    position: relative;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+}
+.navigation-drawer .select-country {
+    margin-bottom: 12px;
+}
+.panel__scroller.v-stack.gap-8 .select-country img {
+    width: auto;
+    height: 20px !important;
+    position: relative;
+    top: 2px;
+}
+.navigation-drawer .select-country span.for-desktop {
+    display: block;
+}
+html body .navigation-drawer .select-country img {
+    filter: unset;
+}
+html body .navigation-drawer .country-dropdown {
+    position: absolute;
+    bottom: -85px;
+    background: #fff;
+}
+html body .navigation-drawer .country {
+    position: relative;
+}
+html body .navigation-drawer .country-dropdown span.for-mobile {
+    font-size: 14px;
+}
+.header[style="transform: translateY(-100%);"] div#country-drop {
+    display: none !important;
+}
+.header__icon-list a[href="/account"] {
+    display: none;
+}
+html body .navigation-drawer .panel__scroller.v-stack.gap-8 .country-dropdown {
+    width: 122px;
+} 
+@media only screen and (min-width: 699.9px){
+span.for-mobile {
+    display: none;
+}
+  .header__secondary-nav .select-country {
+    position: relative;
+    top: -2px;
+}
+}
+@media only screen and (min-width: 699.9px) and (max-width: 1023.9px){
+ .header__secondary-nav .select-country {
+    font-size: 14px;
+}
+body .header__secondary-nav .select-country svg {
+    fill: #fff;
+    margin: 0 0 0 5px;
+    width: 12px;
+}
+body .select-country img {
+    width: 16px;
+    margin-right: 5px;
+}
+  body:not(.index-home) .header__secondary-nav .country-dropdown {
+    top: 52px;
+}
+  .header__secondary-nav .country-dropdown {
+    left: 18px;
+}
+}
+
+@media only screen and (max-width: 740.9px){
+.header__secondary-nav .select-country svg {
+    fill: #fff;
+    margin: 0 0 0 16px;
+}
+
+}
+@media only screen and (max-width: 699.9px){
+.header__secondary-nav .country-dropdown ul li a {
+    font-size: 14px;
+}
+.header__secondary-nav .country-dropdown ul li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 11px;
+}
+    span.for-desktop {
+    display: none;
+}
+.header__secondary-nav .country-dropdown {
+    width: 120px;
+    padding: 10px 11px 5px;
+    left: -53px;
+    top: 33px;
+}
+/* .header__secondary-nav .country {
+    order: 1;
+} */
+
+.header__secondary-nav .select-country svg {
+    width: 15px;
+    height: 15px;
+    margin-left: 0;
+    position: relative;
+    top: 1px;
+}
+html body .header__secondary-nav .country .country-dropdown {
+    top: 36px;
+    left: auto;
+    right: 0;
+}
+body  span.for-mobile {
+    display: block;
+}
+}
+
+
+
+
+
+
+/* 10/8/2023 End */

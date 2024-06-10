@@ -1,0 +1,133 @@
+{% comment %}
+	GEMPAGE BUILDER (https://apps.shopify.com/gempage)
+
+	You SHOULD NOT modify source code in this page because
+	It is automatically generated from GEMPAGE BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    (function( jQuery ){
+  var $module = jQuery('#m-1710326343361').children('.module');
+  var videoUrl = jQuery.trim($module.attr('data-url'));
+  var autoPause = $module.attr('data-autopause');
+  var autoPlay = $module.attr('data-autoplay');
+  var videoloop = $module.attr('data-videoloop');
+  var videoMute = $module.attr('data-videomute');
+  var byline = $module.attr('data-byline');
+  var showtitle = $module.attr('data-showtitle');
+  var showportrait = $module.attr('data-showportrait');
+
+  setTimeout(function() {
+    var videoWrapper = $module.children('.vimeo_video');
+    videoWrapper.empty().append('<div id="vimeo-wrapper-1710326343361"></div>');
+
+    var options = {
+      url: videoUrl,
+      loop: videoloop,
+      autoplay: autoPlay,
+      autopause: autoPause,
+      byline: byline,
+      title: showtitle,
+      muted: videoMute,
+      portrait: showportrait
+    };
+    var player = new Vimeo.Player("vimeo-wrapper-1710326343361", options);
+
+    player.on('loaded', function() {	
+      var $playerFrame = $module.find('iframe');	
+      var width = parseInt($playerFrame.attr('width'));	
+      var height = parseInt($playerFrame.attr('height'));	
+      if (width != NaN && height != NaN) {	
+        $module.find('.videoFullScreen').css('padding-bottom', (height / width * 100) + '%');	
+      }	
+    });	
+    
+    $module.on('pausevideo', function() {	
+      player.pause();	
+    });
+  }, 100);
+})( window.GemQuery || jQuery );
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    (function( jQuery ){
+  var $module = jQuery('#m-1710326343469').children('.module');
+  $module.gfV2HeroBanner({});
+  
+})( window.GemQuery || jQuery );
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  (function( jQuery ){
+  // var $module = jQuery('#m-1710326343350').children('.module');
+  // You can add custom Javascript code right here.
+})( window.GemQuery || jQuery );

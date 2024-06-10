@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {
+          }
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "image_left_text_right",
+        "show_author": false,
+        "show_date": false,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "#ededf5",
+        "banner_text_color": "#0f334b",
+        "overlay_color": "#f5f5f5",
+        "overlay_opacity": 30,
+        "content_width": "750px"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

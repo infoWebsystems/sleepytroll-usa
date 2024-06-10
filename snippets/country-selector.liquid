@@ -1,0 +1,30 @@
+<div class="country">
+  {% if section.settings.country_text != blank %}
+  <div id="country" class="select-country">
+    {% if section.settings.country_img != blank %}
+     <img src="{{ section.settings.country_img | img_url: '600x' }}" >
+    {% endif %}
+   <span class="for-desktop">{{ section.settings.country_text }}</span>
+   <svg role="presentation" focusable="false" width="10" height="7" class="icon icon-chevron-bottom" viewBox="0 0 10 7">
+      <path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="2"></path>
+   </svg>
+  </div>
+  {% endif %}
+  <div id="country-drop" class="country-dropdown">
+    <ul>
+      {% for block in section.blocks %}
+        {% if block.type == 'Country' %}
+          <li data-code="AF" data-name="Afghanistan" data-cid="c32">
+            {% if block.settings.country_img != blank %}
+               <img src="{{ block.settings.country_img | img_url: '600x' }}">
+            {% endif %}
+            <a href="{{ block.settings.c-link }}"  > 
+              <span class="for-desktop">{{ block.settings.country_text }}</span>
+              <span class="for-mobile">{{ block.settings.country_text1 }}</span>
+            </a> 
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,555 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {color: #0f334b;}"
+      ],
+      "settings": {
+      }
+    },
+    "rich_text_6c8VXb": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_bjDaNq": {
+          "type": "subheading",
+          "settings": {
+            "text": "Service announcement"
+          }
+        },
+        "richtext_JXQJVf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We're currently on Easter break from Wednesday, and we'll be back on Tuesday, April 2nd, Norwegian time (CET). We appreciate your patience during this time.<\/p>"
+          }
+        },
+        "heading_wcHayr": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bjDaNq",
+        "richtext_JXQJVf",
+        "heading_wcHayr"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f6e9e0",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f7374154-5ea0-4df3-b29c-ac73c5fb31ac": {
+      "type": "testimonials",
+      "blocks": {
+        "template--17692579856666__f7374154-5ea0-4df3-b29c-ac73c5fb31ac-1678066146d5d9cea3-0": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        },
+        "template--17692579856666__f7374154-5ea0-4df3-b29c-ac73c5fb31ac-1678066146d5d9cea3-1": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        },
+        "template--17692579856666__f7374154-5ea0-4df3-b29c-ac73c5fb31ac-1678066146d5d9cea3-2": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17692579856666__f7374154-5ea0-4df3-b29c-ac73c5fb31ac-1678066146d5d9cea3-0",
+        "template--17692579856666__f7374154-5ea0-4df3-b29c-ac73c5fb31ac-1678066146d5d9cea3-1",
+        "template--17692579856666__f7374154-5ea0-4df3-b29c-ac73c5fb31ac-1678066146d5d9cea3-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "a2d068ad-87c3-443e-b22f-9d7cacdbb954": {
+      "type": "faq",
+      "blocks": {
+        "template--17692579856666__a2d068ad-87c3-443e-b22f-9d7cacdbb954-1678097303e8295067-0": {
+          "type": "item",
+          "settings": {
+            "title": "What is included in the price?",
+            "content": "<p>Included in the price is one Sleepytroll Baby Rocker and a charger with international plug adapters.<\/p>"
+          }
+        },
+        "template--17692579856666__a2d068ad-87c3-443e-b22f-9d7cacdbb954-1678097303e8295067-1": {
+          "type": "item",
+          "settings": {
+            "title": "Where does Sleepytroll ship?",
+            "content": "<p>We ship worldwide every business day from our storage and deliver within 1-3 business days<\/p>"
+          }
+        },
+        "template--17692579856666__a2d068ad-87c3-443e-b22f-9d7cacdbb954-1678097303e8295067-2": {
+          "type": "item",
+          "settings": {
+            "title": "How much does shipping cost?",
+            "content": "<p>We offer FREE delivery within 1-3 business days when Sleepytroll Baby Rocker is purchased.<\/p>"
+          }
+        },
+        "2af1ce75-4b97-499c-864f-c2368b0ec98c": {
+          "type": "item",
+          "settings": {
+            "title": "Do I have to pay duties & taxes on my order?",
+            "content": "<p>No, we ship to all countries including all charges for taxes and import costs included. Only customers in Russia will have to pay import duties upon receival of their order.<\/p>"
+          }
+        },
+        "6d785104-c3e1-4c18-8241-51531cbb08c5": {
+          "type": "item",
+          "settings": {
+            "title": "When will I receive my order?",
+            "content": "<p>We ship every business day from our storage worldwide and deliver within 1-3 business days in Europe and US. In any other country, delivery may take between 1-5 business days.<\/p>"
+          }
+        },
+        "9caf2a47-6ae5-47a6-b032-fce46532080d": {
+          "type": "item",
+          "settings": {
+            "title": "Can I cancel my order if I change my mind?",
+            "content": "<p>You can cancel your order at any time before the item has been packed or dispatched by our warehouse. If the order has been dispatched and you still wish to cancel the order, we will arrange for the item to be returned and provide you with a refund less the initial shipping fee. <\/p>"
+          }
+        },
+        "c1e512c8-5611-43f0-9a81-cb2587783d18": {
+          "type": "item",
+          "settings": {
+            "title": "How do I return it?",
+            "content": "<p>If you need to return your device  it’s important that you contact the point of purchase. If purchased at sleepytroll.com, contact our support team and get your return approved. Contact <a href=\"mailto:support@sleepytroll.com\" target=\"_blank\" title=\"mailto:support@sleepytroll.com\">support@sleepytroll.com<\/a> to receive a shipping label. Please include your order number and the email address that was used to place the order.<\/p>"
+          }
+        },
+        "f251a084-cad7-4dee-b4dc-5f65fbfd3642": {
+          "type": "item",
+          "settings": {
+            "title": "Is Sleepytroll certified?",
+            "content": "<p>Yes, Sleepytroll is CE and FCC certified. Sleepytroll is extensively safety tested by TÜV, a global product testing company.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17692579856666__a2d068ad-87c3-443e-b22f-9d7cacdbb954-1678097303e8295067-0",
+        "template--17692579856666__a2d068ad-87c3-443e-b22f-9d7cacdbb954-1678097303e8295067-1",
+        "template--17692579856666__a2d068ad-87c3-443e-b22f-9d7cacdbb954-1678097303e8295067-2",
+        "2af1ce75-4b97-499c-864f-c2368b0ec98c",
+        "6d785104-c3e1-4c18-8241-51531cbb08c5",
+        "9caf2a47-6ae5-47a6-b032-fce46532080d",
+        "c1e512c8-5611-43f0-9a81-cb2587783d18",
+        "f251a084-cad7-4dee-b4dc-5f65fbfd3642"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Got questions? We will try to answer them",
+        "content": "<p>We’re here to help. Should you wonder about shipping, payments, returns or perhaps the product itself?<br\/>Below you’ll find our extensive FAQ. If you can’t find what you’re looking for, don’t hesitate to contact us at:<\/p><p>\"Support@sleepytroll.com\"<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday.",
+        "answer_time": "Email: Support@sleepytroll.com",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "2e4286dc-0ab3-46e5-bc28-c28fc4039a76": {
+      "type": "faq",
+      "blocks": {
+        "template--17692579856666__2e4286dc-0ab3-46e5-bc28-c28fc4039a76-16781955877ccb7296-0": {
+          "type": "item",
+          "settings": {
+            "title": "What are the benefits of purchasing from Sleepytroll.com",
+            "content": "<p>You get a 30-day satisfaction guarantee on your Sleepytroll, as well as free shipping* and no added taxes or fees.<\/p><p>*On orders over 99 USD<\/p>"
+          }
+        },
+        "template--17692579856666__2e4286dc-0ab3-46e5-bc28-c28fc4039a76-16781955877ccb7296-1": {
+          "type": "item",
+          "settings": {
+            "title": "Can I buy Sleepytroll from a retailer?",
+            "content": "<p>At the moment Sleepytroll is only for sale on our website in the US.<\/p>"
+          }
+        },
+        "template--17692579856666__2e4286dc-0ab3-46e5-bc28-c28fc4039a76-16781955877ccb7296-2": {
+          "type": "item",
+          "settings": {
+            "title": "Can I cancel my order if I change my mind?",
+            "content": "<p>You can cancel your order at any time before the item has been packed or dispatched by our warehouse. If the order has been dispatched and you still wish to cancel the order, we will arrange for the item to be returned and provide you with a refund less a 20 USD shipping fee.<\/p>"
+          }
+        },
+        "11852877-f3ce-4a45-8cfe-fead57428a0d": {
+          "type": "item",
+          "settings": {
+            "title": "What's included in the price?",
+            "content": "<p>For the Sleepytroll you get<\/p><p>1 x Sleepytroll Baby Rocker + 1 international charger<\/p><p>For the Bed Adaptor you get 1 x<br\/>Bed Adaptor + 1 x Allan Wrench<\/p><p>For the Bed Rocker Feet you get<br\/>4 x Bed Rocker Feet + 4 x screws<\/p>"
+          }
+        },
+        "c15ca902-24de-4589-bbd9-d7f6dbe939fb": {
+          "type": "item",
+          "settings": {
+            "title": "When will I receive my order?",
+            "content": "<p>We aim to deliver within 2-5 business days in the US.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17692579856666__2e4286dc-0ab3-46e5-bc28-c28fc4039a76-16781955877ccb7296-0",
+        "template--17692579856666__2e4286dc-0ab3-46e5-bc28-c28fc4039a76-16781955877ccb7296-1",
+        "template--17692579856666__2e4286dc-0ab3-46e5-bc28-c28fc4039a76-16781955877ccb7296-2",
+        "11852877-f3ce-4a45-8cfe-fead57428a0d",
+        "c15ca902-24de-4589-bbd9-d7f6dbe939fb"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "ORDERING",
+        "content": "",
+        "team_avatar_width": 140,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ededf5",
+        "accordion_text_color": ""
+      }
+    },
+    "ddd86115-8d6c-444f-b8c7-86093a2a0985": {
+      "type": "faq",
+      "blocks": {
+        "template--18686512890138__ddd86115-8d6c-444f-b8c7-86093a2a0985-1682079872c46a25e1-0": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>We aim to deliver within 2-5 business days in the US.<\/p>"
+          }
+        },
+        "template--18686512890138__ddd86115-8d6c-444f-b8c7-86093a2a0985-1682079872c46a25e1-1": {
+          "type": "item",
+          "settings": {
+            "title": "Is shipping included in the price?",
+            "content": "<p>Shipping is included in all orders over 99 USD. Orders below this amount will be charged 10 USD shipping.<\/p>"
+          }
+        },
+        "template--18686512890138__ddd86115-8d6c-444f-b8c7-86093a2a0985-1682079872c46a25e1-2": {
+          "type": "item",
+          "settings": {
+            "title": "Which shipping carriers do you use?",
+            "content": "<p>We use UPS for our US deliveries.<\/p>"
+          }
+        },
+        "ce03e41f-8bf9-4a41-b2e9-b6d3a552a00f": {
+          "type": "item",
+          "settings": {
+            "title": "Why was my order not delivered?",
+            "content": "<p>When you purchase a Sleepytroll from our website you will automatically have a 30-day return option for your Sleepytroll (and accessories from the same order). This way you will have time to test if our Sleepytroll works wonders for your little one.<\/p><p>We will deduct a return fee of 20 Euros \/ 20 USD \/ 20<br\/>GBP \/ from your refund to cover (a portion) of the return shipping cost.<\/p><p> <\/p><p>When returning, the products and packaging must be returned in a state not beyond what is necessary to check\/test the type and properties of the product. We ask that items are returned clean, with its original packaging and accessories. <\/p><p>If you decide to return the Sleepytroll you will have to contact our support team (support@sleepytroll.com) within 30 days of the delivery date. Please let us know the reason for returning and we will send you a return label.<\/p><p>We recommend taking photos of the products before shipping in case the product is damaged in transport.<\/p>"
+          }
+        },
+        "item_PawXMg": {
+          "type": "item",
+          "settings": {
+            "title": "Incomplete deliveries",
+            "content": "<p>If there is anything missing from your order we require you to immediately notify us at <a href=\"mailto:support@sleepytroll.com\">support@sleepytroll.com<\/a><br\/>and take a photograph of the content as they were presented to you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18686512890138__ddd86115-8d6c-444f-b8c7-86093a2a0985-1682079872c46a25e1-0",
+        "template--18686512890138__ddd86115-8d6c-444f-b8c7-86093a2a0985-1682079872c46a25e1-1",
+        "template--18686512890138__ddd86115-8d6c-444f-b8c7-86093a2a0985-1682079872c46a25e1-2",
+        "ce03e41f-8bf9-4a41-b2e9-b6d3a552a00f",
+        "item_PawXMg"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "SHPPING AND DELIVERY",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ededf5",
+        "accordion_text_color": ""
+      }
+    },
+    "65f3acf8-5a26-499a-9c7f-d8a3ff94d64e": {
+      "type": "faq",
+      "blocks": {
+        "template--21349405196570__65f3acf8-5a26-499a-9c7f-d8a3ff94d64e-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "My Sleepytroll is not working properly, what should I do?",
+            "content": "<p>Firstly, you can try reset by pushing the + and – button for 5 seconds until they blink. If this does not work you can send an email to our support team. <\/p><p>Please include the LOT number (found on the bottom of your Sleepytroll), a description of the issue, a video and\/or photo showing the issue and information on when and where it was purchased. The email can be sent to support@sleepytroll.com.<\/p><p>If you reclaim is approved we will send you a new product. If you wish to return it regular return fees apply.<\/p><p>Please note that all reclaims need to be directed to the shop where<br\/>the product is purchased.<\/p>"
+          }
+        },
+        "template--21349405196570__65f3acf8-5a26-499a-9c7f-d8a3ff94d64e-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "The battery life on my Sleepytroll is reduced, can it be fixed?",
+            "content": "<p>The battery life of Sleepytroll will be shorter when used in cold weather, and will also, like other electronical products, be somewhat reduced with long-term use. If your Sleepytroll has a green light after charging for less than 2 hours, please leave it in the charger for 2 full hours.<\/p>"
+          }
+        },
+        "template--21349405196570__65f3acf8-5a26-499a-9c7f-d8a3ff94d64e-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "How does the 30-day satisfaction guarantee work?",
+            "content": "<p>When you purchase a Sleepytroll from our website you will automatically have a 30-day return option for your<br\/>Sleepytroll (and accessories from the same order). This way you will have time to test if our Sleepytroll works wonders for your little one. <\/p><p> We will deduct a return fee of 20 Euros \/ 20 USD \/ 20 GBP \/ from your refund to cover (a portion) of the return shipping cost.  <\/p><p>When returning, the products and packaging must be returned in a state not beyond what is necessary to check\/test the type and properties of the product. We ask that items are returned clean, with its original packaging and accessories. <\/p><p>If you decide to return the Sleepytroll you will have to contact our support team (support@sleepytroll.com) within 30 days of the delivery date. Please let us know the reason for returning and we will send you a return label. <\/p><p>We recommend taking photos of the products before shipping in case the product is damaged in transport.<\/p>"
+          }
+        },
+        "a69b14a2-9845-4fdf-b3d7-94ed7579ea5f": {
+          "type": "item",
+          "settings": {
+            "title": "I have lost my charger; can I buy a new one?",
+            "content": "<p>You can buy a new charger <a href=\"https:\/\/us.sleepytroll.com\/products\/spare-charger-sleepytroll-baby-rocker\" title=\"https:\/\/us.sleepytroll.com\/products\/spare-charger-sleepytroll-baby-rocker\">here<\/a><\/p>"
+          }
+        },
+        "4dd9686a-85f0-4c85-bb4b-04f20f60c4a9": {
+          "type": "item",
+          "settings": {
+            "title": "I want to return my product; how do I begin?",
+            "content": "<p>If you decide to return the Sleepytroll you will have to contact our support team<br\/>(support@sleepytroll.com) within 30 days of the delivery date. Please let us know the reason for returning and we will send you a return label.<\/p><p>To check if your order is eligible for return please see our <a href=\"https:\/\/us.sleepytroll.com\/policies\/refund-policy\" title=\"US return policy Sleepytroll\">return policy<\/a><\/p><p>Please note that we will deduct a return fee of 20 USD from your refund to cover (a portion) of the return shipping cost.<\/p><p>Are you returning a used Sleepytroll? Please see the section “How does the 30-day<br\/>satisfaction guarantee work?” for more information.<\/p>"
+          }
+        },
+        "0221bcab-f156-48cc-809a-65bdf57e3101": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21349405196570__65f3acf8-5a26-499a-9c7f-d8a3ff94d64e-item-1",
+        "template--21349405196570__65f3acf8-5a26-499a-9c7f-d8a3ff94d64e-item-2",
+        "template--21349405196570__65f3acf8-5a26-499a-9c7f-d8a3ff94d64e-item-3",
+        "a69b14a2-9845-4fdf-b3d7-94ed7579ea5f",
+        "4dd9686a-85f0-4c85-bb4b-04f20f60c4a9",
+        "0221bcab-f156-48cc-809a-65bdf57e3101"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "RETURNS  \/ DEFECTS",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ededf5",
+        "accordion_text_color": ""
+      }
+    },
+    "ac2d51f7-9265-4c45-8320-d67a62bd39ef": {
+      "type": "faq",
+      "blocks": {
+        "template--18686512890138__ac2d51f7-9265-4c45-8320-d67a62bd39ef-1682079872c46a25e1-0": {
+          "type": "item",
+          "settings": {
+            "title": "Will Sleepytroll work on my baby?",
+            "content": "<p>Sleepytroll is a wonderful sleeping aid, but it does not work on all babies. Does your baby like being in the stroller or crib, and like being rocked? Then chances are it will work wonders! Keep in mind that we have a 30-day satisfaction guarantee should your baby somehow not be seduced by our rocking motions 😉<\/p>"
+          }
+        },
+        "template--18686512890138__ac2d51f7-9265-4c45-8320-d67a62bd39ef-1682079872c46a25e1-1": {
+          "type": "item",
+          "settings": {
+            "title": "How to use the Sleepytroll correctly?",
+            "content": "<p>The Sleepytroll should always be <strong>mounted vertically<\/strong>, as mounting it in any other ways will put excessive pressure on the motor and void the legal guarantee.<\/p><p> <br\/>It is also important to tighten the strap, as the stroller\/car seat\/crib should be moving, not the Sleepytroll. <\/p><p><br\/>Close charger port when charging is finished. Sleepytroll can be used in temperatures from -10C\/14F<br\/>to 35C\/95F. Please read the <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2399\/6299\/files\/Sleepytroll_User_Instructions_-_English_V100020EN.pdf?v=1612898075\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2399\/6299\/files\/Sleepytroll_User_Instructions_-_English_V100020EN.pdf?v=1612898075\">manual<\/a> for information on the correct<br\/>storage when storing over time. <br\/><\/p>"
+          }
+        },
+        "template--18686512890138__ac2d51f7-9265-4c45-8320-d67a62bd39ef-1682079872c46a25e1-2": {
+          "type": "item",
+          "settings": {
+            "title": "Does the Bed Rocker Feet work on my crib?",
+            "content": "<p>Bed Rocker Feet works on cribs with wooden legs that are not heavier than 22kg\/48,5lbs (excluding the weight of mattress, beddings, and baby). <\/p>"
+          }
+        },
+        "43db27e6-97f0-4b4c-a8a1-7b01d35699ab": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How to install Bed Rocker Feet?",
+            "content": "<p>You would need to drill 3mm holes in the wooden legs. Please see our instructions <a href=\"\/products\/sleepytroll-bed-rocker-feet\" title=\"Sleepytroll Bed Rocker Feet\">here<\/a><\/p>"
+          }
+        },
+        "f0b062fe-2061-45c1-a2f9-fcd8a743a1b4": {
+          "type": "item",
+          "settings": {
+            "title": "Do I need Bed Rocker Feet and Adapter to rock my crib\/cot?",
+            "content": "<p>Is your baby’s bed already rockable by hand? Then you might not need the Bed Rocker Feet. Is there somewhere to add the Sleepytroll vertically (important!) on the bed? Then you might not need the Bed Adapter. However, if you are not able to rock the bed by hand and there is nowhere to hang Sleepytroll vertically on the bed you would need both.<\/p>"
+          }
+        },
+        "5fcbf619-4a94-49cf-a16c-edd8f242488a": {
+          "type": "item",
+          "settings": {
+            "title": "How to take care of your Sleepytroll",
+            "content": "<p>When not in use, remove the charger from the wall and store the product in a dry place out of direct sunlight and out of reach of children. <\/p><p><\/p><p>When storing the product for long periods, be sure to charge at least twice a year to prevent deterioration in performance due to self-discharging and choose a storage area where the temperature is between +10ºC and +30ºC. Clean the product with a cloth dampened with water only. Do not use soap or chemicals on the cloth.<\/p>"
+          }
+        },
+        "9fc89d8b-4a76-4f98-aaf7-874f48f070d7": {
+          "type": "item",
+          "settings": {
+            "title": "Why does Sleepytroll use NiMh batteries?",
+            "content": "<p>Despite the extra cost, we have decided to use NiMH batteries in Sleepytroll as they are safer than lithium-ion batteries because they contain less active material. <\/p><p>When selling a product that operates in the vicinity of a baby safety is of the utmost importance.<\/p><p><br\/>NiMH batteries can also be brought on airplanes, both in hand luggage and<br\/>checked bags. <\/p>"
+          }
+        },
+        "022b186d-5ca6-4d67-9884-48c295952fcb": {
+          "type": "item",
+          "settings": {
+            "title": "Is Sleepytroll certified?",
+            "content": "<p>Yes, Sleepytroll is CE and FCC certified. Sleepytroll is extensively safety tested by TÜV, a global product testing company.<\/p>"
+          }
+        },
+        "7fcb1484-5b31-4e8d-beeb-33432babb7a7": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Is rocking my baby safe?",
+            "content": "<p>Yes, Sleepytroll is designed to mimic the movement of a parent rocking. New studies posted in Current Biology (link) even<br\/>shows that being rocked while sleeping gives higher quality sleep and memory<br\/>reconciliation. Read more in our Stories (link)<\/p>"
+          }
+        },
+        "34b1b5d3-5bfc-4297-8f6a-8f1963141989": {
+          "type": "item",
+          "settings": {
+            "title": "Will rocking my stroller with Sleepytroll Baby Rocker void my stroller’s warranty?",
+            "content": "<p>No. Sleepytroll is designed to mimic the movement of a parent rocking and will not void your stroller’s guarantee.<\/p>"
+          }
+        },
+        "83bacb32-081d-44ba-8f73-bb84d4e89373": {
+          "type": "item",
+          "settings": {
+            "title": "How do I properly store my Sleepytroll over time?",
+            "content": "<p>When not in use, remove the charger from the wall and store the product in a dry place out of direct sunlight and out of reach of children. <\/p><p>When storing the product for long periods, be sure to charge at least twice a year to prevent deterioration in performance due to self-discharging<br\/>and choose a storage area where the temperature is between +10ºC and +30ºC. <\/p><p>To restore battery to original performance, repeat several cycles of charging and discharging (run product at maximum effect on an empty pram until the batteries are flat).<\/p>"
+          }
+        },
+        "96ad4c86-8c2e-4d2e-b30b-6cdaaa920347": {
+          "type": "item",
+          "settings": {
+            "title": "Will the Bouncer Adaptor work on my bouncer seat?",
+            "content": "<p>The Sleepytroll Bouncer Adaptor fits most traditional baby bouncer<br\/>designs with round tubular surrounding frames (like the Babybjörn Bouncer). <\/p><p>Not sure if it will fit your bouncer? Send us an email at <a href=\"mailto:support@sleepytroll.com\" target=\"_blank\" title=\"mailto:support@sleepytroll.com\">support@sleepytroll.com<\/a> with a link to your current bouncer and we will try to help. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18686512890138__ac2d51f7-9265-4c45-8320-d67a62bd39ef-1682079872c46a25e1-0",
+        "template--18686512890138__ac2d51f7-9265-4c45-8320-d67a62bd39ef-1682079872c46a25e1-1",
+        "template--18686512890138__ac2d51f7-9265-4c45-8320-d67a62bd39ef-1682079872c46a25e1-2",
+        "43db27e6-97f0-4b4c-a8a1-7b01d35699ab",
+        "f0b062fe-2061-45c1-a2f9-fcd8a743a1b4",
+        "5fcbf619-4a94-49cf-a16c-edd8f242488a",
+        "9fc89d8b-4a76-4f98-aaf7-874f48f070d7",
+        "022b186d-5ca6-4d67-9884-48c295952fcb",
+        "7fcb1484-5b31-4e8d-beeb-33432babb7a7",
+        "34b1b5d3-5bfc-4297-8f6a-8f1963141989",
+        "83bacb32-081d-44ba-8f73-bb84d4e89373",
+        "96ad4c86-8c2e-4d2e-b30b-6cdaaa920347"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "PRODUCT DETAILS",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "support@sleepytroll.com",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ededf5",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_6c8VXb",
+    "f7374154-5ea0-4df3-b29c-ac73c5fb31ac",
+    "a2d068ad-87c3-443e-b22f-9d7cacdbb954",
+    "2e4286dc-0ab3-46e5-bc28-c28fc4039a76",
+    "ddd86115-8d6c-444f-b8c7-86093a2a0985",
+    "65f3acf8-5a26-499a-9c7f-d8a3ff94d64e",
+    "ac2d51f7-9265-4c45-8320-d67a62bd39ef"
+  ]
+}

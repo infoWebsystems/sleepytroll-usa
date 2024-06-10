@@ -1,0 +1,570 @@
+ {% assign sec_id = section.id | slice: -8, 8  | replace: "-", "_" %}
+
+{%- style -%}
+
+.pw-container,
+.pw-container-fluid {
+  width: 100%;
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .pw-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 750px) {
+  .pw-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pw-container {
+    max-width: 960px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width <= 960 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+@media (min-width: 1200px) {
+  .pw-container {
+    max-width: 1140px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width <= 1140 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+@media (min-width: 1400px) {
+  .pw-container {
+    max-width: 1320px;
+  }
+  {% if section.settings.container_max_width >= 720 and section.settings.container_max_width != 1320 %}
+    .pw-section__{{sec_id}} .pw-container {
+      max-width: {{section.settings.container_max_width}}px;
+    }
+  {% endif %}
+}
+
+.pw-container,
+.pw-container-fluid {
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+}
+
+.pw-section__{{sec_id}} .pw-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(var(--pw-gutter-x, 15px) * -1);
+  margin-left: calc(var(--pw-gutter-x, 15px) * -1);
+}
+
+.pw-section__{{sec_id}} .pw-row > * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: var(--pw-gutter-x, 15px);
+  padding-left: var(--pw-gutter-x, 15px);
+}
+
+@media (min-width: 750px) {
+  .pw-section__{{sec_id}} .pw-col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .pw-section__{{sec_id}} .pw-col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .pw-section__{{sec_id}} .pw-col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .pw-section__{{sec_id}} .pw-col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+.pw-section__{{sec_id}} {
+  --pw-gutter-x: 25px;
+  color: {{section.settings.text_color}};
+  background-color: {{section.settings.background_color}};
+  {% if section.settings.section_height == true %}
+    min-height: 100vh;
+  {% endif %}
+  padding-top: {{section.settings.section_padding_top}}px;
+  padding-bottom: {{section.settings.section_padding_bottom}}px;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.pw-section__{{sec_id}} .pw-section-title::before,
+.pw-section__{{sec_id}} .pw-section-title::after {
+  display: none;
+}
+
+.pw-section__{{sec_id}} .pw-section-title {
+  color: {{section.settings.text_color}};
+  text-align: {{section.settings.text_align}};
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  text-align: {{section.settings.text_align}};
+}
+
+.pw-section__{{sec_id}} .pw-section-subtitle {
+  color: {{section.settings.text_color}};
+  text-align: {{section.settings.text_align}};
+  margin-bottom: 30px;
+}
+
+.pw-section__{{sec_id}} .pw-feature {
+  max-width: 500px;
+  padding: 30px 0 10px 70px;
+  position: relative;
+}
+
+.pw-section__{{sec_id}} .img-wrapper {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  display: block;
+  top: 30px;
+  left: 0;
+}
+
+.pw-section__{{sec_id}} .pw-col-lg-4 .pw-feature {
+  max-width: none;
+  padding: 30px 0px 10px;
+  position: static;
+}
+
+.pw-section__{{sec_id}} .pw-col-lg-4 .img-wrapper {
+  position: relative;
+  top: 0;
+  margin-bottom: 25px;
+}
+
+.pw-section__{{sec_id}} .img-wrapper path {
+  fill: {{section.settings.icon_color}};
+}
+
+.pw-section__{{sec_id}} .img-wrapper img,
+.pw-section__{{sec_id}} .img-wrapper svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: contain;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.pw-section__{{sec_id}} .pw-feature-title {
+  color: {{section.settings.text_color}};
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: left;
+}
+
+
+{% if section.settings.inherit_fonts == false %}
+  .pw-section__{{sec_id}} .pw-feature-title {
+    font-size: 28px;
+  }
+  .pw-section__{{sec_id}} h1.pw-section-title {
+    font-size: 72px;
+  }
+  .pw-section__{{sec_id}} h2.pw-section-title {
+    font-size: 56px;
+  }
+  .pw-section__{{sec_id}} h3.pw-section-title {
+    font-size: 32px;
+  }
+  .pw-section__{{sec_id}} p {
+    font-size: 24px;
+    margin-top: 0;
+  }
+{% endif %}
+
+@media only screen and (max-width: 749px) {
+  .pw-section__{{sec_id}} {
+    min-height: auto;
+    padding-top: {{section.settings.section_padding_top_mobile}}px;
+    padding-bottom: {{section.settings.section_padding_bottom_mobile}}px;
+  }
+  
+  {% if section.settings.inherit_fonts == false %}
+    .pw-section__{{sec_id}} .pw-feature-title {
+      font-size: 24px;
+    }
+    .pw-section__{{sec_id}} h1.pw-section-title {
+      font-size: 50px;
+    }
+    .pw-section__{{sec_id}} h2.pw-section-title {
+      font-size: 40px;
+    }
+    .pw-section__{{sec_id}} h3.pw-section-title {
+      font-size: 26px;
+    }
+    .pw-section__{{sec_id}} p {
+      font-size: 20px;
+    }
+  {% endif %}
+  .pw-section__{{sec_id}} .pw-feature {
+    padding-left: 50px;
+  }
+}
+
+{%- endstyle -%}
+
+{% if section.settings.custom_css != blank %}
+  {%- style -%}
+  {{section.settings.custom_css}}
+  {%- endstyle -%}
+{% endif %}
+
+<div class="pw-section__{{sec_id}}">
+  <div class="pw-container">
+    <div class="pw-row">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'heading' %}
+          <div class="pw-col-md-12"  {{ shopify.block_attributes }}>
+            {% if block.settings.heading_text != blank %}
+              <{{ block.settings.heading_tag }} class="pw-section-title" >
+              {{ block.settings.heading_text | escape }}
+              </{{ block.settings.heading_tag }}>
+            {% endif %}
+            {% if block.settings.sub_heading_text != blank %}
+              <p class="pw-section-subtitle">{{ block.settings.sub_heading_text | escape }}</p>
+            {% endif %}
+          </div>
+          {% when 'feature' %}
+          <div class="pw-col-md-6 {% if section.settings.columns == 'pw-col-lg-4' %} {{section.settings.columns}} {% endif %}"   {{ shopify.block_attributes }}>
+            <div class="pw-feature {% if block.settings.feature_image != blank %} featured-img {% endif %}">
+
+              {% if block.settings.feature_image == blank %}
+                <div class="img-wrapper">
+                  {{ block.settings.feature_svg }}
+                </div>
+              {% else %}
+                <div class="img-wrapper">
+                  <img src="{{ block.settings.feature_image | img_url: '150x' }}"
+                    alt="{{ block.settings.feature_image.alt | escape }}"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  >
+                </div>
+              {% endif %}
+
+              {% if block.settings.feature_title != blank %}
+                <h3 class="pw-feature-title">{{ block.settings.feature_title | escape }}</h3>
+              {% endif %}
+              {% if block.settings.feature_text != blank %}
+                <p>{{ block.settings.feature_text | escape }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+
+{
+  "name": "[Kava] Features-Bella-01",
+  "tag": "section",
+  "class": "kava-feature kava-feature-bella-01",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main settings"
+    }, 
+    {
+      "type": "checkbox",
+      "id": "inherit_fonts",
+      "default": false,
+      "label": "Inherit font sizes from theme"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#262424"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "transparent"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#0535F5"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Title and subtitle alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        }, {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "columns",
+      "label": "Columns",
+      "options": [
+        {
+          "value": "pw-col-md-6",
+          "label": "Two"
+        }, {
+          "value": "pw-col-lg-4",
+          "label": "Three"
+        }
+      ],
+      "default": "pw-col-md-6"
+    },
+    {
+      "type": "header",
+      "content": "Desktop"
+    }, 
+    {
+      "type": "checkbox",
+      "id": "section_height",
+      "default": false,
+      "label": "Full screen height"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 100
+    }, 
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_height_mobile",
+      "default": false,
+      "label": "Full screen height on mobile"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 100
+    },
+     {
+      "type": "header",
+      "content": "Customization"
+    }, 
+    {
+      "type": "number",
+      "id": "container_max_width",
+      "label": "Content width limit (px)",
+      "default": 1320
+    }, 
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Heading & Subheading",
+      "type": "heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "heading_text",
+          "label": "Heading text",
+          "default": "Heading text"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Heading tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            }, {
+              "value": "h2",
+              "label": "H2"
+            }, {
+              "value": "h3",
+              "label": "H3"
+            }
+          ],
+          "default": "h2"
+        },
+        {
+          "type": "textarea",
+          "id": "sub_heading_text",
+          "label": "Sub heading text"
+        }
+      ]
+    },
+    {
+      "name": "Feature",
+      "type": "feature",
+      "limit": 12,
+      "settings": [
+    {
+          "type": "text",
+          "id": "feature_title",
+          "label": "Feature title",
+          "default": "Feature title"
+        },
+        {
+          "type": "textarea",
+          "id": "feature_text",
+          "label": "Feature text",
+          "default": "Feature text"
+        },
+        {
+          "type": "textarea",
+          "id": "feature_svg",
+          "label": "Feature SVG code. e.g. https://icons.getbootstrap.com",
+          "default": "<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-star-fill' viewBox='0 0 16 16'><path d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z'/></svg>"
+        },
+        {
+          "type": "image_picker",
+          "id": "feature_image",
+          "label": "Or upload Feature icon in PNG format"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "[Kava] Features-Bella-01",
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+              "heading_text": "Website Design Tips"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+              "feature_title": "Use quality photos and videos",
+              "feature_svg":"<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-images' viewBox='0 0 16 16'><path d='M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'/><path d='M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z'/></svg>",
+              "feature_text": "The better the photos, the more users will like an online store."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+              "feature_title": "Stick with simplicity",
+              "feature_svg":"<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-cup-straw' viewBox='0 0 16 16'><path d='M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A.78.78 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278zM9.768 4.607A13.991 13.991 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a5.514 5.514 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69 1.27 0 2.081-.441 2.438-.69.042-.029.09-.094.102-.215l.852-8.03a5.517 5.517 0 0 1-.435.127 8.88 8.88 0 0 1-.89.17zM4.467 4.884s.003.002.005.006l-.005-.006zm7.066 0-.005.006c.002-.004.005-.006.005-.006zM11.354 5a3.174 3.174 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222z'/></svg>",
+              "feature_text": "An e-commerce website should be easy to browse and digest."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+              "feature_title": "Add convenient navigation",
+              "feature_svg":"<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-segmented-nav' viewBox='0 0 16 16'><path d='M0 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm6 3h4V5H6v4zm9-1V6a1 1 0 0 0-1-1h-3v4h3a1 1 0 0 0 1-1z'/></svg>",
+              "feature_text": "Convenience is the main reason why people shop online."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+              "feature_title": "Add some beauty and personality",
+              "feature_svg":"<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-flower2' viewBox='0 0 16 16'><path d='M8 16a4 4 0 0 0 4-4 4 4 0 0 0 0-8 4 4 0 0 0-8 0 4 4 0 1 0 0 8 4 4 0 0 0 4 4zm3-12c0 .073-.01.155-.03.247-.544.241-1.091.638-1.598 1.084A2.987 2.987 0 0 0 8 5c-.494 0-.96.12-1.372.331-.507-.446-1.054-.843-1.597-1.084A1.117 1.117 0 0 1 5 4a3 3 0 0 1 6 0zm-.812 6.052A2.99 2.99 0 0 0 11 8a2.99 2.99 0 0 0-.812-2.052c.215-.18.432-.346.647-.487C11.34 5.131 11.732 5 12 5a3 3 0 1 1 0 6c-.268 0-.66-.13-1.165-.461a6.833 6.833 0 0 1-.647-.487zm-3.56.617a3.001 3.001 0 0 0 2.744 0c.507.446 1.054.842 1.598 1.084.02.091.03.174.03.247a3 3 0 1 1-6 0c0-.073.01-.155.03-.247.544-.242 1.091-.638 1.598-1.084zm-.816-4.721A2.99 2.99 0 0 0 5 8c0 .794.308 1.516.812 2.052a6.83 6.83 0 0 1-.647.487C4.66 10.869 4.268 11 4 11a3 3 0 0 1 0-6c.268 0 .66.13 1.165.461.215.141.432.306.647.487zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2z'/></svg>",
+              "feature_text": "38% of users leave a website if they find the layout unattractive."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+              "feature_title": "Maintain a visual hierarchy",
+              "feature_svg":"<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-menu-button-wide-fill' viewBox='0 0 16 16'><path d='M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z'/></svg>",
+              "feature_text": "Continuing with the subject of structure and smooth shopping flow."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+              "feature_title": "Keep it consistent and branded",
+              "feature_svg":"<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-magic' viewBox='0 0 16 16'><path d='M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0v1.829Zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707L14 2.707ZM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707L7.293 4Zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1h1.829Zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1h1.829ZM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707L13.293 10ZM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0v1.829Zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0L8.354 9.06Z'/></svg>",
+              "feature_text": "A website’s design should correspond with and reflect the products it’s selling."
+          }
+        }
+      ]
+    }
+  ]
+  
+}
+
+{% endschema %}

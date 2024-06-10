@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18167655072026__6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d-167831690658678ad3-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18167655072026__6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d-167831690658678ad3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Designed in Scandinavia",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18167655072026__6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d-167831690658678ad3-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>What do you do when your baby just won ́t sleep unless you rock, carry, stroll, or drive him around? You pray there exists something to help you and your child. And if it doesn’t? You invent it yourself! That's what one desperate and exhausted Norwegian dad, Ståle Flataker, did.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18167655072026__6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d-167831690658678ad3-0",
+        "template--18167655072026__6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d-167831690658678ad3-1",
+        "template--18167655072026__6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d-167831690658678ad3-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/flataker_928x544_d2415e0a-bfe5-49ae-ac0a-f1d258666876.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "6fb8bfbf-e8e0-4bc3-8380-4fda793e3a3d",
+    "main"
+  ]
+}
