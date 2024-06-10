@@ -75,16 +75,7 @@
             "disabled": true,
             "settings": {
               "text": "to get 20% OFF Sleepytroll Baby Rocker",
-              "text-span": "",
-              "url": "",
-              "custom_trigger": ""
-            }
-          },
-          "message_NwLjQa": {
-            "type": "message",
-            "settings": {
-              "text": "Announce something here",
-              "text-span": "",
+              "text-span": "SIGN UP HERE",
               "url": "",
               "custom_trigger": ""
             }
@@ -93,8 +84,7 @@
         "block_order": [
           "message",
           "146f82f4-f294-41de-88b9-bdc2c77d965f",
-          "message_rWNrgT",
-          "message_NwLjQa"
+          "message_rWNrgT"
         ],
         "settings": {
           "enable_sticky": true,
