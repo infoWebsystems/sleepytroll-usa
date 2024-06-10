@@ -72,6 +72,7 @@
           },
           "message_rWNrgT": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "to get 20% OFF Sleepytroll Baby Rocker",
               "text-span": "SIGN UP HERE",
@@ -391,7 +392,7 @@
       },
       "12657775114333427046": {
         "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }

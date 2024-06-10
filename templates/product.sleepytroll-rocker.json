@@ -49,6 +49,7 @@
         },
         "offer_RKaVV7": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
