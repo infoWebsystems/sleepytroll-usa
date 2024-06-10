@@ -67,10 +67,8 @@
                       {{ block.settings.text | escape }}
                   </p>
                   <script>
-                    let triggerId = 'trigger-'+{{ block.id | json }};
-                    let triggerElement = document.getElementById(triggerId);
-                    if (triggerElement) {
-                      triggerElement.addEventListener('click', function() {
+                    if (document.getElementById('trigger-'+{{ block.id | json }})) {
+                      document.getElementById('trigger-'+{{ block.id | json }}).addEventListener('click', function() {
                         {{ block.settings.custom_trigger  }}
                       });
                     }
