@@ -61,6 +61,7 @@
           },
           "146f82f4-f294-41de-88b9-bdc2c77d965f": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "No duties or fees",
               "url": "",
