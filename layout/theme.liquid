@@ -12,10 +12,10 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
 	{% render 'pandectes-rules' %}
-	
-	
-	
-    
+
+
+
+
 
     <meta charset="utf-8">
     <meta
@@ -42,7 +42,7 @@
       })(window,document,'script','dataLayer','GTM-KBW62KD4');
     </script>
     <!-- End Google Tag Manager -->
-
+    <meta name="p:domain_verify" content="4aa4a61647610c6f1ee0132e43b87fe4"/>
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
@@ -150,7 +150,9 @@
       {%- endif -%}
     </main>
 
-    {%- if request.page_type != 'password' -%}
+
+
+      {%- if request.page_type != 'password' -%}
       {%- section 'footer' -%}
     {%- endif -%}
     <!-- Gem_Page_Footer_Script -->

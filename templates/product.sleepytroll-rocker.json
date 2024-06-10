@@ -47,6 +47,20 @@
             "show_taxes_notice": false
           }
         },
+        "offer_RKaVV7": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-love",
+            "icon_width": 24,
+            "title": "Father's Day Sale",
+            "content": "<h4><strong>20% off Sleepytroll Baby Rocker<\/strong><\/h4><p>Offer lasts until 06.16.2024<br\/>Make sure to sign up to get the discount code.<\/p>",
+            "background": "#c8bdba",
+            "text_color": "#0f334b",
+            "custom_trigger": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -85,20 +99,6 @@
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#1a1a1a",
             "payment_button_text_color": ""
-          }
-        },
-        "offer_RKaVV7": {
-          "type": "offer",
-          "disabled": true,
-          "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-love",
-            "icon_width": 24,
-            "title": "Mother's Day Sale",
-            "content": "<h4><strong>10% off Sleepytroll Baby Rocker<\/strong><\/h4><p>Offer lasts until 05.12.2024<\/p>",
-            "background": "#c8bdba",
-            "text_color": "#0f334b"
           }
         },
         "payment_terms": {
@@ -216,13 +216,13 @@
         "53a45dc9-7a20-42a7-9378-015279941a3d",
         "rating",
         "price",
+        "offer_RKaVV7",
         "quantity_selector",
         "badges",
         "292e72ff-600b-44c7-8c22-bb745890b709",
         "one_click_upsell_zipify_ocu_on_page_qk8jJf",
         "collapsible_text_g3Kzhn",
         "buy_buttons",
-        "offer_RKaVV7",
         "payment_terms",
         "text_adppVM",
         "separator",

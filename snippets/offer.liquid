@@ -23,7 +23,7 @@ Supported variables
 
 {%- capture offer_class -%}offer {% if block.settings.text_alignment == 'center' %}offer--center{% endif %}{%- endcapture -%}
 
-<div {% render 'surface', class: offer_class, background: block.settings.background, text_color: block.settings.text_color, background_fallback: 'bg-secondary' %} {{ block.shopify_attributes }}>
+<div id="trigger-{{ block.id }}"  {% render 'surface', class: offer_class, background: block.settings.background, text_color: block.settings.text_color, background_fallback: 'bg-secondary' %} {{ block.shopify_attributes }}>
   {%- capture icon_with_title -%}
     {%- if block.settings.custom_icon != blank -%}
       {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
@@ -55,3 +55,12 @@ Supported variables
     </div>
   {%- endif -%}
 </div>
+{% if block.settings.custom_trigger != blank %}
+  <script>
+    if (document.getElementById('trigger-'+{{ block.id | json }})) {
+      document.getElementById('trigger-'+{{ block.id | json }}).addEventListener('click', function() {
+        {{ block.settings.custom_trigger  }}
+      });
+    }
+  </script>
+{% endif %}
