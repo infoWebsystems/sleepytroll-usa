@@ -77,7 +77,7 @@
               "text": "to get 20% OFF Sleepytroll Baby Rocker",
               "text-span": "SIGN UP HERE",
               "url": "",
-              "custom_trigger": ""
+              "custom_trigger": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
             }
           }
         },
