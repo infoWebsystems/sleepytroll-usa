@@ -72,7 +72,7 @@
             "settings": {
               "text": "Sign up to our newsletter for 20% OFF Sleepytroll Baby Rocker",
               "url": "",
-              "custom_trigger": ""
+              "custom_trigger": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
             }
           }
         },
