@@ -57,7 +57,8 @@
             "title": "Father's Day Sale",
             "content": "<h4><strong>20% off Sleepytroll Baby Rocker<\/strong><\/h4><p>Offer lasts until 06.16.2024<br\/>Make sure to sign up to get the discount code.<\/p>",
             "background": "#c8bdba",
-            "text_color": "#0f334b"
+            "text_color": "#0f334b",
+            "custom_trigger": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
           }
         },
         "quantity_selector": {
