@@ -55,6 +55,7 @@
             "disabled": true,
             "settings": {
               "text": "Free shipping on orders above 99$ ✈️ No duties or fees",
+              "text-span": "",
               "url": "",
               "custom_trigger": ""
             }
@@ -64,6 +65,7 @@
             "disabled": true,
             "settings": {
               "text": "No duties or fees",
+              "text-span": "",
               "url": "",
               "custom_trigger": ""
             }
@@ -71,7 +73,8 @@
           "message_rWNrgT": {
             "type": "message",
             "settings": {
-              "text": "Sign up to our newsletter for 20% OFF Sleepytroll Baby Rocker",
+              "text": "to get 20% OFF Sleepytroll Baby Rocker",
+              "text-span": "SIGN UP HERE",
               "url": "",
               "custom_trigger": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
             }
