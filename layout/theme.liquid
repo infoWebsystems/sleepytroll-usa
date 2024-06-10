@@ -12,9 +12,9 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
 	{% render 'pandectes-rules' %}
-	
-	
-    
+
+
+
 
     <meta charset="utf-8">
     <meta
@@ -149,7 +149,9 @@
       {%- endif -%}
     </main>
 
-    {%- if request.page_type != 'password' -%}
+
+
+      {%- if request.page_type != 'password' -%}
       {%- section 'footer' -%}
     {%- endif -%}
     <!-- Gem_Page_Footer_Script -->
