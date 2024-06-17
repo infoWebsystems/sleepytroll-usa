@@ -72,6 +72,7 @@
           },
           "message_rWNrgT": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "to get 20% OFF Sleepytroll Baby Rocker",
               "text-span": "SIGN UP HERE",
