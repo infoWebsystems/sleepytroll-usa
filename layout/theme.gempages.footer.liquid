@@ -11,11 +11,15 @@
 
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
-	{% render 'pandectes-rules' %}
-	
-	
-	
-    
+    {% render 'pandectes-rules' %}
+
+    <script type="javascript/blocked" data-cookiecategory="performance">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "m644lxqzwz");
+    </script>
 
     <meta charset="utf-8">
     <meta
@@ -42,7 +46,7 @@
       })(window,document,'script','dataLayer','GTM-KBW62KD4');
     </script>
     <!-- End Google Tag Manager -->
-
+    <meta name="p:domain_verify" content="4aa4a61647610c6f1ee0132e43b87fe4">
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
@@ -95,7 +99,7 @@
     {% render 'gem-app-header-scripts' %}
     <!-- End_Gem_Page_Header_Script -->
 
-{%- comment -%}    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=839345f4"></script> {%- endcomment -%}
+    {%- comment -%}    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=839345f4"></script> {%- endcomment -%}
     {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}
     {% unless boostersnippet contains 'Liquid error' %}{{ boostersnippet }}{% endunless %}
     {% render 'gp-head' %}
@@ -113,17 +117,17 @@
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    
+    <div style="display:none"> {%- render 'shadow-dom-templates' -%} </div>
 
     <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
     {%- if request.page_type != 'password' -%}
-      
-      
-      
+      <div style="display:none"> {%- section 'announcement-bar' -%} </div>
+      <div style="display:none"> {%- section 'header' -%} </div>
+      <div style="display:none"> {%- section 'newsletter-popup' -%} </div>
 
       {%- if settings.cart_type != 'page' and request.page_type != 'cart' -%}
-        
+        {%- section 'cart-drawer' -%}
       {%- endif -%}
 
       {%- if settings.cart_type == 'popover' -%}
@@ -131,7 +135,7 @@
       {%- endif -%}
 
       {%- if request.page_type != 'search' -%}
-        
+        {%- section 'search-drawer' -%}
       {%- endif -%}
     {%- endif -%}
 
@@ -139,7 +143,7 @@
       or request.page_type == 'customers/order'
       or request.page_type == 'customers/addresses'
     -%}
-      
+      <div style="display:none"> {%- section 'account-banner' -%} </div>
     {%- endif -%}
 
     <main role="main" id="main" class="anchor">
@@ -166,6 +170,5 @@
       margin : auto !important;
       }
     </style>
-
-          </body>
+  </body>
 </html>
