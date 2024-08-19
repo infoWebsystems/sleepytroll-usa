@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -105,7 +114,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Important Information",
-            "content": "<p>Sleepytroll Bed Rocker Feet comes with 4 screws (pre-drilling required) and can only be mounted on cribs wit wooden legs.<\/p><p>Maximum weight of the crib itself should not exceed 48.5 lbs (excluding bedding, mattress, and baby) to facilitate a proper rocking motion, and to not put unneccesary strain on the Sleepytroll motor. <\/p><p>We do not recommend using the Bed Rocker Feet on the crib once your baby can stand (risk of tipping).<\/p>"
+            "content": "<p>Sleepytroll Bed Rocker Feet comes with 4 screws (pre-drilling required) and can only be mounted on cribs wit wooden legs.<\/p><p>Maximum weight of the crib itself should not exceed 48.5 lbs (excluding bedding, mattress, and baby). Cribs heavier than this will over time break the Sleepytroll's motor as the Bed Rocker Feet get too compressed by the crib's weight.<\/p><p>We do not recommend using the Bed Rocker Feet on the crib once your baby can stand (risk of tipping).<\/p>"
           }
         },
         "cc41ddfc-f891-4df0-ad5c-c52da04ded01": {
