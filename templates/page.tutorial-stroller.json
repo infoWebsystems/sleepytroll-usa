@@ -1,0 +1,136 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "video_dBRayb": {
+      "type": "video",
+      "blocks": {
+        "play_BqPp7c": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "heading_jgdgFL": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_BqPp7c",
+        "heading_jgdgFL"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "lg",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_G97BW3": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_7nFJHD": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_wbjaqR": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_V9xJPR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7nFJHD",
+        "heading_wbjaqR",
+        "richtext_V9xJPR"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "shop_the_look_FaM7Wf": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_EXHzRi": {
+          "type": "product",
+          "settings": {
+            "product": "sleepytroll-bed-adaptor",
+            "horizontal_position": 46,
+            "vertical_position": 49
+          }
+        },
+        "product_d9VkQy": {
+          "type": "product",
+          "settings": {
+            "product": "sleepytroll",
+            "horizontal_position": 54,
+            "vertical_position": 70
+          }
+        }
+      },
+      "block_order": [
+        "product_EXHzRi",
+        "product_d9VkQy"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": false,
+        "image": "shopify:\/\/shop_images\/6_e8e7ea4a-52e6-4599-9049-1d5fd2767d29.png",
+        "title": "Shop the look",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_dBRayb",
+    "rich_text_G97BW3",
+    "shop_the_look_FaM7Wf"
+  ]
+}
