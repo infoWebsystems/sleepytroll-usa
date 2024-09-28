@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -6,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sleepy-page-header.gif",
-            "mobile_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_1.gif",
+            "image": "shopify://shop_images/sleepy-page-header.gif",
+            "mobile_image": "shopify://shop_images/ezgif.com-gif-maker_1.gif",
             "content_max_width": 820,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -15,7 +24,7 @@
             "title": "The ultimate sleeping aid for every parent",
             "heading_tag": "h4",
             "button_text": "Shop Sleepytroll Baby Rocker",
-            "button_link": "shopify:\/\/products\/sleepytroll",
+            "button_link": "shopify://products/sleepytroll",
             "text_color": "#ffffff",
             "button_background": "#0f334b",
             "button_text_color": "#ffffff",
@@ -76,7 +85,7 @@
             "icon_background": "#f6e9e0",
             "icon_color": "#0f334b",
             "title": "30-day satisfaction guarantee",
-            "content": "<p>Try your Sleepytroll risk-free for 30 days*<\/p>"
+            "content": "<p>Try your Sleepytroll risk-free for 30 days*</p>"
           }
         },
         "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-2": {
@@ -89,7 +98,7 @@
             "icon_background": "#f6e9e0",
             "icon_color": "#0f334b",
             "title": "No duty or taxes",
-            "content": "<p>We cover all expenses. Everything is pre-paid.<\/p>"
+            "content": "<p>We cover all expenses. Everything is pre-paid.</p>"
           }
         },
         "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-0": {
@@ -102,7 +111,7 @@
             "icon_background": "#f6e9e0",
             "icon_color": "#0f334b",
             "title": "Free shipping",
-            "content": "<p>Free international shipping on orders above 99 USD.<\/p>"
+            "content": "<p>Free international shipping on orders above 99 USD.</p>"
           }
         }
       },
@@ -140,7 +149,7 @@
         "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sleepytroll is the first baby rocker that listens and rocks your stroller, crib or car seat using sound and motion sensors.<\/p>",
+            "text": "<p>Sleepytroll is the first baby rocker that listens and rocks your stroller, crib or car seat using sound and motion sensors.</p>",
             "text_alignment": "center"
           }
         }
@@ -241,7 +250,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Read more",
-            "url": "shopify:\/\/products\/sleepytroll",
+            "url": "shopify://products/sleepytroll",
             "background": "#d8c2ac",
             "text_color": "#000000"
           }
@@ -266,7 +275,7 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -379,7 +388,7 @@
         "02e8c5dc-e84f-4315-a990-76f93c1b2a74": {
           "type": "button",
           "settings": {
-            "link": "shopify:\/\/products\/sleepytroll",
+            "link": "shopify://products/sleepytroll",
             "text": "Explore now",
             "size": "xl",
             "style": "fill",
@@ -393,7 +402,7 @@
           "disabled": true,
           "settings": {
             "title": "Title",
-            "content": "<p>Share some content to your customers about your products.<\/p>"
+            "content": "<p>Share some content to your customers about your products.</p>"
           }
         }
       },
@@ -438,8 +447,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-2": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/1.mp4",
-            "poster": "shopify:\/\/shop_images\/1_-_Thumb_v2.png",
+            "video": "shopify://files/videos/1.mp4",
+            "poster": "shopify://shop_images/1_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -447,8 +456,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-1": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/2.mp4",
-            "poster": "shopify:\/\/shop_images\/2_-_Thumb_v2.png",
+            "video": "shopify://files/videos/2.mp4",
+            "poster": "shopify://shop_images/2_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -456,8 +465,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/3.mov",
-            "poster": "shopify:\/\/shop_images\/3_-_Thumb_v2.png",
+            "video": "shopify://files/videos/3.mov",
+            "poster": "shopify://shop_images/3_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -465,8 +474,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-4": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/4.mp4",
-            "poster": "shopify:\/\/shop_images\/4_-_Thumb_v2.png",
+            "video": "shopify://files/videos/4.mp4",
+            "poster": "shopify://shop_images/4_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -474,8 +483,8 @@
         "b467bf19-d9a2-4726-bb20-557ede569b02": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/5.mp4",
-            "poster": "shopify:\/\/shop_images\/5_-_Thumb_76bb5c02-8bb6-4efc-b8f0-0fe2a0b13875.png",
+            "video": "shopify://files/videos/5.mp4",
+            "poster": "shopify://shop_images/5_-_Thumb_76bb5c02-8bb6-4efc-b8f0-0fe2a0b13875.png",
             "text": "",
             "icon_type": "none"
           }
@@ -483,8 +492,8 @@
         "e07114c0-0b0f-4b7f-b314-3ab93b9cc597": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/6.mp4",
-            "poster": "shopify:\/\/shop_images\/6_-_Thumb_8e74fa3e-ae9e-453d-8f60-f45e50fd5ec2.png",
+            "video": "shopify://files/videos/6.mp4",
+            "poster": "shopify://shop_images/6_-_Thumb_8e74fa3e-ae9e-453d-8f60-f45e50fd5ec2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -492,8 +501,8 @@
         "d5d527d9-4ce6-4b87-a912-0020586c6427": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/7.mp4",
-            "poster": "shopify:\/\/shop_images\/7_-_Thumb_v2.png",
+            "video": "shopify://files/videos/7.mp4",
+            "poster": "shopify://shop_images/7_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -501,8 +510,8 @@
         "f9b9de2c-dd26-482c-87f0-575be9d53c74": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/8.mp4",
-            "poster": "shopify:\/\/shop_images\/8_-_Thumb_4b649c12-2407-4b18-84d2-0e305ea9b2c4.png",
+            "video": "shopify://files/videos/8.mp4",
+            "poster": "shopify://shop_images/8_-_Thumb_4b649c12-2407-4b18-84d2-0e305ea9b2c4.png",
             "text": "",
             "icon_type": "none"
           }
@@ -554,7 +563,7 @@
         "text_height": 130,
         "text_align": "center",
         "link_text": "Shop Now",
-        "link_url": "shopify:\/\/products\/sleepytroll",
+        "link_url": "shopify://products/sleepytroll",
         "link_custom": false,
         "link_font": "assistant_n4",
         "link_size": 18,
@@ -617,7 +626,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Description for section<\/p>",
+            "text": "<p>Description for section</p>",
             "text_alignment": "center"
           }
         }
@@ -760,7 +769,7 @@
             "column_size": "2",
             "title": "Column title",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -772,7 +781,7 @@
             "column_size": "2",
             "title": "Column title",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
             "link_text": "test",
             "link_style": "button"
@@ -791,7 +800,7 @@
         "text_alignment": "start",
         "subheading": "About",
         "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...<\/p>",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -804,9 +813,9 @@
           "type": "item",
           "settings": {
             "icon": "time",
-            "image": "shopify:\/\/shop_images\/Icon_5.png",
-            "heading": "<p>Versatility<\/p>",
-            "text": "<p>Sleepytroll rocks both your stroller, car seat, baby hammock and crib*, making it the only multi-purpose Baby Rocker on the market.<\/p><p>‎ <\/p><p><a href=\"https:\/\/us.sleepytroll.com\/pages\/versitality\" title=\"https:\/\/us.sleepytroll.com\/pages\/versitality\"><em><strong>Learn more<\/strong><\/em><\/a><\/p>",
+            "image": "shopify://shop_images/Icon_5.png",
+            "heading": "<p>Versatility</p>",
+            "text": "<p>Sleepytroll rocks both your stroller, car seat, baby hammock and crib*, making it the only multi-purpose Baby Rocker on the market.</p><p>‎ </p><p><a href=\"https://us.sleepytroll.com/pages/versitality\" title=\"https://us.sleepytroll.com/pages/versitality\"><em><strong>Learn more</strong></em></a></p>",
             "image_block_bg": "#b5c4e3",
             "image_svg_color": ""
           }
@@ -815,9 +824,9 @@
           "type": "item",
           "settings": {
             "icon": "people",
-            "image": "shopify:\/\/shop_images\/Icon_4.png",
-            "heading": "<h3>Sensor Mode<\/h3>",
-            "text": "<p>If you don’t want your baby to be rocked all the time, simply turn on Sensor Mode and Sleepytroll will only rock when your baby needs it.<\/p>",
+            "image": "shopify://shop_images/Icon_4.png",
+            "heading": "<h3>Sensor Mode</h3>",
+            "text": "<p>If you don’t want your baby to be rocked all the time, simply turn on Sensor Mode and Sleepytroll will only rock when your baby needs it.</p>",
             "image_block_bg": "#eee3c7",
             "image_svg_color": ""
           }
@@ -826,9 +835,9 @@
           "type": "item",
           "settings": {
             "icon": "time",
-            "image": "shopify:\/\/shop_images\/Icon_6.png",
-            "heading": "<p>Quality Battery<\/p>",
-            "text": "<p>Sleepytroll uses NiMH batteries (safe to bring on airplanes), which lasts for 8 hours on max speed and recharges in just 2 hours!<\/p>",
+            "image": "shopify://shop_images/Icon_6.png",
+            "heading": "<p>Quality Battery</p>",
+            "text": "<p>Sleepytroll uses NiMH batteries (safe to bring on airplanes), which lasts for 8 hours on max speed and recharges in just 2 hours!</p>",
             "image_block_bg": "#a8c9c4",
             "image_svg_color": ""
           }
@@ -837,9 +846,9 @@
           "type": "item",
           "settings": {
             "icon": "bi-ecology",
-            "image": "shopify:\/\/shop_images\/Icon_2.png",
-            "heading": "<p>Made for rough weather<\/p>",
-            "text": "<p>Sleepytroll is designed to handle that rough Scandinavian weather. With an IPX2 rating it handles both rain and snow, from -10 to +35 degrees.<\/p>",
+            "image": "shopify://shop_images/Icon_2.png",
+            "heading": "<p>Made for rough weather</p>",
+            "text": "<p>Sleepytroll is designed to handle that rough Scandinavian weather. With an IPX2 rating it handles both rain and snow, from -10 to +35 degrees.</p>",
             "image_block_bg": "#eee3c7",
             "image_svg_color": ""
           }
@@ -848,9 +857,9 @@
           "type": "item",
           "settings": {
             "icon": "pin",
-            "image": "shopify:\/\/shop_images\/Icon_3.png",
-            "heading": "<p>Powerful<\/p>",
-            "text": "<p>Sleepytroll is the most powerful Baby Rocker on the market, thanks to its high-quality design and 5 different intensity settings.<\/p>",
+            "image": "shopify://shop_images/Icon_3.png",
+            "heading": "<p>Powerful</p>",
+            "text": "<p>Sleepytroll is the most powerful Baby Rocker on the market, thanks to its high-quality design and 5 different intensity settings.</p>",
             "image_block_bg": "#a8c9c4",
             "image_svg_color": ""
           }
@@ -859,9 +868,9 @@
           "type": "item",
           "settings": {
             "icon": "plant",
-            "image": "shopify:\/\/shop_images\/Icon_1.png",
-            "heading": "<p>Award-winning Design<\/p>",
-            "text": "<p>With its modern and sleek design, Sleepytroll fits perfectly on your stroller’s handle without disrupting the visual design of the stroller.<\/p><p>‎ <\/p><p><a href=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\" title=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\"><em><strong>Learn more<\/strong><\/em><\/a><\/p>",
+            "image": "shopify://shop_images/Icon_1.png",
+            "heading": "<p>Award-winning Design</p>",
+            "text": "<p>With its modern and sleek design, Sleepytroll fits perfectly on your stroller’s handle without disrupting the visual design of the stroller.</p><p>‎ </p><p><a href=\"https://us.sleepytroll.com/blogs/news/awards-recognition\" title=\"https://us.sleepytroll.com/blogs/news/awards-recognition\"><em><strong>Learn more</strong></em></a></p>",
             "image_block_bg": "#b5c4e3",
             "image_svg_color": ""
           }
@@ -944,7 +953,7 @@
             "rating": 5,
             "author": "Pia",
             "title": "Like Having a Nanny!",
-            "content": "<p><a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">Absolutely magical product! I didn’t have any faith in it what so ever before it came, but wow was I wrong! It has really revolutionized our naps, and given us so much extra free time with two hands available. <\/a><\/p>"
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">Absolutely magical product! I didn’t have any faith in it what so ever before it came, but wow was I wrong! It has really revolutionized our naps, and given us so much extra free time with two hands available. </a></p>"
           }
         },
         "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1": {
@@ -955,7 +964,7 @@
             "rating": 5,
             "author": "Emma B.",
             "title": "Best Baby Product",
-            "content": "<p><a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">I find this product when I had my second child and it has been a lifesaver. On the bassinet, bouncer or pram and make my boy go to sleep everytime.<\/a><\/p><p><\/p><p><\/p><p><\/p>"
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">I find this product when I had my second child and it has been a lifesaver. On the bassinet, bouncer or pram and make my boy go to sleep everytime.</a></p><p></p><p></p><p></p>"
           }
         },
         "testimonial_HjJRNf": {
@@ -967,7 +976,7 @@
             "rating": 4,
             "author": "",
             "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
         },
         "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2": {
@@ -978,7 +987,7 @@
             "rating": 5,
             "author": "Diana",
             "title": "Must Have Device",
-            "content": "<p><a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">This is absolutely the best device for a baby, it helps a lot. Must have device for a baby.<\/a><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>"
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">This is absolutely the best device for a baby, it helps a lot. Must have device for a baby.</a></p><p></p><p></p><p></p><p></p><p></p>"
           }
         }
       },
@@ -993,8 +1002,8 @@
         "stack_testimonials": false,
         "subheading": "",
         "title": "Testimonials",
-        "content": "<p>Read more of our reviews <a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">here<\/a><\/p>",
-        "link_url": "https:\/\/sleepytroll.com\/products\/sleepytroll#shopify-section-template--19419678048538__1678866063fa9bc912",
+        "content": "<p>Read more of our reviews <a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">here</a></p>",
+        "link_url": "https://sleepytroll.com/products/sleepytroll#shopify-section-template--19419678048538__1678866063fa9bc912",
         "link_text": "",
         "background": "#f6e9e0",
         "background_gradient": "",
@@ -1028,12 +1037,12 @@
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Stroller_beige_low.png",
+            "image": "shopify://shop_images/Stroller_beige_low.png",
             "column_size": "3",
             "title": "For strollers",
             "heading_tag": "h4",
-            "content": "<p>The Sleepytroll baby rocker attaches to your stroller, providing a gentle rocking motion that helps soothe babies and extend those daytime naps. It is portable and lightweight, making it convenient to use while out and about.<\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
+            "content": "<p>The Sleepytroll baby rocker attaches to your stroller, providing a gentle rocking motion that helps soothe babies and extend those daytime naps. It is portable and lightweight, making it convenient to use while out and about.</p>",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
             "link_text": "Learn more",
             "link_style": "link"
           }
@@ -1041,12 +1050,12 @@
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AdapterCribFullBed_ce489a2f-c1be-4368-8759-3b2f14da5ac4.png",
+            "image": "shopify://shop_images/AdapterCribFullBed_ce489a2f-c1be-4368-8759-3b2f14da5ac4.png",
             "column_size": "3",
             "title": "For cribs",
             "heading_tag": "h4",
-            "content": "<p>By using extra adaptors, the Sleepytroll Baby Rocker easily attaches to the crib, providing a gentle rocking motion to help soothe and calm your baby to sleep. With the help of Sensor mode Sleepytroll can bridge those sleep cycles at night.<\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
+            "content": "<p>By using extra adaptors, the Sleepytroll Baby Rocker easily attaches to the crib, providing a gentle rocking motion to help soothe and calm your baby to sleep. With the help of Sensor mode Sleepytroll can bridge those sleep cycles at night.</p>",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
             "link_text": "Learn more",
             "link_style": "link"
           }
@@ -1054,12 +1063,12 @@
         "faaef78f-5245-4d1f-9293-647681151b1a": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Homepage_-_Veritality_overview.png",
+            "image": "shopify://shop_images/Homepage_-_Veritality_overview.png",
             "column_size": "3",
             "title": "For baby bouncer",
             "heading_tag": "h4",
-            "content": "<p>Let Sleepytroll lend a foot! Sleepytroll Bouncer Adapter easily attaches to your bouncer seat and rocks your little one to sleep – or simply keeps your baby settled when you are showering, making dinner, or playing with the siblings.<\/p><p><\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
+            "content": "<p>Let Sleepytroll lend a foot! Sleepytroll Bouncer Adapter easily attaches to your bouncer seat and rocks your little one to sleep – or simply keeps your baby settled when you are showering, making dinner, or playing with the siblings.</p><p></p>",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
             "link_text": "Learn more",
             "link_style": "link"
           }
@@ -1067,25 +1076,12 @@
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CarSeat.png",
+            "image": "shopify://shop_images/CarSeat.png",
             "column_size": "3",
             "title": "For car seats",
             "heading_tag": "h4",
-            "content": "<p>Sleepytroll can also be used for your baby’s Car Seat by attaching it securely to the top of your car seat’s handle using Sleepytroll’s integrated strap.<\/p><p><\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
-            "link_text": "Learn more",
-            "link_style": "link"
-          }
-        },
-        "6179df61-fc32-400e-ba20-7155b3e4d25a": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8381x_1.jpg",
-            "column_size": "3",
-            "title": "For baby hammocks",
-            "heading_tag": "h4",
-            "content": "<p>Sleepytroll can help soothe your baby to sleep in a Baby Hammock. Simply attach the Sleepytroll to the crossbar of the hammock and let your bundle of joy drift off to sleep.<\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
+            "content": "<p>Sleepytroll can also be used for your baby’s Car Seat by attaching it securely to the top of your car seat’s handle using Sleepytroll’s integrated strap.</p><p></p>",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
             "link_text": "Learn more",
             "link_style": "link"
           }
@@ -1095,8 +1091,7 @@
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-0",
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-1",
         "faaef78f-5245-4d1f-9293-647681151b1a",
-        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2",
-        "6179df61-fc32-400e-ba20-7155b3e4d25a"
+        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2"
       ],
       "settings": {
         "full_width": true,
@@ -1105,7 +1100,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "The ultimate sleeping aid for every parent",
-        "content": "<p>Sleepytroll is designed to be used where you and your little one need it<\/p>",
+        "content": "<p>Sleepytroll is designed to be used where you and your little one need it</p>",
         "background": "",
         "background_gradient": "",
         "text_color": "#0f334b"
@@ -1147,7 +1142,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": false,
-        "image": "shopify:\/\/shop_images\/AdapterCribFullBed_ce489a2f-c1be-4368-8759-3b2f14da5ac4.png",
+        "image": "shopify://shop_images/AdapterCribFullBed_ce489a2f-c1be-4368-8759-3b2f14da5ac4.png",
         "title": "Versatile sleeping innovation",
         "content": "",
         "background": "",
@@ -1168,7 +1163,7 @@
         "882a278a-be69-4f12-8b7e-c68e80458695": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Junior_Design_Award.png",
+            "logo": "shopify://shop_images/Junior_Design_Award.png",
             "logo_width": 170,
             "link": ""
           }
@@ -1176,7 +1171,7 @@
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/1_3dc0040e-727b-4134-9b25-ba13208b9afb.png",
+            "logo": "shopify://shop_images/1_3dc0040e-727b-4134-9b25-ba13208b9afb.png",
             "logo_width": 300,
             "link": ""
           }
@@ -1184,7 +1179,7 @@
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/2_c3bd669f-3a55-4ac8-8994-192146a236a7.png",
+            "logo": "shopify://shop_images/2_c3bd669f-3a55-4ac8-8994-192146a236a7.png",
             "logo_width": 300,
             "link": ""
           }
@@ -1192,7 +1187,7 @@
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/6_ad726ec7-f2e6-46c2-b34a-ca9c974c8965.png",
+            "logo": "shopify://shop_images/6_ad726ec7-f2e6-46c2-b34a-ca9c974c8965.png",
             "logo_width": 300,
             "link": ""
           }
@@ -1200,7 +1195,7 @@
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/5_e732365f-1be2-4ba8-ac2f-334d6341e2d6.png",
+            "logo": "shopify://shop_images/5_e732365f-1be2-4ba8-ac2f-334d6341e2d6.png",
             "logo_width": 300,
             "link": ""
           }
@@ -1208,7 +1203,7 @@
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Gold_Badge_2023_Best_Sleep_Aid.png",
+            "logo": "shopify://shop_images/Gold_Badge_2023_Best_Sleep_Aid.png",
             "logo_width": 300,
             "link": ""
           }
@@ -1235,7 +1230,7 @@
         "full_width": true,
         "stack_mobile": false,
         "title": "Our awards and press coverage",
-        "content": "<p>Not to brag..<\/p><p>(Ok, maybe a little bit)<\/p><p>Read more about our awards <a href=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\" title=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\"><em><strong>here<\/strong><\/em><\/a><\/p>",
+        "content": "<p>Not to brag..</p><p>(Ok, maybe a little bit)</p><p>Read more about our awards <a href=\"https://us.sleepytroll.com/blogs/news/awards-recognition\" title=\"https://us.sleepytroll.com/blogs/news/awards-recognition\"><em><strong>here</strong></em></a></p>",
         "text_alignment": "start",
         "items_per_row": 7,
         "background": "#0f334b",
@@ -1253,7 +1248,7 @@
         "475ff960-fb01-4ef8-aee2-571bc8780fd1": {
           "type": "video",
           "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -1261,7 +1256,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -1283,7 +1278,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -1338,7 +1333,7 @@
         "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Description for section<\/p>",
+            "text": "<p>Description for section</p>",
             "text_alignment": "center"
           }
         }
@@ -1377,7 +1372,7 @@
             "slide_heading": "How sleepytroll benefits parents",
             "heading_tag": "h3",
             "divider_color": "#63c850",
-            "slide_text": "<p>Personalized customer experience refers to developing products, services, and interactions that meet your customer's unique requirements.<\/p>"
+            "slide_text": "<p>Personalized customer experience refers to developing products, services, and interactions that meet your customer's unique requirements.</p>"
           }
         },
         "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-1": {
@@ -1387,7 +1382,7 @@
             "slide_heading": "Build Trust",
             "heading_tag": "h3",
             "divider_color": "#63c850",
-            "slide_text": "<p>If your site is not seen as trustworthy, people might hesitate to purchase your products or pay for your service. This is especially true if they intend to spend a lot of money.<\/p>"
+            "slide_text": "<p>If your site is not seen as trustworthy, people might hesitate to purchase your products or pay for your service. This is especially true if they intend to spend a lot of money.</p>"
           }
         },
         "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-2": {
@@ -1397,7 +1392,7 @@
             "slide_heading": "Differentiation",
             "heading_tag": "h3",
             "divider_color": "#63c850",
-            "slide_text": "<p>In our experience, a custom website with a storytelling perspective and compelling visuals makes an impact on both the market and the consumer that won't soon be forgotten.<\/p>"
+            "slide_text": "<p>In our experience, a custom website with a storytelling perspective and compelling visuals makes an impact on both the market and the consumer that won't soon be forgotten.</p>"
           }
         }
       },
@@ -1429,7 +1424,7 @@
             "image_rotation_degrees": -2.5,
             "subheading": "How sleepytroll benefits parents",
             "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "button_url": "",
             "button_text": ""
           }
@@ -1440,7 +1435,7 @@
             "image_rotation_degrees": -4,
             "subheading": "Perfect for strollers",
             "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "button_url": "",
             "button_text": ""
           }
@@ -1451,7 +1446,7 @@
             "image_rotation_degrees": 0,
             "subheading": "Use it on carseats",
             "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "button_url": "",
             "button_text": ""
           }
@@ -1499,7 +1494,7 @@
         "subheading": "",
         "title": "Stories and tips",
         "content": "",
-        "link_url": "shopify:\/\/blogs\/articles",
+        "link_url": "shopify://blogs/articles",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -1515,21 +1510,21 @@
           "type": "item",
           "settings": {
             "title": "Where do you ship from?",
-            "content": "<p>We ship with express delivery from our warehouse in Sweden<\/p>"
+            "content": "<p>We ship with express delivery from our warehouse in Sweden</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
             "title": "How long will it take to get my order?",
-            "content": "<p>It depends on where you are. Orders usually only take 1 day to process before shipment.<\/p><p>Most orders arrive right to your door within 2-5 days.<\/p>"
+            "content": "<p>It depends on where you are. Orders usually only take 1 day to process before shipment.</p><p>Most orders arrive right to your door within 2-5 days.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
             "title": "Any questions?",
-            "content": "<p>You can contact us through our support! We usually answer all queries within 24 hours.<\/p><p>You can find our support e-mail at our <a href=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\" title=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\">FAQ<\/a> page.<\/p>"
+            "content": "<p>You can contact us through our support! We usually answer all queries within 24 hours.</p><p>You can find our support e-mail at our <a href=\"https://us.sleepytroll.com/pages/frequently-asked-question\" title=\"https://us.sleepytroll.com/pages/frequently-asked-question\">FAQ</a> page.</p>"
           }
         }
       },
@@ -1542,7 +1537,7 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Here we have gathered some questions you might have. You can also find more information like this on our <a href=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\" title=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\">\"FAQ\"<\/a> page<\/p>",
+        "content": "<p>Here we have gathered some questions you might have. You can also find more information like this on our <a href=\"https://us.sleepytroll.com/pages/frequently-asked-question\" title=\"https://us.sleepytroll.com/pages/frequently-asked-question\">\"FAQ\"</a> page</p>",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "Average answer time: 24h",
@@ -1566,7 +1561,7 @@
         "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sleepytroll-hero-2.jpg",
+            "image": "shopify://shop_images/sleepytroll-hero-2.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -1587,7 +1582,7 @@
         "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sleepytroll-hero-6.jpg",
+            "image": "shopify://shop_images/sleepytroll-hero-6.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
