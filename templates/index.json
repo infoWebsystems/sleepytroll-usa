@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -20,8 +20,8 @@
             "content_max_width": 820,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Introducing the world's first smart baby rocker",
-            "title": "The ultimate sleeping aid for every parent",
+            "subheading": "Rest easy this Black Friday:",
+            "title": "Exclusive Black Week Offer - Save 20% on the Sleepytroll Baby Rocker",
             "heading_tag": "h4",
             "button_text": "Shop Sleepytroll Baby Rocker",
             "button_link": "shopify://products/sleepytroll",
@@ -120,9 +120,7 @@
         "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-2",
         "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-0"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "title": "",
@@ -301,8 +299,7 @@
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-0": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-1": {
           "type": "title",
@@ -312,8 +309,7 @@
         },
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-2": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-3": {
           "type": "price",
@@ -329,8 +325,7 @@
         },
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-5": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "1802b4ad-a78e-4927-a08d-fc9d0415bf1b": {
           "type": "image",
@@ -367,8 +362,7 @@
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-8": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-9": {
           "type": "buy_buttons",
@@ -382,8 +376,7 @@
         },
         "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-10": {
           "type": "pickup_availability",
-          "settings": {
-          }
+          "settings": {}
         },
         "02e8c5dc-e84f-4315-a990-76f93c1b2a74": {
           "type": "button",
@@ -660,8 +653,7 @@
       "blocks": {
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-0": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-1": {
           "type": "title",
@@ -671,8 +663,7 @@
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-2": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-3": {
           "type": "price",
@@ -688,8 +679,7 @@
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-5": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-6": {
           "type": "description",
@@ -709,8 +699,7 @@
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-8": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-9": {
           "type": "buy_buttons",
@@ -724,8 +713,7 @@
         },
         "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-10": {
           "type": "pickup_availability",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
