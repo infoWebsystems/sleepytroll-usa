@@ -65,7 +65,7 @@
             "content": "<h4>Exclusive Black Week Offer</h4><p>Offer lasts until 11.29.2024<br/>Save 20% on the Sleepytroll Baby Rocker</p>",
             "background": "#c8bdba",
             "text_color": "#0f334b",
-            "custom_trigger": ""
+            "custom_trigger": "//window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
           }
         },
         "quantity_selector": {
