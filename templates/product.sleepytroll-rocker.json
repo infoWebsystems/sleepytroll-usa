@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,8 +15,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -18,13 +26,12 @@
         "5d7d50de-c2fc-4701-ae58-8a90dfdf4fa8": {
           "type": "text",
           "settings": {
-            "text": "<p>Scandinavian Design | Global Patent<\/p>"
+            "text": "<p>Scandinavian Design | Global Patent</p>"
           }
         },
         "5c431aa5-e66f-4baa-9c94-20904a793da0": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "53a45dc9-7a20-42a7-9378-015279941a3d": {
           "type": "image",
@@ -49,47 +56,43 @@
         },
         "offer_RKaVV7": {
           "type": "offer",
-          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-love",
             "icon_width": 24,
-            "title": "Father's Day Sale",
-            "content": "<h4><strong>20% off Sleepytroll Baby Rocker<\/strong><\/h4><p>Offer lasts until 06.16.2024<br\/>Make sure to <strong>SIGN UP HERE<\/strong> to get the discount code.<\/p>",
+            "title": "Rest easy this Black Friday:",
+            "content": "<h4>Exclusive Black Week Offer</h4><p>Offer lasts until 11.29.2024<br/>Save 20% on the Sleepytroll Baby Rocker</p>",
             "background": "#c8bdba",
             "text_color": "#0f334b",
-            "custom_trigger": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
+            "custom_trigger": ""
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "292e72ff-600b-44c7-8c22-bb745890b709": {
           "type": "collapsible_text",
           "disabled": true,
           "settings": {
             "title": "Title",
-            "content": "<p>Share some content to your customers about your products.<\/p>"
+            "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "one_click_upsell_zipify_ocu_on_page_qk8jJf": {
-          "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/on-page\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {
-          }
+          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+          "settings": {}
         },
         "collapsible_text_g3Kzhn": {
           "type": "collapsible_text",
           "settings": {
             "title": "IMPORTANT: Requirements for Crib Bundle",
-            "content": "<ul><li>Please note that the <strong>Bed Rocker Feet <\/strong>needs to be screwed in to the wooden legs of the crib, and that the crib <strong>cannot weigh more than 48,5 lbs<\/strong> (excluding bedding, mattess and baby). Cribs heavier than this will not give enough movement and will put excess strain on the Sleepytroll's motor.<\/li><li>The <strong>Bed Adaptor<\/strong> needs to be mounted on the side of the crib (preferably in the middle of the long side) onto flat edges to get the correct grip. Please also make sure Sleepytroll is <strong>mounted tight and vertical<\/strong>, with the sensors (at the back of the Sleepytroll) towards the baby.<\/li><\/ul>"
+            "content": "<ul><li>Please note that the <strong>Bed Rocker Feet </strong>needs to be screwed in to the wooden legs of the crib, and that the crib <strong>cannot weigh more than 48,5 lbs</strong> (excluding bedding, mattess and baby). Cribs heavier than this will not give enough movement and will put excess strain on the Sleepytroll's motor.</li><li>The <strong>Bed Adaptor</strong> needs to be mounted on the side of the crib (preferably in the middle of the long side) onto flat edges to get the correct grip. Please also make sure Sleepytroll is <strong>mounted tight and vertical</strong>, with the sensors (at the back of the Sleepytroll) towards the baby.</li></ul>"
           }
         },
         "buy_buttons": {
@@ -104,19 +107,17 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_adppVM": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>✓<\/strong>  Purchases from Sleepytroll comes with a <strong>1-year warranty<\/strong><\/p>"
+            "text": "<p><strong>✓</strong>  Purchases from Sleepytroll comes with a <strong>1-year warranty</strong></p>"
           }
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
@@ -128,21 +129,21 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Important Information",
-            "content": "<p>Sleepytroll needs to be mounted vertically. Mounting at an angle will reduce the lifespan of the motor and will void the guarantee.<\/p><p>Remember to tighten the ladder strap tight using the big lever. Only the stroller should rock, not the Sleepytroll itself.<\/p>"
+            "content": "<p>Sleepytroll needs to be mounted vertically. Mounting at an angle will reduce the lifespan of the motor and will void the guarantee.</p><p>Remember to tighten the ladder strap tight using the big lever. Only the stroller should rock, not the Sleepytroll itself.</p>"
           }
         },
         "cc41ddfc-f891-4df0-ad5c-c52da04ded01": {
           "type": "collapsible_text",
           "settings": {
             "title": "No duties or import fees",
-            "content": "<p>All tolls, duties, and import fees are covered by us and pre-paid.<\/p>"
+            "content": "<p>All tolls, duties, and import fees are covered by us and pre-paid.</p>"
           }
         },
         "56ebd306-40e6-4509-b955-bb834dd51abf": {
           "type": "collapsible_text",
           "settings": {
             "title": "Shipping",
-            "content": "<p>We ship your order from our warehouse in Sweden.<\/p><p>Orders are usually delivered within 3-5 working days.<\/p>"
+            "content": "<p>We ship your order from our warehouse in Sweden.</p><p>Orders are usually delivered within 3-5 working days.</p>"
           }
         },
         "variant_picker": {
@@ -159,19 +160,19 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share some content to your customers about your products.<\/p>"
+            "text": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "f3f014df-134a-4db6-921f-24a9e8aa2677": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Some of our awards<\/strong><\/p>"
+            "text": "<p><strong>Some of our awards</strong></p>"
           }
         },
         "e9a87df6-4c26-4ef4-a63a-6279dc87d7dd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Din_avsnittstekst_1.png",
+            "image": "shopify://shop_images/Din_avsnittstekst_1.png",
             "alignment": "center",
             "max_width": 450
           }
@@ -179,13 +180,13 @@
         "84f39230-fe9b-4c9e-9d61-87bfb72e95e0": {
           "type": "text",
           "settings": {
-            "text": "<p>Read more about our awards <a href=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\" title=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\">here<\/a><\/p>"
+            "text": "<p>Read more about our awards <a href=\"https://us.sleepytroll.com/blogs/news/awards-recognition\" title=\"https://us.sleepytroll.com/blogs/news/awards-recognition\">here</a></p>"
           }
         },
         "853233f7-5e06-4d37-9754-49dbed8f0163": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"klaviyo-form-Xu897R\"><\/div>"
+            "liquid": "<div class=\"klaviyo-form-Xu897R\"></div>"
           }
         },
         "9949e939-606e-4c26-9c27-3c242d894d09": {
@@ -268,7 +269,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div class=\"ufe-custom-upsell\"><\/div>",
+        "html": "<div class=\"ufe-custom-upsell\"></div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -311,9 +312,9 @@
       "settings": {
         "full_width": true,
         "stack_mobile": false,
-        "image": "shopify:\/\/shop_images\/AdapterCribFullBed.png",
+        "image": "shopify://shop_images/AdapterCribFullBed.png",
         "title": "Want to use it for cribs?",
-        "content": "<p>Make sure to check out our attachments that allows you to use the Sleepytroll on your crib. <\/p><p><\/p><p>See how versatile the Sleepytroll Baby Rocker is <a href=\"\/pages\/sleepytroll-versitality\" title=\"Sleepytroll Versatility\">here<\/a><\/p>",
+        "content": "<p>Make sure to check out our attachments that allows you to use the Sleepytroll on your crib. </p><p></p><p>See how versatile the Sleepytroll Baby Rocker is <a href=\"/pages/sleepytroll-versitality\" title=\"Sleepytroll Versatility\">here</a></p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -345,7 +346,7 @@
         "template--17692579365146__aa31f75d-0e09-4f87-a79e-f96755454bed-1674727041db296fa7-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -373,7 +374,7 @@
         "template--17692579365146__616b0310-913b-46d1-beb4-8d054618c1e6-1675078258d5642ab7-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Inside_the_box.png",
+            "image": "shopify://shop_images/Inside_the_box.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start-center text-center",
@@ -381,7 +382,7 @@
             "icon_width": 76,
             "subheading": "",
             "title": "What's included",
-            "content": "<p>With the purchase of a Sleepytroll baby rocker you will get <\/p><p>1 x Sleepytroll smart Baby Rocker<\/p><p>1 x International charger<\/p><p>1 x User guide<\/p>",
+            "content": "<p>With the purchase of a Sleepytroll baby rocker you will get </p><p>1 x Sleepytroll smart Baby Rocker</p><p>1 x International charger</p><p>1 x User guide</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f6e9e0",
@@ -408,7 +409,7 @@
         "template--17692579365146__66719182-13f6-46cc-9b80-a356fd197bc9-1678049964e7ac40a2-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/StrollerSiblings.jpg",
+            "image": "shopify://shop_images/StrollerSiblings.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
@@ -416,7 +417,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "We take safety seriously",
-            "content": "<p>Sleepytroll is safety tested by TÜV, one of the world’s leading testing service providers.<\/p><p><\/p><p>Complies with CE and FCC regulations regarding exposure to electromagnetic fields and is ROHS (Reduction of Hazardous Substances) compliant. Sleepytroll uses safe NiMH batteries (not lithium). Sleepytroll can safely be taken on a plane.<\/p>",
+            "content": "<p>Sleepytroll is safety tested by TÜV, one of the world’s leading testing service providers.</p><p></p><p>Complies with CE and FCC regulations regarding exposure to electromagnetic fields and is ROHS (Reduction of Hazardous Substances) compliant. Sleepytroll uses safe NiMH batteries (not lithium). Sleepytroll can safely be taken on a plane.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f6e9e0",
@@ -443,7 +444,7 @@
         "template--18239970672922__b5e83b1e-683e-4d01-ab95-97c8b7f6a88a-1678878908218493ff-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/video.gif",
+            "image": "shopify://shop_images/video.gif",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -451,7 +452,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Easy to use",
-            "content": "<p>Transform your stroller into a rocking oasis for your little one with Sleepytroll baby rocker. Thanks to the integrated strap, you can easily mount it onto any stroller, providing your baby with a comfortable and soothing rocking motion.<\/p>",
+            "content": "<p>Transform your stroller into a rocking oasis for your little one with Sleepytroll baby rocker. Thanks to the integrated strap, you can easily mount it onto any stroller, providing your baby with a comfortable and soothing rocking motion.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f6e9e0",
@@ -466,7 +467,7 @@
           "type": "video",
           "disabled": true,
           "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -474,7 +475,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -517,7 +518,7 @@
         "template--17692579365146__68e5537d-aa60-4b92-b533-1920abac7a49-1674644125ba2565aa-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Join the movement of 70.000+ customers who have experienced the magic of Sleepytroll<\/p>"
+            "content": "<p>Join the movement of 70.000+ customers who have experienced the magic of Sleepytroll</p>"
           }
         }
       },
@@ -541,8 +542,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-2": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/1.mp4",
-            "poster": "shopify:\/\/shop_images\/1_-_Thumb_v2.png",
+            "video": "shopify://files/videos/1.mp4",
+            "poster": "shopify://shop_images/1_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -550,8 +551,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-1": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/2.mp4",
-            "poster": "shopify:\/\/shop_images\/2_-_Thumb_v2.png",
+            "video": "shopify://files/videos/2.mp4",
+            "poster": "shopify://shop_images/2_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -559,8 +560,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/3.mov",
-            "poster": "shopify:\/\/shop_images\/3_-_Thumb_v2.png",
+            "video": "shopify://files/videos/3.mov",
+            "poster": "shopify://shop_images/3_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -568,8 +569,8 @@
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-4": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/4.mp4",
-            "poster": "shopify:\/\/shop_images\/4_-_Thumb_v2.png",
+            "video": "shopify://files/videos/4.mp4",
+            "poster": "shopify://shop_images/4_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -577,8 +578,8 @@
         "b467bf19-d9a2-4726-bb20-557ede569b02": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/5.mp4",
-            "poster": "shopify:\/\/shop_images\/5_-_Thumb_76bb5c02-8bb6-4efc-b8f0-0fe2a0b13875.png",
+            "video": "shopify://files/videos/5.mp4",
+            "poster": "shopify://shop_images/5_-_Thumb_76bb5c02-8bb6-4efc-b8f0-0fe2a0b13875.png",
             "text": "",
             "icon_type": "none"
           }
@@ -586,8 +587,8 @@
         "e07114c0-0b0f-4b7f-b314-3ab93b9cc597": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/6.mp4",
-            "poster": "shopify:\/\/shop_images\/6_-_Thumb_8e74fa3e-ae9e-453d-8f60-f45e50fd5ec2.png",
+            "video": "shopify://files/videos/6.mp4",
+            "poster": "shopify://shop_images/6_-_Thumb_8e74fa3e-ae9e-453d-8f60-f45e50fd5ec2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -595,8 +596,8 @@
         "d5d527d9-4ce6-4b87-a912-0020586c6427": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/7.mp4",
-            "poster": "shopify:\/\/shop_images\/7_-_Thumb_v2.png",
+            "video": "shopify://files/videos/7.mp4",
+            "poster": "shopify://shop_images/7_-_Thumb_v2.png",
             "text": "",
             "icon_type": "none"
           }
@@ -604,8 +605,8 @@
         "f9b9de2c-dd26-482c-87f0-575be9d53c74": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/8.mp4",
-            "poster": "shopify:\/\/shop_images\/8_-_Thumb_4b649c12-2407-4b18-84d2-0e305ea9b2c4.png",
+            "video": "shopify://files/videos/8.mp4",
+            "poster": "shopify://shop_images/8_-_Thumb_4b649c12-2407-4b18-84d2-0e305ea9b2c4.png",
             "text": "",
             "icon_type": "none"
           }
@@ -657,7 +658,7 @@
         "text_height": 130,
         "text_align": "center",
         "link_text": "",
-        "link_url": "shopify:\/\/products\/sleepytroll",
+        "link_url": "shopify://products/sleepytroll",
         "link_custom": false,
         "link_font": "assistant_n4",
         "link_size": 18,
@@ -729,7 +730,7 @@
             "icon_background": "#0f334b",
             "icon_color": "#ffffff",
             "title": "Free shipping",
-            "content": "<p>Free international shipping on orders over 99$.<\/p>"
+            "content": "<p>Free international shipping on orders over 99$.</p>"
           }
         },
         "template--17692579365146__855944f8-b3ba-47c7-967a-bee00263406b-1674640457bb511903-1": {
@@ -742,7 +743,7 @@
             "icon_background": "#0f334b",
             "icon_color": "#ffffff",
             "title": "30 day return",
-            "content": "<p><\/p><p>Try the product at no risk! <\/p>"
+            "content": "<p></p><p>Try the product at no risk! </p>"
           }
         },
         "template--17692579365146__855944f8-b3ba-47c7-967a-bee00263406b-1674640457bb511903-2": {
@@ -755,7 +756,7 @@
             "icon_background": "#0f334b",
             "icon_color": "#ffffff",
             "title": "No duties or fees",
-            "content": "<p>We cover all your expenses in regards to tolls, fees and shipping.<\/p>"
+            "content": "<p>We cover all your expenses in regards to tolls, fees and shipping.</p>"
           }
         }
       },
@@ -780,9 +781,7 @@
       "disabled": true,
       "settings": {
         "recommendations_count": 6,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -805,8 +804,7 @@
       "blocks": {
         "template--17692579365146__ea4e1428-410a-44fd-a5cc-ebf9dcd65d1c-16750780265cfe1486-0": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17692579365146__ea4e1428-410a-44fd-a5cc-ebf9dcd65d1c-16750780265cfe1486-1": {
           "type": "heading",
@@ -826,7 +824,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -838,7 +836,7 @@
         "88fd903b-94dd-4d64-bc55-1dad4e358cca": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Our Story Final.mp4",
+            "video": "shopify://files/videos/Our Story Final.mp4",
             "external_video_url": "",
             "media_width": 50,
             "media_position": "start",
@@ -847,9 +845,9 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Our story",
-            "content": "<p>Let our founder Ståle tell you about how he invented Sleepytroll to help him in his day-to-day life as a father of three.<\/p>",
+            "content": "<p>Let our founder Ståle tell you about how he invented Sleepytroll to help him in his day-to-day life as a father of three.</p>",
             "link_text": "Read more",
-            "link_url": "shopify:\/\/pages\/our-story",
+            "link_url": "shopify://pages/our-story",
             "background": "#b5c4e4",
             "background_gradient": "",
             "text_color": "#0f334b",
@@ -869,7 +867,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -903,7 +901,7 @@
             "vertical_position_mobile": 70,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         },
         "template--17692579365146__341dc260-472d-472e-aacf-89dfee112fed-167464009165c4cfb6-1": {
@@ -915,7 +913,7 @@
             "vertical_position_mobile": 14,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         },
         "template--17692579365146__341dc260-472d-472e-aacf-89dfee112fed-167464009165c4cfb6-2": {
@@ -927,7 +925,7 @@
             "vertical_position_mobile": 75,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         }
       },
@@ -965,11 +963,11 @@
         "template--17692579365146__632b0178-ecb8-42ce-bb58-bb900b0d8609-16746418677c82b218-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flataker_928x544_d2415e0a-bfe5-49ae-ac0a-f1d258666876.png",
+            "image": "shopify://shop_images/flataker_928x544_d2415e0a-bfe5-49ae-ac0a-f1d258666876.png",
             "navigation_label": "",
             "subheading": "The story of a busy parent",
             "title": "Developed in Norway",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "template--17692579365146__632b0178-ecb8-42ce-bb58-bb900b0d8609-16746418677c82b218-1": {
@@ -978,7 +976,7 @@
             "navigation_label": "1960",
             "subheading": "Subheading",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "template--17692579365146__632b0178-ecb8-42ce-bb58-bb900b0d8609-16746418677c82b218-2": {
@@ -987,7 +985,7 @@
             "navigation_label": "1966",
             "subheading": "Subheading",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -1074,12 +1072,12 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>Dimensions<\/p>",
-            "value_2": "<p>Weight<\/p>",
-            "value_3": "<p>Batteries<\/p>",
-            "value_4": "<p>IP rating<\/p>",
-            "value_5": "<p>Plug types included<\/p>",
-            "value_6": "<p>Sensors<\/p>",
+            "value_1": "<p>Dimensions</p>",
+            "value_2": "<p>Weight</p>",
+            "value_3": "<p>Batteries</p>",
+            "value_4": "<p>IP rating</p>",
+            "value_5": "<p>Plug types included</p>",
+            "value_6": "<p>Sensors</p>",
             "value_7": "",
             "value_8": "",
             "value_9": "",
@@ -1102,12 +1100,12 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>2,91 x 3,54 x 6,57 Inches<\/p>",
-            "value_2": "<p>1.43 lbs<\/p>",
-            "value_3": "<p>Rehargable NiMh (Can be brought on airplanes)<\/p>",
-            "value_4": "<p>IPX2 - Light rain \/ Showers<\/p>",
-            "value_5": "<p>International: US, UK, AUS, EU<\/p>",
-            "value_6": "<p>Microphone, movement<\/p>",
+            "value_1": "<p>2,91 x 3,54 x 6,57 Inches</p>",
+            "value_2": "<p>1.43 lbs</p>",
+            "value_3": "<p>Rehargable NiMh (Can be brought on airplanes)</p>",
+            "value_4": "<p>IPX2 - Light rain / Showers</p>",
+            "value_5": "<p>International: US, UK, AUS, EU</p>",
+            "value_6": "<p>Microphone, movement</p>",
             "value_7": "",
             "value_8": "",
             "value_9": "",
@@ -1206,10 +1204,10 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>Yes<\/p>",
-            "value_2": "<p>Yes. Estimated 6 hours of use<\/p>",
-            "value_3": "<p>No<\/p>",
-            "value_4": "<p>No<\/p>",
+            "value_1": "<p>Yes</p>",
+            "value_2": "<p>Yes. Estimated 6 hours of use</p>",
+            "value_3": "<p>No</p>",
+            "value_4": "<p>No</p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -1264,10 +1262,10 @@
           "disabled": true,
           "settings": {
             "product": "",
-            "value_1": "<p>No<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>Yes<\/p>",
-            "value_4": "<p>No<\/p>",
+            "value_1": "<p>No</p>",
+            "value_2": "<p>Yes</p>",
+            "value_3": "<p>Yes</p>",
+            "value_4": "<p>No</p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -1300,7 +1298,7 @@
         "full_width": true,
         "subheading": "Compare",
         "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.<\/p>",
+        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -1329,7 +1327,7 @@
         "full_width": true,
         "show_icon": false,
         "title": "Newsletter",
-        "content": "<p>Join our newsletter to be the first to know about Sleepytroll<br\/>innovations, great stories – and maybe some great offers as well?<\/p>",
+        "content": "<p>Join our newsletter to be the first to know about Sleepytroll<br/>innovations, great stories – and maybe some great offers as well?</p>",
         "button_text": "Subscribe",
         "subtext": "",
         "background": "#e7d6be",
@@ -1344,9 +1342,7 @@
       "disabled": true,
       "settings": {
         "recommendations_count": 6,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -1368,9 +1364,8 @@
       "type": "apps",
       "blocks": {
         "92c50b33-37e3-42d8-bddc-c57a2cf2c6af": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
