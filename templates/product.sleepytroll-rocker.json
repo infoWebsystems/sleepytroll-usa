@@ -62,7 +62,7 @@
             "icon": "picto-love",
             "icon_width": 24,
             "title": "Rest easy this Cyber Monday:",
-            "content": "<h4>Exclusive Cyber Monday Offer</h4><p>Offer lasts until 11:59PM today.<br/>Save 20% on the Sleepytroll Baby Rocker</p>",
+            "content": "<h4>Exclusive Cyber Monday Offer</h4><p>Offer lasts until 11:59PM tonight.<br/>Save 20% on the Sleepytroll Baby Rocker</p>",
             "background": "#c8bdba",
             "text_color": "#0f334b",
             "custom_trigger": "//window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'SWAijY']);"
