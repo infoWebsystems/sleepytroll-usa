@@ -825,7 +825,7 @@
             "icon": "time",
             "image": "shopify://shop_images/Icon_6.png",
             "heading": "<p>Quality Battery</p>",
-            "text": "<p>Sleepytroll uses NiMH batteries (safe to bring on airplanes), which lasts for 8 hours on max speed and recharges in just 2 hours!</p>",
+            "text": "<p>Sleepytroll uses NiMH batteries (safe to bring on airplanes), which lasts up to 8 hours and recharges in just 2 hours!</p>",
             "image_block_bg": "#a8c9c4",
             "image_svg_color": ""
           }
