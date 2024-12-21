@@ -1148,6 +1148,14 @@
     "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0": {
       "type": "logo-list",
       "blocks": {
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/TIM241111_Cover-BestInventions_FINAL_3.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
         "882a278a-be69-4f12-8b7e-c68e80458695": {
           "type": "logo",
           "settings": {
@@ -1180,14 +1188,6 @@
             "link": ""
           }
         },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/5_e732365f-1be2-4ba8-ac2f-334d6341e2d6.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4": {
           "type": "logo",
           "settings": {
@@ -1206,11 +1206,11 @@
         }
       },
       "block_order": [
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3",
         "882a278a-be69-4f12-8b7e-c68e80458695",
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0",
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1",
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3",
         "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4",
         "eb93505a-6ce8-4c03-a301-628dd8419e2a"
       ],
