@@ -1025,7 +1025,7 @@
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Stroller_beige_low.png",
+            "image": "shopify://shop_images/Supporting_Stroller1_4-3_WEB.jpg",
             "column_size": "3",
             "title": "For strollers",
             "heading_tag": "h4",
@@ -1038,7 +1038,7 @@
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AdapterCribFullBed_ce489a2f-c1be-4368-8759-3b2f14da5ac4.png",
+            "image": "shopify://shop_images/Supporting_Crib2_4-3_WEB.jpg",
             "column_size": "3",
             "title": "For cribs",
             "heading_tag": "h4",
@@ -1051,9 +1051,9 @@
         "faaef78f-5245-4d1f-9293-647681151b1a": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Homepage_-_Veritality_overview.png",
+            "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Bouncer_4-3.jpg",
             "column_size": "3",
-            "title": "For baby bouncer",
+            "title": "For baby bouncers",
             "heading_tag": "h4",
             "content": "<p>Let Sleepytroll lend a foot! Sleepytroll Bouncer Adapter easily attaches to your bouncer seat and rocks your little one to sleep – or simply keeps your baby settled when you are showering, making dinner, or playing with the siblings.</p><p></p>",
             "link_url": "https://us.sleepytroll.com/pages/versitality",
@@ -1100,7 +1100,7 @@
         "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-0": {
           "type": "product",
           "settings": {
-            "product": "sleepytroll",
+            "product": "sleepytroll-baby-rocker-gen-2",
             "horizontal_position": 47,
             "vertical_position": 41
           }
