@@ -836,7 +836,7 @@
             "icon": "bi-ecology",
             "image": "shopify://shop_images/Icon_2.png",
             "heading": "<p>Made for rough weather</p>",
-            "text": "<p>Sleepytroll is designed to handle that rough Scandinavian weather. With an IPX2 rating it handles both rain and snow, from -10 to +35 degrees.</p>",
+            "text": "<p>Sleepytroll is designed to handle that rough Scandinavian weather. With an IPX4 rating it handles both heavy rain and snow, from -10 to +35 degrees.</p>",
             "image_block_bg": "#eee3c7",
             "image_svg_color": ""
           }
