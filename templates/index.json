@@ -381,7 +381,7 @@
         "02e8c5dc-e84f-4315-a990-76f93c1b2a74": {
           "type": "button",
           "settings": {
-            "link": "shopify://products/sleepytroll",
+            "link": "shopify://products/sleepytroll-baby-rocker-gen-2",
             "text": "Explore now",
             "size": "xl",
             "style": "fill",
@@ -418,7 +418,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "sleepytroll",
+        "product": "sleepytroll-baby-rocker-gen-2",
         "desktop_media_width": 50,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
