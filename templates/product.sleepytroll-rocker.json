@@ -291,17 +291,16 @@
           "type": "product",
           "settings": {
             "product": "sleepytroll-bed-rocker-feet",
-            "horizontal_position": 75,
-            "vertical_position": 77
+            "horizontal_position": 77,
+            "vertical_position": 83
           }
         },
         "template--17692579365146__ea3275b6-55e3-4169-934b-0dd9da01e425-1678074987fc944bec-2": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "",
-            "horizontal_position": 33,
-            "vertical_position": 73
+            "product": "sleepytroll-baby-rocker-gen-2",
+            "horizontal_position": 49,
+            "vertical_position": 87
           }
         }
       },
