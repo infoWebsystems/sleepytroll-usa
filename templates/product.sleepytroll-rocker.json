@@ -283,8 +283,8 @@
           "type": "product",
           "settings": {
             "product": "sleepytroll-bed-adaptor",
-            "horizontal_position": 46,
-            "vertical_position": 31
+            "horizontal_position": 44,
+            "vertical_position": 67
           }
         },
         "template--17692579365146__ea3275b6-55e3-4169-934b-0dd9da01e425-1678074987fc944bec-1": {
@@ -313,7 +313,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": false,
-        "image": "shopify://shop_images/AdapterCribFullBed.png",
+        "image": "shopify://shop_images/Supporting_Crib3_4-3_WEB.jpg",
         "title": "Want to use it for cribs?",
         "content": "<p>Make sure to check out our attachments that allows you to use the Sleepytroll on your crib. </p><p></p><p>See how versatile the Sleepytroll Baby Rocker is <a href=\"/pages/sleepytroll-versitality\" title=\"Sleepytroll Versatility\">here</a></p>",
         "background": "",
