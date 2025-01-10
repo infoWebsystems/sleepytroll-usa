@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "page_width": 1500,
@@ -39,11 +48,11 @@
     "cart_type": "drawer",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 99,
-    "social_facebook": "https:\/\/www.facebook.com\/sleepytroll.by.babliss\/",
-    "social_instagram": "https:\/\/www.instagram.com\/sleepytroll_official\/",
-    "social_tiktok": "https:\/\/www.tiktok.com\/@sleepytroll_official",
-    "favicon": "shopify:\/\/shop_images\/sleepytroll-brand-symbol-navy-rgb.svg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/ST-Logo_1204x630_0b894a1a-1cda-42cb-aa43-b287d3862311.webp",
+    "social_facebook": "https://www.facebook.com/sleepytroll.by.babliss/",
+    "social_instagram": "https://www.instagram.com/sleepytroll_official/",
+    "social_tiktok": "https://www.tiktok.com/@sleepytroll_official",
+    "favicon": "shopify://shop_images/sleepytroll-brand-symbol-navy-rgb.svg",
+    "checkout_logo_image": "shopify://shop_images/ST-Logo_1204x630_0b894a1a-1cda-42cb-aa43-b287d3862311.webp",
     "checkout_accent_color": "#597970",
     "checkout_button_color": "#1a1a1a",
     "sections": {
@@ -102,37 +111,37 @@
           "3289b62c-3634-44b8-bf47-b1a84818b475": {
             "type": "Country",
             "settings": {
-              "country_img": "shopify:\/\/shop_images\/usa2.png",
+              "country_img": "shopify://shop_images/usa2.png",
               "country_text": "US",
               "country_text1": "US",
-              "c-link": "https:\/\/us.sleepytroll.com\/"
+              "c-link": "https://us.sleepytroll.com/"
             }
           },
           "1e28f069-2000-469d-bee3-494268576668": {
             "type": "Country",
             "settings": {
-              "country_img": "shopify:\/\/shop_images\/64px-United-kingdom_flag_icon_round_svg.png",
+              "country_img": "shopify://shop_images/64px-United-kingdom_flag_icon_round_svg.png",
               "country_text": "United Kingdom",
               "country_text1": "UK",
-              "c-link": "https:\/\/uk.sleepytroll.com\/"
+              "c-link": "https://uk.sleepytroll.com/"
             }
           },
           "0a3d2ea1-1402-4ec0-9717-84c168528d4a": {
             "type": "Country",
             "settings": {
-              "country_img": "shopify:\/\/shop_images\/EU_Symbol.png",
+              "country_img": "shopify://shop_images/EU_Symbol.png",
               "country_text": "EU + Norway",
               "country_text1": "EU + Norway",
-              "c-link": "https:\/\/sleepytroll.com\/"
+              "c-link": "https://sleepytroll.com/"
             }
           },
           "7187eea0-8d5c-4c0c-8ace-45b62fd0f4d6": {
             "type": "Country",
             "settings": {
-              "country_img": "shopify:\/\/shop_images\/www_582aa00f-a6a4-4b02-a7d8-9e4117846985.png",
+              "country_img": "shopify://shop_images/www_582aa00f-a6a4-4b02-a7d8-9e4117846985.png",
               "country_text": "International",
               "country_text1": "Int",
-              "c-link": "https:\/\/int.sleepytroll.com\/"
+              "c-link": "https://int.sleepytroll.com/"
             }
           }
         },
@@ -148,7 +157,7 @@
         "settings": {
           "enable_sticky": true,
           "hide_on_scroll": true,
-          "logo": "shopify:\/\/shop_images\/Navy_f1d23b5e-0a91-451f-adfc-346bf19c38df.svg",
+          "logo": "shopify://shop_images/Navy_f1d23b5e-0a91-451f-adfc-346bf19c38df.svg",
           "logo_max_width": 135,
           "logo_mobile_max_width": 100,
           "menu": "main-menu",
@@ -163,27 +172,23 @@
           "show_country_flag": false,
           "show_country_name": false,
           "transparent_header_text_color": "#f0f0f0",
-          "transparent_logo": "shopify:\/\/shop_images\/White_23981153-2d4e-4ef1-837e-a2878e17e170.svg",
+          "transparent_logo": "shopify://shop_images/White_23981153-2d4e-4ef1-837e-a2878e17e170.svg",
           "reduce_padding": true,
           "background_opacity": 100,
           "background_blur_radius": 0,
           "country_text": "Shipping to",
-          "country_img": "shopify:\/\/shop_images\/usa2.png"
+          "country_img": "shopify://shop_images/usa2.png"
         }
       },
       "cart-drawer": {
         "type": "cart-drawer",
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "show_cart_note": false,
           "show_shipping_text": true,
           "show_checkout_button": true,
           "recommendations_title": "Trending this month",
-          "products": [
-
-          ],
+          "products": [],
           "product_card_background": "#ffffff",
           "product_card_text_color": ""
         }
@@ -215,7 +220,7 @@
               "icon_background": "#b5c4e4",
               "icon_color": "#0f334b",
               "title": "Free shipping",
-              "content": "<p>Free international shipping on orders over 99$.<\/p>"
+              "content": "<p>Free international shipping on orders over 99$.</p>"
             }
           },
           "customer-support": {
@@ -228,7 +233,7 @@
               "icon_background": "",
               "icon_color": "#0f334b",
               "title": "30-day satisfaction guarantee",
-              "content": "<p>Try your Sleepytroll risk-free for 30 days.<\/p>"
+              "content": "<p>Try your Sleepytroll risk-free for 30 days.</p>"
             }
           },
           "discount": {
@@ -241,7 +246,7 @@
               "icon_background": "",
               "icon_color": "#0f334b",
               "title": "No duty or taxes",
-              "content": "<p>We cover all expenses. Everything is pre-paid.<\/p>"
+              "content": "<p>We cover all expenses. Everything is pre-paid.</p>"
             }
           },
           "payment": {
@@ -255,7 +260,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "Secure payment",
-              "content": "<p>Tel your customers about your payment methods.<\/p>"
+              "content": "<p>Tel your customers about your payment methods.</p>"
             }
           },
           "9b61fe9d-51fb-413e-bf58-15a399e88a65": {
@@ -269,7 +274,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "Heading",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           }
         },
@@ -286,7 +291,7 @@
           "heading_tag": "h6",
           "text_alignment": "center",
           "icon_spacing": "small",
-          "background": "#f6e9e0",
+          "background": "#e9e5e3",
           "background_gradient": "",
           "text_color": "#0f334b"
         }
@@ -297,7 +302,7 @@
           "newsletter": {
             "type": "newsletter",
             "settings": {
-              "image": "shopify:\/\/shop_images\/sleepytroll-brand-symbol-navy-rgb.svg",
+              "image": "shopify://shop_images/sleepytroll-brand-symbol-navy-rgb.svg",
               "image_width": 80,
               "heading_size": "h3",
               "title": "Sign up for new stories and personal offers",
@@ -315,7 +320,7 @@
             "type": "text",
             "settings": {
               "title": "About",
-              "content": "<p>Sleepytroll is a Norwegian company focused of making innovative and smart sleeping solutions for children.<\/p>"
+              "content": "<p>Sleepytroll is a Norwegian company focused of making innovative and smart sleeping solutions for children.</p>"
             }
           }
         },
@@ -333,7 +338,7 @@
           "show_locale_selector": false,
           "show_privacy_bar": false,
           "privacy_bar_title": "Cookie policy",
-          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
         }
       },
       "newsletter-popup": {
@@ -350,51 +355,42 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "9097558199762247683": {
-        "type": "shopify:\/\/apps\/replaypro\/blocks\/recorder\/9c500141-cbb8-4433-a2e9-4f4b5b3433be",
+        "type": "shopify://apps/replaypro/blocks/recorder/9c500141-cbb8-4433-a2e9-4f4b5b3433be",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1173261918193615741": {
-        "type": "shopify:\/\/apps\/geo-pro-geolocation-redirects\/blocks\/geopro\/16fc5313-7aee-4e90-ac95-f50fc7c8b657",
+        "type": "shopify://apps/geo-pro-geolocation-redirects/blocks/geopro/16fc5313-7aee-4e90-ac95-f50fc7c8b657",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "18408366429334172745": {
-        "type": "shopify:\/\/apps\/pop-convert-pop-ups-banners\/blocks\/app-embed\/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
+        "type": "shopify://apps/pop-convert-pop-ups-banners/blocks/app-embed/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "3667842014806057753": {
-        "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "type": "shopify://apps/one-click-upsell-zipify-ocu/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12657775114333427046": {
-        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "type": "shopify://apps/essential-countdown/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -504,7 +500,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Free shipping",
-                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+                "content": "<p>Tell your customers about your shipping offer.</p>"
               }
             },
             "customer-support": {
@@ -515,7 +511,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Customer service",
-                "content": "<p>Tell your customers how they can reach you.<\/p>"
+                "content": "<p>Tell your customers how they can reach you.</p>"
               }
             },
             "discount": {
@@ -526,7 +522,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Refer a friend",
-                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+                "content": "<p>Tell your customers about your promotional offers.</p>"
               }
             },
             "payment": {
@@ -537,7 +533,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Secure payment",
-                "content": "<p>Tel your customers about your payment methods.<\/p>"
+                "content": "<p>Tel your customers about your payment methods.</p>"
               }
             }
           },
@@ -578,7 +574,7 @@
               "type": "text",
               "settings": {
                 "title": "About",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
               }
             }
           },
@@ -596,7 +592,7 @@
             "show_locale_selector": true,
             "show_privacy_bar": true,
             "privacy_bar_title": "Cookie policy",
-            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
           }
         }
       }
@@ -702,7 +698,7 @@
               "type": "text",
               "settings": {
                 "title": "About",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
               }
             }
           },
@@ -720,7 +716,7 @@
             "show_country_name": true,
             "show_privacy_bar": true,
             "privacy_bar_title": "Cookie policy",
-            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
           }
         },
         "static-text-with-icons": {
@@ -734,7 +730,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Free shipping",
-                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+                "content": "<p>Tell your customers about your shipping offer.</p>"
               }
             },
             "customer-support": {
@@ -745,7 +741,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Customer service",
-                "content": "<p>Tell your customers how they can reach you.<\/p>"
+                "content": "<p>Tell your customers how they can reach you.</p>"
               }
             },
             "discount": {
@@ -756,7 +752,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Refer a friend",
-                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+                "content": "<p>Tell your customers about your promotional offers.</p>"
               }
             },
             "payment": {
@@ -767,7 +763,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Secure payment",
-                "content": "<p>Tel your customers about your payment methods.<\/p>"
+                "content": "<p>Tel your customers about your payment methods.</p>"
               }
             }
           },
@@ -910,7 +906,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Free shipping",
-                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+                "content": "<p>Tell your customers about your shipping offer.</p>"
               }
             },
             "customer-support": {
@@ -921,7 +917,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Customer service",
-                "content": "<p>Tell your customers how they can reach you.<\/p>"
+                "content": "<p>Tell your customers how they can reach you.</p>"
               }
             },
             "discount": {
@@ -932,7 +928,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Refer a friend",
-                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+                "content": "<p>Tell your customers about your promotional offers.</p>"
               }
             },
             "payment": {
@@ -943,7 +939,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Secure payment",
-                "content": "<p>Tel your customers about your payment methods.<\/p>"
+                "content": "<p>Tel your customers about your payment methods.</p>"
               }
             }
           },
@@ -984,7 +980,7 @@
               "type": "text",
               "settings": {
                 "title": "About",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
               }
             }
           },
@@ -1002,7 +998,7 @@
             "show_locale_selector": true,
             "show_privacy_bar": true,
             "privacy_bar_title": "Cookie policy",
-            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
           }
         }
       }
