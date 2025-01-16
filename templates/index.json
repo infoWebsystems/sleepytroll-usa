@@ -1102,8 +1102,8 @@
           "type": "product",
           "settings": {
             "product": "sleepytroll-baby-rocker-gen-2",
-            "horizontal_position": 47,
-            "vertical_position": 41
+            "horizontal_position": 49,
+            "vertical_position": 87
           }
         },
         "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-1": {
@@ -1131,7 +1131,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": false,
-        "image": "shopify://shop_images/AdapterCribFullBed_ce489a2f-c1be-4368-8759-3b2f14da5ac4.png",
+        "image": "shopify://shop_images/Supporting_Crib3_4-3_WEB.jpg",
         "title": "Versatile sleeping innovation",
         "content": "",
         "background": "",
