@@ -111,9 +111,9 @@
           "3289b62c-3634-44b8-bf47-b1a84818b475": {
             "type": "Country",
             "settings": {
-              "country_img": "shopify://shop_images/usa2.png",
-              "country_text": "US",
-              "country_text1": "US",
+              "country_img": "shopify://shop_images/USA_CANDA.png",
+              "country_text": "US/Canada",
+              "country_text1": "US/Canada",
               "c-link": "https://us.sleepytroll.com/"
             }
           },
