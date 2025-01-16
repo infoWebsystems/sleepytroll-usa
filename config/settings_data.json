@@ -112,8 +112,8 @@
             "type": "Country",
             "settings": {
               "country_img": "shopify://shop_images/USA_CANDA.png",
-              "country_text": "US/Canada",
-              "country_text1": "US/Canada",
+              "country_text": "US + Canada",
+              "country_text1": "US + Canada",
               "c-link": "https://us.sleepytroll.com/"
             }
           },
