@@ -332,7 +332,7 @@
         "settings": {
           "show_social_media": true,
           "show_payment_icons": true,
-          "show_country_selector": false,
+          "show_country_selector": true,
           "show_country_flag": false,
           "show_country_name": false,
           "show_locale_selector": false,
