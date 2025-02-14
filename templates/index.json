@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Valentines_Desktop.jpg",
+            "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_Valentines_Hero.jpg",
             "mobile_image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Valentines_Mobile.jpg",
             "content_max_width": 820,
             "mobile_text_position": "place-self-end-center text-center",
@@ -29,7 +29,7 @@
             "button_background": "#d1344b",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 23,
+            "overlay_opacity": 10,
             "background": "",
             "background_gradient": ""
           }
