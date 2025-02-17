@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero.jpg",
             "mobile_image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero_MOB.jpg",
             "content_max_width": 820,
-            "mobile_text_position": "place-self-end-center text-center",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "The world best baby rocker just got better!",
             "title": "Meet Gen 2 - Smarter. Stronger. Better.",
