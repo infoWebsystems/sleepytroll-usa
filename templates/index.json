@@ -15,21 +15,21 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_Valentines_Hero.jpg",
-            "mobile_image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Valentines_Mobile.jpg",
+            "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero.jpg",
+            "mobile_image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero_MOB.jpg",
             "content_max_width": 820,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "",
-            "title": "",
+            "subheading": "The world best baby rocker just got better!",
+            "title": "Meet Gen 2 - Smarter. Stronger. Better.",
             "heading_tag": "h3",
-            "button_text": "More Love, More Sleep – 15% Off! ❤️",
+            "button_text": "Explore the new Sleepytroll",
             "button_link": "shopify://products/sleepytroll-baby-rocker-gen-2",
             "text_color": "#ffffff",
-            "button_background": "#d1344b",
+            "button_background": "#0f334b",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_opacity": 32,
             "background": "",
             "background_gradient": ""
           }
