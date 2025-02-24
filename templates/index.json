@@ -72,6 +72,165 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "1715e90c-f91f-45d9-a924-191ccac942b0": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Pia",
+            "title": "Like Having a Nanny!",
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">Absolutely magical product! I didn’t have any faith in it what so ever before it came, but wow was I wrong! It has really revolutionized our naps, and given us so much extra free time with two hands available. </a></p>"
+          }
+        },
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Emma B.",
+            "title": "Best Baby Product",
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">I find this product when I had my second child and it has been a lifesaver. On the bassinet, bouncer or pram and make my boy go to sleep everytime.</a></p><p></p><p></p><p></p>"
+          }
+        },
+        "testimonial_HjJRNf": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Diana",
+            "title": "Must Have Device",
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">This is absolutely the best device for a baby, it helps a lot. Must have device for a baby.</a></p><p></p><p></p><p></p><p></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0",
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1",
+        "testimonial_HjJRNf",
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "<p>Read more of our reviews <a href=\"https://us.sleepytroll.com/products/sleepytroll-baby-rocker-gen-2#shopify-section-template--22858829037875__17011775569cabd1e5\" title=\"Sleepytroll Baby Rocker Gen 2 Reviews\">here</a></p>",
+        "link_url": "https://sleepytroll.com/products/sleepytroll#shopify-section-template--19419678048538__1678866063fa9bc912",
+        "link_text": "",
+        "background": "#f6e9e0",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#0f334b",
+        "heading_gradient": "",
+        "testimonial_card_background": "#f9f9f9",
+        "testimonial_card_text_color": "#0f334b"
+      }
+    },
+    "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/TIM241111_Cover-BestInventions_FINAL_3.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "882a278a-be69-4f12-8b7e-c68e80458695": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Junior_Design_Award.png",
+            "logo_width": 170,
+            "link": ""
+          }
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/1_3dc0040e-727b-4134-9b25-ba13208b9afb.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/2_c3bd669f-3a55-4ac8-8994-192146a236a7.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/6_ad726ec7-f2e6-46c2-b34a-ca9c974c8965.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Gold_Badge_2023_Best_Sleep_Aid.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "eb93505a-6ce8-4c03-a301-628dd8419e2a": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3",
+        "882a278a-be69-4f12-8b7e-c68e80458695",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4",
+        "eb93505a-6ce8-4c03-a301-628dd8419e2a"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "Our awards and press coverage",
+        "content": "<p>Not to brag..</p><p>(Ok, maybe a little bit)<br/></p><p>We’re thrilled to share that <em>TIME.com</em> has featured Sleepytroll as one of the 'Best Inventions of the Year'—helping parents and babies worldwide get better sleep!</p><p>Read more about our awards <a href=\"https://us.sleepytroll.com/blogs/news/awards-recognition\" title=\"https://us.sleepytroll.com/blogs/news/awards-recognition\"><em><strong>here</strong></em></a></p>",
+        "text_alignment": "start",
+        "items_per_row": 7,
+        "background": "#0f334b",
+        "background_gradient": "",
+        "text_color": "#f0f0f0",
+        "heading_color": "#ffffff",
+        "heading_gradient": "",
+        "logo_item_background": "rgba(0,0,0,0)",
+        "logo_item_border": ""
+      }
+    },
     "e9690f3e-fcfe-4d8e-9d56-ebcad536f328": {
       "type": "text-with-icons",
       "blocks": {
@@ -931,78 +1090,6 @@
         "border_thickness": 0
       }
     },
-    "1715e90c-f91f-45d9-a924-191ccac942b0": {
-      "type": "testimonials",
-      "blocks": {
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": false,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Pia",
-            "title": "Like Having a Nanny!",
-            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">Absolutely magical product! I didn’t have any faith in it what so ever before it came, but wow was I wrong! It has really revolutionized our naps, and given us so much extra free time with two hands available. </a></p>"
-          }
-        },
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Emma B.",
-            "title": "Best Baby Product",
-            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">I find this product when I had my second child and it has been a lifesaver. On the bassinet, bouncer or pram and make my boy go to sleep everytime.</a></p><p></p><p></p><p></p>"
-          }
-        },
-        "testimonial_HjJRNf": {
-          "type": "testimonial",
-          "disabled": true,
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Diana",
-            "title": "Must Have Device",
-            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">This is absolutely the best device for a baby, it helps a lot. Must have device for a baby.</a></p><p></p><p></p><p></p><p></p><p></p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0",
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1",
-        "testimonial_HjJRNf",
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Testimonials",
-        "content": "<p>Read more of our reviews <a href=\"https://us.sleepytroll.com/products/sleepytroll-baby-rocker-gen-2#shopify-section-template--22858829037875__17011775569cabd1e5\" title=\"Sleepytroll Baby Rocker Gen 2 Reviews\">here</a></p>",
-        "link_url": "https://sleepytroll.com/products/sleepytroll#shopify-section-template--19419678048538__1678866063fa9bc912",
-        "link_text": "",
-        "background": "#f6e9e0",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#0f334b",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f9f9f9",
-        "testimonial_card_text_color": "#0f334b"
-      }
-    },
     "1678195870068cfbbb": {
       "type": "apps",
       "disabled": true,
@@ -1144,91 +1231,6 @@
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "#0f334b",
         "background_dots": "#ffffff"
-      }
-    },
-    "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0": {
-      "type": "logo-list",
-      "blocks": {
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/TIM241111_Cover-BestInventions_FINAL_3.jpg",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "882a278a-be69-4f12-8b7e-c68e80458695": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Junior_Design_Award.png",
-            "logo_width": 170,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/1_3dc0040e-727b-4134-9b25-ba13208b9afb.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/2_c3bd669f-3a55-4ac8-8994-192146a236a7.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/6_ad726ec7-f2e6-46c2-b34a-ca9c974c8965.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Gold_Badge_2023_Best_Sleep_Aid.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "eb93505a-6ce8-4c03-a301-628dd8419e2a": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_width": 300,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3",
-        "882a278a-be69-4f12-8b7e-c68e80458695",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4",
-        "eb93505a-6ce8-4c03-a301-628dd8419e2a"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": false,
-        "title": "Our awards and press coverage",
-        "content": "<p>Not to brag..</p><p>(Ok, maybe a little bit)</p><p>Read more about our awards <a href=\"https://us.sleepytroll.com/blogs/news/awards-recognition\" title=\"https://us.sleepytroll.com/blogs/news/awards-recognition\"><em><strong>here</strong></em></a></p>",
-        "text_alignment": "start",
-        "items_per_row": 7,
-        "background": "#0f334b",
-        "background_gradient": "",
-        "text_color": "#f0f0f0",
-        "heading_color": "#ffffff",
-        "heading_gradient": "",
-        "logo_item_background": "rgba(0,0,0,0)",
-        "logo_item_border": ""
       }
     },
     "14514719-16b0-4779-bfd4-9d2acbcf57de": {
@@ -1631,6 +1633,8 @@
   },
   "order": [
     "slideshow",
+    "1715e90c-f91f-45d9-a924-191ccac942b0",
+    "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0",
     "e9690f3e-fcfe-4d8e-9d56-ebcad536f328",
     "921fa0d6-7ad0-4c74-b353-3f924813d775",
     "fd4ead67-23e7-4b8e-bd06-6583c0c63f10",
@@ -1641,11 +1645,9 @@
     "bd9de1ea-44eb-41c9-a13d-2e52e379109e",
     "82a8196f-1398-4abf-85b6-3333867acecb",
     "ss_feature_7_TtBmJH",
-    "1715e90c-f91f-45d9-a924-191ccac942b0",
     "1678195870068cfbbb",
     "659ab707-9b07-433d-9944-6b0b1de6da81",
     "04b79acc-b1d5-4f7c-be01-d53e7d4768d0",
-    "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0",
     "14514719-16b0-4779-bfd4-9d2acbcf57de",
     "1678195952c774e798",
     "52713e37-56d6-4cc3-85fd-49cb584df0ee",
