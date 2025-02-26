@@ -9,6 +9,31 @@
  */
 {
   "sections": {
+    "rich_text_Wyq4iN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3F3e7Q": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Awards",
+            "heading_tag": "h2",
+            "text_color": "#0f334b",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3F3e7Q"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -186,10 +211,142 @@
         "enable_parallax": true,
         "spacing": "none"
       }
+    },
+    "rich_text_mc9h7P": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KgTGtz": {
+          "type": "heading",
+          "settings": {
+            "text": "Media Attention",
+            "heading_tag": "h2",
+            "text_color": "#0f334b",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KgTGtz"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_fnmwcQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_YNtXzA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/the_independent.png",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>The Independent</h4><p>The Independent is a British online newspaper, reaching millions of people every day. In spring of 2023, they updated their article “54 best baby shower gifts: Top present ideas new mums and dads will love” to include Sleepytroll Baby Rocker. They, among other things, describe our Sleepytroll is “miracle gadget” and we couldn’t agree more!</p><p>Click <a href=\"https://www.independent.co.uk/extras/indybest/kids/gifts/best-gifts-new-mums-babies-b2484888.html\" target=\"_blank\" title=\"https://www.independent.co.uk/extras/indybest/kids/gifts/best-gifts-new-mums-babies-b2484888.html\">here</a> to read the full review</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#0f334b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_fCyYTP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/absolutely_mama.png",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Absolutely Mama</h4><p>ABSOLUTELY MAMA is the UK’s leading Lifestyle and Parenting Magazine – aiming at helping mothers with expert advise, parenting tips as well as fashion and other useful information. And we are so excited that they have featured us in their article about the Best Baby Shower Gifts!</p><p>\"<em>Who doesn’t want to be the one that gifted the gadget that magically settles baby? Sleepytroll can be attached to the stroller, car seat or cot (with an adapter) to make it rock. It also has a clever sensor mode, and when activated will only rock when your baby needs it.\"</em></p><p>Click <a href=\"https://absolutely-mama.co.uk/the-best-baby-shower-gifts/\" target=\"_blank\">here</a> to read the full review</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#0f334b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_4X3ayY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t3.png",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>T3</h4><p>T3.com is one of the UK's leading consumer lifestyle websites and T3 magazine is its print counterpart. T3's mission is to seek out and showcase beautiful things that help you live a smarter, better life. To do this, they curate the latest tech, home, outdoors and lifestyle products to ensure you only ever buy the best of the best. The article titled “15 products I couldn’t live without as a new parent” is aimed at making life with newborns a little easier, and we are proud to say that Sleepytroll is one of these 15 products.</p><p><em>\"One of the most frustrating things as a parent is getting home from a walk with a baby sleeping soundly in their buggy, only for them to wake up as soon as the buggy stops moving. It happened to me so many times until I got Sleepytroll. This handy little gadget can rock your stroller, crib, or car seat, helping them stay asleep for longer when you're stationary.<br/>What's smart about Sleepytroll is that it has a sound sensor and movement sensor and will immediately start rocking again when your baby starts to stir.I also really love that it's silent, and the battery lasts a long time.\"</em></p><p>Click <a href=\"https://www.t3.com/features/best-baby-tech-tested\" target=\"_blank\">here</a> to read the full review</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#0f334b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_iYqDUM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gadgethead.png",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>GadgetHead</h4><p>At GadgetHead, their aim is to give their readers the most honest reviews they can. They are really giving you their true thoughts to help you make the best choice you can. Here is what they had to say about Sleepytroll:</p><p><em>“As any parent will know, there is nothing more exhausting than having to spend hours rocking the pram to keep the little tigers asleep, and trying to sustain that quiet bliss for just a little bit longer… Thankfully, Sleepytroll has heard your pleas to the sound of deprived sleep and aching arms, providing the perfect solution with the Sleepytroll Baby Rocker.”</em></p><p>Click <a href=\"https://thegadgethead.com/baby\" target=\"_blank\">here</a> to read the full review</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#0f334b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YNtXzA",
+        "image_fCyYTP",
+        "image_4X3ayY",
+        "image_iYqDUM"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none"
+      }
     }
   },
   "order": [
     "main",
-    "media_with_text_6hEC6H"
+    "rich_text_Wyq4iN",
+    "media_with_text_6hEC6H",
+    "rich_text_mc9h7P",
+    "media_with_text_fnmwcQ"
   ]
 }
