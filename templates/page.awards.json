@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
     "rich_text_Wyq4iN": {
       "type": "rich-text",
       "blocks": {
@@ -34,11 +38,6 @@
         "text_color": ""
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {}
-    },
     "media_with_text_6hEC6H": {
       "type": "media-with-text",
       "blocks": {
@@ -53,7 +52,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "",
-            "content": "<h4>Time.com – The Best Inventions of 2024</h4><p><em>Time.com’s The Best Inventions of 2024</em> list celebrates groundbreaking innovations, and in 2024, Sleepytroll received a special mention! Being recognized by such a prestigious platform as one of the year’s top inventions makes us incredibly proud. Thank you, Time.com, for acknowledging our dedication to making parenting easier!</p>",
+            "content": "<h4>Time.com – The Best Inventions of 2024</h4><p><em>Time.com’s The Best Inventions of 2024</em> list celebrates groundbreaking innovations, and in 2024, Sleepytroll received a special mention! Being recognized by such a prestigious platform as one of the year’s top inventions makes us incredibly proud. Thank you, Time.com, for acknowledging our dedication to making parenting easier!<br/><br/>Click <a href=\"https://time.com/7095026/babliss-as-sleepytroll-baby-rocker/\" target=\"_blank\" title=\"https://time.com/7095026/babliss-as-sleepytroll-baby-rocker/\">here</a> to read more.</p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
