@@ -617,6 +617,7 @@
         },
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/3.mov",
             "poster": "shopify://shop_images/3_-_Thumb_v2.png",
