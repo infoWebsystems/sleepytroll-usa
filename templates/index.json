@@ -1152,6 +1152,7 @@
         },
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/CarSeat.png",
             "column_size": "3",
