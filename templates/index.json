@@ -72,6 +72,28 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "rich_text_nywHXr": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_tWMn9w": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>Please note: Due to high demand, our first batch of Sleepytroll Baby Rocker Gen 2 has sold out faster than expected. But don't worry! Order now, and we’ll make sure you’re among the first to receive yours when new stock arrives at the end of March.</strong></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_tWMn9w"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "1715e90c-f91f-45d9-a924-191ccac942b0": {
       "type": "testimonials",
       "blocks": {
@@ -1635,6 +1657,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_nywHXr",
     "1715e90c-f91f-45d9-a924-191ccac942b0",
     "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0",
     "e9690f3e-fcfe-4d8e-9d56-ebcad536f328",
