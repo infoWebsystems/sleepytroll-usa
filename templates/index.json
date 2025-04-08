@@ -20,10 +20,10 @@
             "content_max_width": 820,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "The world's best baby rocker just got better!",
-            "title": "Meet Gen 2 - Smarter. Stronger. Better.",
+            "subheading": "",
+            "title": "Sleepytroll Gen 2 -Finally Back in Stock!",
             "heading_tag": "h3",
-            "button_text": "Explore our new bed rocker",
+            "button_text": "Shop Now!",
             "button_link": "shopify://products/sleepytroll-baby-rocker-gen-2",
             "text_color": "#ffffff",
             "button_background": "#0f334b",
@@ -85,6 +85,7 @@
       "block_order": [
         "richtext_tWMn9w"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
