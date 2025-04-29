@@ -11,6 +11,17 @@
 
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+
+    <script> 
+    window.Shopify = window.Shopify || {theme: {id: {{ theme.id }}, role: '{{ theme.role }}' }};
+    window._template = {
+        directory: "{{ template.directory }}",
+        name: "{{ template.name }}",
+        suffix: "{{ template.suffix }}"
+    };
+</script>
+<script type="module" blocking="render" fetchpriority="high" src="https://cdn.intelligems.io/esm/cdeb116769e3/bundle.js" async></script>
+    
     {% render 'pandectes-rules' %}
 
     <script type="javascript/blocked" data-cookiecategory="performance">
