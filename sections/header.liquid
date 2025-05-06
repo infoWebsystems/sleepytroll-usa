@@ -236,6 +236,8 @@ the underlying logic of the menu.
           </nav>
         {%- endif -%}
         <div class="header__icon-list">
+                          {% render "country-selector" %}
+
           {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
             <div class="hidden md:block shrink-0">
               {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag -%}
@@ -247,7 +249,6 @@ the underlying logic of the menu.
               {%- render 'localization-selector', type: 'locale' -%}
             </div>
           {%- endif -%}
-        {% render "country-selector" %}
 
           <a href="{{ routes.search_url }}" class="hidden tap-area sm:block" aria-controls="search-drawer">
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
