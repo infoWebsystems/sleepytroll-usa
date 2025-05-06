@@ -235,7 +235,6 @@ the underlying logic of the menu.
             </ul>
           </nav>
         {%- endif -%}
-        {% render "country-selector" %}
         <div class="header__icon-list">
           {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
             <div class="hidden md:block shrink-0">
@@ -248,6 +247,7 @@ the underlying logic of the menu.
               {%- render 'localization-selector', type: 'locale' -%}
             </div>
           {%- endif -%}
+        {% render "country-selector" %}
 
           <a href="{{ routes.search_url }}" class="hidden tap-area sm:block" aria-controls="search-drawer">
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
