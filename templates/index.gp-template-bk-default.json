@@ -20,16 +20,16 @@
             "content_max_width": 820,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "The world's best baby rocker just got better!",
-            "title": "Meet Gen 2 - Smarter. Stronger. Better.",
+            "subheading": "",
+            "title": "Sleepytroll Gen 2 -Finally Back in Stock!",
             "heading_tag": "h3",
-            "button_text": "Explore the new Sleepytroll",
+            "button_text": "Shop Now!",
             "button_link": "shopify:\/\/products\/sleepytroll-baby-rocker-gen-2",
             "text_color": "#ffffff",
             "button_background": "#0f334b",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 22,
+            "overlay_opacity": 24,
             "background": "",
             "background_gradient": ""
           }
@@ -70,6 +70,29 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "rich_text_nywHXr": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_tWMn9w": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>Please note: Due to high demand, our first batch of Sleepytroll Baby Rocker Gen 2 has sold out faster than expected. But don't worry! Order now, and we’ll make sure you’re among the first to receive yours when new stock arrives later this week!<\/strong><\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_tWMn9w"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "1715e90c-f91f-45d9-a924-191ccac942b0": {
@@ -131,7 +154,7 @@
         "full_width": true,
         "stack_testimonials": false,
         "subheading": "",
-        "title": "Testimonials",
+        "title": "Parents Approve – See Their Reviews",
         "content": "<p>Read more of our reviews <a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll-baby-rocker-gen-2#shopify-section-template--22858829037875__17011775569cabd1e5\" title=\"Sleepytroll Baby Rocker Gen 2 Reviews\">here<\/a><\/p>",
         "link_url": "https:\/\/sleepytroll.com\/products\/sleepytroll#shopify-section-template--19419678048538__1678866063fa9bc912",
         "link_text": "",
@@ -219,7 +242,7 @@
         "full_width": true,
         "stack_mobile": false,
         "title": "Our awards and press coverage",
-        "content": "<p>Not to brag..<\/p><p>(Ok, maybe a little bit)<br\/><\/p><p>We’re thrilled to share that <em>TIME.com<\/em> has featured Sleepytroll as one of the 'Best Inventions of the Year'—helping parents and babies worldwide get better sleep!<\/p><p>Read more about our awards <a href=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\" title=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\"><em><strong>here<\/strong><\/em><\/a><\/p>",
+        "content": "<p>We’re thrilled to share that <em>TIME.com<\/em> has featured Sleepytroll as one of the 'Best Inventions of the Year'—helping parents and babies worldwide get better sleep!<\/p><p>Read more about our awards <a href=\"\/pages\/awards-and-recognition\" title=\"Awards and Recognition\"><em><strong>here<\/strong><\/em><\/a><\/p>",
         "text_alignment": "start",
         "items_per_row": 7,
         "background": "#0f334b",
@@ -617,6 +640,7 @@
         },
         "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify:\/\/files\/videos\/3.mov",
             "poster": "shopify:\/\/shop_images\/3_-_Thumb_v2.png",
@@ -1151,6 +1175,7 @@
         },
         "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CarSeat.png",
             "column_size": "3",
@@ -1633,6 +1658,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_nywHXr",
     "1715e90c-f91f-45d9-a924-191ccac942b0",
     "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0",
     "e9690f3e-fcfe-4d8e-9d56-ebcad536f328",
