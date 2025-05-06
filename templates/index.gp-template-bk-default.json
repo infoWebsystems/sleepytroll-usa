@@ -8,1654 +8,6 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero_MOB.jpg",
-            "content_max_width": 820,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "",
-            "title": "Sleepytroll Gen 2 -Finally Back in Stock!",
-            "heading_tag": "h3",
-            "button_text": "Shop Now!",
-            "button_link": "shopify:\/\/products\/sleepytroll-baby-rocker-gen-2",
-            "text_color": "#ffffff",
-            "button_background": "#0f334b",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 24,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide-1",
-        "slide-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "numbers",
-        "transition_type": "fade_with_text",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
-    "rich_text_nywHXr": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_tWMn9w": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h5><strong>Please note: Due to high demand, our first batch of Sleepytroll Baby Rocker Gen 2 has sold out faster than expected. But don't worry! Order now, and we’ll make sure you’re among the first to receive yours when new stock arrives later this week!<\/strong><\/h5>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_tWMn9w"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "1715e90c-f91f-45d9-a924-191ccac942b0": {
-      "type": "testimonials",
-      "blocks": {
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": false,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Pia",
-            "title": "Like Having a Nanny!",
-            "content": "<p><a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">Absolutely magical product! I didn’t have any faith in it what so ever before it came, but wow was I wrong! It has really revolutionized our naps, and given us so much extra free time with two hands available. <\/a><\/p>"
-          }
-        },
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Emma B.",
-            "title": "Best Baby Product",
-            "content": "<p><a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">I find this product when I had my second child and it has been a lifesaver. On the bassinet, bouncer or pram and make my boy go to sleep everytime.<\/a><\/p><p><\/p><p><\/p><p><\/p>"
-          }
-        },
-        "testimonial_HjJRNf": {
-          "type": "testimonial",
-          "disabled": true,
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
-          }
-        },
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Diana",
-            "title": "Must Have Device",
-            "content": "<p><a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">This is absolutely the best device for a baby, it helps a lot. Must have device for a baby.<\/a><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0",
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1",
-        "testimonial_HjJRNf",
-        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Parents Approve – See Their Reviews",
-        "content": "<p>Read more of our reviews <a href=\"https:\/\/us.sleepytroll.com\/products\/sleepytroll-baby-rocker-gen-2#shopify-section-template--22858829037875__17011775569cabd1e5\" title=\"Sleepytroll Baby Rocker Gen 2 Reviews\">here<\/a><\/p>",
-        "link_url": "https:\/\/sleepytroll.com\/products\/sleepytroll#shopify-section-template--19419678048538__1678866063fa9bc912",
-        "link_text": "",
-        "background": "#f6e9e0",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#0f334b",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f9f9f9",
-        "testimonial_card_text_color": "#0f334b"
-      }
-    },
-    "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0": {
-      "type": "logo-list",
-      "blocks": {
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/TIM241111_Cover-BestInventions_FINAL_3.jpg",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "882a278a-be69-4f12-8b7e-c68e80458695": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/Junior_Design_Award.png",
-            "logo_width": 170,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/1_3dc0040e-727b-4134-9b25-ba13208b9afb.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/2_c3bd669f-3a55-4ac8-8994-192146a236a7.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/6_ad726ec7-f2e6-46c2-b34a-ca9c974c8965.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/Gold_Badge_2023_Best_Sleep_Aid.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "eb93505a-6ce8-4c03-a301-628dd8419e2a": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_width": 300,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3",
-        "882a278a-be69-4f12-8b7e-c68e80458695",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2",
-        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4",
-        "eb93505a-6ce8-4c03-a301-628dd8419e2a"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": false,
-        "title": "Our awards and press coverage",
-        "content": "<p>We’re thrilled to share that <em>TIME.com<\/em> has featured Sleepytroll as one of the 'Best Inventions of the Year'—helping parents and babies worldwide get better sleep!<\/p><p>Read more about our awards <a href=\"\/pages\/awards-and-recognition\" title=\"Awards and Recognition\"><em><strong>here<\/strong><\/em><\/a><\/p>",
-        "text_alignment": "start",
-        "items_per_row": 7,
-        "background": "#0f334b",
-        "background_gradient": "",
-        "text_color": "#f0f0f0",
-        "heading_color": "#ffffff",
-        "heading_gradient": "",
-        "logo_item_background": "rgba(0,0,0,0)",
-        "logo_item_border": ""
-      }
-    },
-    "e9690f3e-fcfe-4d8e-9d56-ebcad536f328": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-0": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-plane",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "#f6e9e0",
-            "icon_color": "#0f334b",
-            "title": "Free shipping",
-            "content": "<p>Free international shipping on orders above 99 USD.<\/p>"
-          }
-        },
-        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-love",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "#f6e9e0",
-            "icon_color": "#0f334b",
-            "title": "30-day satisfaction guarantee",
-            "content": "<p>Try your Sleepytroll risk-free for 30 days*<\/p>"
-          }
-        },
-        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-validation",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "#f6e9e0",
-            "icon_color": "#0f334b",
-            "title": "No duty or taxes",
-            "content": "<p>We cover all expenses. Everything is pre-paid.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-0",
-        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-1",
-        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-2"
-      ],
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "heading_tag": "h6",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "#f6e9e0",
-        "background_gradient": "",
-        "text_color": "#0f334b"
-      }
-    },
-    "921fa0d6-7ad0-4c74-b353-3f924813d775": {
-      "type": "design_pack_-_heading",
-      "blocks": {
-        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-0": {
-          "type": "heading",
-          "settings": {
-            "title": "The world's first smart automatic baby rocker",
-            "block_heading_color": "",
-            "block_heading_size": "",
-            "heading_level": "h2"
-          }
-        },
-        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sleepytroll is the first baby rocker that listens and rocks your stroller, crib or car seat using sound and motion sensors.<\/p>",
-            "text_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-0",
-        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_size": 100,
-        "text_alignment": "center",
-        "text_position": "center center",
-        "text_width": "600px",
-        "text_color": "#0f334b",
-        "text_background_color": "",
-        "background_color": "",
-        "animation": "none",
-        "max_width": "",
-        "inner_padding": 25,
-        "outer_margin": 25,
-        "custom_css": "",
-        "mobile_custom_css": "",
-        "override_theme_font": false,
-        "heading_font": "poppins_n5",
-        "main_font": "din_next_n4"
-      }
-    },
-    "fd4ead67-23e7-4b8e-bd06-6583c0c63f10": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-0": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 700,
-            "mobile_text_position": "place-self-start-end text-end",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-0",
-        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "a6371114-8380-4b46-a645-6aca4fecea7b": {
-      "type": "rich-text",
-      "blocks": {
-        "691897a6-c03f-4cf3-88d2-3c31c2eda259": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Read more",
-            "url": "shopify:\/\/products\/sleepytroll",
-            "background": "#d8c2ac",
-            "text_color": "#000000"
-          }
-        },
-        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-0": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "What makes Sleepytroll special?"
-          }
-        },
-        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-1": {
-          "type": "heading",
-          "settings": {
-            "text": "What makes Sleepytroll special?",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-2": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "691897a6-c03f-4cf3-88d2-3c31c2eda259",
-        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-0",
-        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-1",
-        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "1265d83b-705a-4f87-91e8-7d7b3df5012b": {
-      "type": "featured-product",
-      "blocks": {
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-0": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {}
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-1": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-2": {
-          "type": "badges",
-          "settings": {}
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-3": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-4": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-5": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {}
-        },
-        "1802b4ad-a78e-4927-a08d-fc9d0415bf1b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "0b5584a6-d705-4bde-a382-c743f2ff64ea": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-6": {
-          "type": "description",
-          "settings": {
-            "collapse_content": true
-          }
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-7": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-8": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-9": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "atc_button_background": "#0f334b",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-10": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "02e8c5dc-e84f-4315-a990-76f93c1b2a74": {
-          "type": "button",
-          "settings": {
-            "link": "shopify:\/\/products\/sleepytroll-baby-rocker-gen-2",
-            "text": "Explore now",
-            "size": "xl",
-            "style": "fill",
-            "stretch": true,
-            "background": "#b5c4e4",
-            "text_color": "#0f334b"
-          }
-        },
-        "2661f6fd-befe-4db2-b990-a1e5ce012113": {
-          "type": "collapsible_text",
-          "disabled": true,
-          "settings": {
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-0",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-1",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-2",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-3",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-4",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-5",
-        "1802b4ad-a78e-4927-a08d-fc9d0415bf1b",
-        "0b5584a6-d705-4bde-a382-c743f2ff64ea",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-6",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-7",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-8",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-9",
-        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-10",
-        "02e8c5dc-e84f-4315-a990-76f93c1b2a74",
-        "2661f6fd-befe-4db2-b990-a1e5ce012113"
-      ],
-      "settings": {
-        "full_width": true,
-        "product": "sleepytroll-baby-rocker-gen-2",
-        "desktop_media_width": 50,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#0f334b",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "9a095dd1-b307-4d31-95a2-31206501a67b": {
-      "type": "ss-video-socials",
-      "blocks": {
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-2": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/1.mp4",
-            "poster": "shopify:\/\/shop_images\/1_-_Thumb_v2.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        },
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-1": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/2.mp4",
-            "poster": "shopify:\/\/shop_images\/2_-_Thumb_v2.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        },
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/3.mov",
-            "poster": "shopify:\/\/shop_images\/3_-_Thumb_v2.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        },
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-4": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/4.mp4",
-            "poster": "shopify:\/\/shop_images\/4_-_Thumb_v2.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        },
-        "b467bf19-d9a2-4726-bb20-557ede569b02": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/5.mp4",
-            "poster": "shopify:\/\/shop_images\/5_-_Thumb_76bb5c02-8bb6-4efc-b8f0-0fe2a0b13875.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        },
-        "e07114c0-0b0f-4b7f-b314-3ab93b9cc597": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/6.mp4",
-            "poster": "shopify:\/\/shop_images\/6_-_Thumb_8e74fa3e-ae9e-453d-8f60-f45e50fd5ec2.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        },
-        "d5d527d9-4ce6-4b87-a912-0020586c6427": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/7.mp4",
-            "poster": "shopify:\/\/shop_images\/7_-_Thumb_v2.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        },
-        "f9b9de2c-dd26-482c-87f0-575be9d53c74": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/8.mp4",
-            "poster": "shopify:\/\/shop_images\/8_-_Thumb_4b649c12-2407-4b18-84d2-0e305ea9b2c4.png",
-            "text": "",
-            "icon_type": "none"
-          }
-        }
-      },
-      "block_order": [
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-2",
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-1",
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3",
-        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-4",
-        "b467bf19-d9a2-4726-bb20-557ede569b02",
-        "e07114c0-0b0f-4b7f-b314-3ab93b9cc597",
-        "d5d527d9-4ce6-4b87-a912-0020586c6427",
-        "f9b9de2c-dd26-482c-87f0-575be9d53c74"
-      ],
-      "settings": {
-        "heading": "See Sleepytroll in action",
-        "heading_custom": false,
-        "heading_font": "din_next_n4",
-        "heading_size": 36,
-        "heading_height": 130,
-        "heading_align": "center",
-        "items_mt": 36,
-        "items_type": "slider",
-        "items_type_mobile": "slider",
-        "columns_row": 4,
-        "columns_row_mobile": 1,
-        "columns_gap": 24,
-        "columns_gap_mobile": 24,
-        "slider_nav": "buttons",
-        "slider_nav_mobile": "pagination",
-        "slider_nav_size": 40,
-        "slider_nav_size_mobile": 30,
-        "slider_pagination_size": 15,
-        "slider_pagination_size_mobile": 10,
-        "item_radius": 12,
-        "item_border_thickness": 0,
-        "item_padding_horizontal": 0,
-        "item_padding_vertical": 0,
-        "video_size": "large",
-        "video_size_mobile": "medium",
-        "icon_size": 60,
-        "icon_padding": 15,
-        "content_padding_horizontal": 16,
-        "content_padding_vertical": 20,
-        "text_custom": false,
-        "text_font": "assistant_n4",
-        "text_size": 16,
-        "text_height": 130,
-        "text_align": "center",
-        "link_text": "Shop Now",
-        "link_url": "shopify:\/\/products\/sleepytroll-baby-rocker-gen-2",
-        "link_custom": false,
-        "link_font": "assistant_n4",
-        "link_size": 18,
-        "link_height": 130,
-        "link_align": "center",
-        "link_mt": 36,
-        "link_radius": 12,
-        "link_border_thickness": 2,
-        "link_padding_horizontal": 50,
-        "link_padding_vertical": 16,
-        "hide_arrow": false,
-        "heading_color": "#0f334b",
-        "item_bg_color": "#ffffff",
-        "item_border_color": "#120a0a",
-        "icon_bg_color": "#b5c4e4",
-        "icon_color": "#ffffff",
-        "text_color": "#120a0a",
-        "slider_nav_btn_bg": "#ffffff",
-        "slider_nav_btn_hover_bg": "#0f334b",
-        "slider_nav_border": "#b5c4e4",
-        "slider_nav_border_hover": "#b5c4e4",
-        "slider_nav_icon": "#b5c4e4",
-        "slider_nav_hover_icon": "#ffffff",
-        "slider_pagination_color": "#b5c4e4",
-        "slider_pagination_hover_color": "#b5c4e4",
-        "link_text_color": "#120a0a",
-        "link_text_hover_color": "#ffffff",
-        "link_bg_color": "#ffffff",
-        "link_bg_hover_color": "#120a0a",
-        "link_border_color": "#120a0a",
-        "link_border_hover_color": "#120a0a",
-        "background_color": "#f9f9f9",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 96,
-        "padding_bottom": 96,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 130,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "8858f782-0ccb-4a12-aaa4-299f2ec3c9b8": {
-      "type": "design_pack_-_heading",
-      "blocks": {
-        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-0": {
-          "type": "heading",
-          "settings": {
-            "title": "What makes Sleepytroll special?",
-            "block_heading_color": "",
-            "block_heading_size": "",
-            "heading_level": "h2"
-          }
-        },
-        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Description for section<\/p>",
-            "text_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-0",
-        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_size": 100,
-        "text_alignment": "center",
-        "text_position": "center center",
-        "text_width": "600px",
-        "text_color": "#0f334b",
-        "text_background_color": "",
-        "background_color": "",
-        "animation": "none",
-        "max_width": "",
-        "inner_padding": 40,
-        "outer_margin": 0,
-        "custom_css": "",
-        "mobile_custom_css": "",
-        "override_theme_font": false,
-        "heading_font": "serif",
-        "main_font": "sans-serif"
-      }
-    },
-    "bd9de1ea-44eb-41c9-a13d-2e52e379109e": {
-      "type": "featured-product",
-      "blocks": {
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-0": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-1": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-2": {
-          "type": "badges",
-          "settings": {}
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-3": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-4": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-5": {
-          "type": "separator",
-          "settings": {}
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-6": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-7": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-8": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-9": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-10": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-0",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-1",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-2",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-3",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-4",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-5",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-6",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-7",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-8",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-9",
-        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-10"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "product": "sleepytroll",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "82a8196f-1398-4abf-85b6-3333867acecb": {
-      "type": "multi-column",
-      "blocks": {
-        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-0": {
-          "type": "item",
-          "settings": {
-            "column_size": "2",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-1": {
-          "type": "item",
-          "settings": {
-            "column_size": "2",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": "test",
-            "link_style": "button"
-          }
-        }
-      },
-      "block_order": [
-        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-0",
-        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "About",
-        "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...<\/p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "ss_feature_7_TtBmJH": {
-      "type": "ss-feature-7",
-      "blocks": {
-        "item_Nc9Xyh": {
-          "type": "item",
-          "settings": {
-            "icon": "time",
-            "image": "shopify:\/\/shop_images\/Icon_5.png",
-            "heading": "<p>Versatility<\/p>",
-            "text": "<p>Sleepytroll rocks both your stroller, car seat, baby hammock and crib*, making it the only multi-purpose Baby Rocker on the market.<\/p><p>‎ <\/p><p><a href=\"https:\/\/us.sleepytroll.com\/pages\/versitality\" title=\"https:\/\/us.sleepytroll.com\/pages\/versitality\"><em><strong>Learn more<\/strong><\/em><\/a><\/p>",
-            "image_block_bg": "#b5c4e3",
-            "image_svg_color": ""
-          }
-        },
-        "item_mJUKG9": {
-          "type": "item",
-          "settings": {
-            "icon": "people",
-            "image": "shopify:\/\/shop_images\/Icon_4.png",
-            "heading": "<h3>Sensor Mode<\/h3>",
-            "text": "<p>If you don’t want your baby to be rocked all the time, simply turn on Sensor Mode and Sleepytroll will only rock when your baby needs it.<\/p>",
-            "image_block_bg": "#eee3c7",
-            "image_svg_color": ""
-          }
-        },
-        "item_ijRNwR": {
-          "type": "item",
-          "settings": {
-            "icon": "time",
-            "image": "shopify:\/\/shop_images\/Icon_6.png",
-            "heading": "<p>Quality Battery<\/p>",
-            "text": "<p>Sleepytroll uses lithium batteries, which lasts up to 12 hours and recharges in just 2,5 hours!<\/p>",
-            "image_block_bg": "#a8c9c4",
-            "image_svg_color": ""
-          }
-        },
-        "item_WixRPG": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-ecology",
-            "image": "shopify:\/\/shop_images\/Icon_2.png",
-            "heading": "<p>Made for rough weather<\/p>",
-            "text": "<p>Sleepytroll is designed to handle that rough Scandinavian weather. With an IPX4 rating it handles both heavy rain and snow, from -10 to +35 degrees.<\/p>",
-            "image_block_bg": "#eee3c7",
-            "image_svg_color": ""
-          }
-        },
-        "item_AMCxpJ": {
-          "type": "item",
-          "settings": {
-            "icon": "pin",
-            "image": "shopify:\/\/shop_images\/Icon_3.png",
-            "heading": "<p>Powerful<\/p>",
-            "text": "<p>Sleepytroll is the most powerful Baby Rocker on the market, thanks to its high-quality design and 5 different intensity settings.<\/p>",
-            "image_block_bg": "#a8c9c4",
-            "image_svg_color": ""
-          }
-        },
-        "item_X9gRVW": {
-          "type": "item",
-          "settings": {
-            "icon": "plant",
-            "image": "shopify:\/\/shop_images\/Icon_1.png",
-            "heading": "<p>Award-winning Design<\/p>",
-            "text": "<p>With its modern and sleek design, Sleepytroll fits perfectly on your stroller’s handle without disrupting the visual design of the stroller.<\/p><p>‎ <\/p><p><a href=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\" title=\"https:\/\/us.sleepytroll.com\/blogs\/news\/awards-recognition\"><em><strong>Learn more<\/strong><\/em><\/a><\/p>",
-            "image_block_bg": "#b5c4e3",
-            "image_svg_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_Nc9Xyh",
-        "item_mJUKG9",
-        "item_ijRNwR",
-        "item_WixRPG",
-        "item_AMCxpJ",
-        "item_X9gRVW"
-      ],
-      "custom_css": [
-        ".feature-title-template--21997171671347__ss_feature_7_TtBmJH {font-family: var(--custom-heading-font);}",
-        ".feature-text-template--21997171671347__ss_feature_7_TtBmJH {font-family: var(--custom-body-font);}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 34,
-        "heading_size_mobile": 20,
-        "heading_height": 130,
-        "heading_align": "center",
-        "items_row": 3,
-        "items_row_mobile": 1,
-        "items_gap": 20,
-        "items_gap_mobile": 12,
-        "items_style": "slider",
-        "items_mt": 0,
-        "items_padding_vertical": 0,
-        "items_padding_horizontal": 0,
-        "items_radius": 0,
-        "image_block_width": 40,
-        "image_block_width_mobile": 60,
-        "image_block_radius": 200,
-        "image_width": 50,
-        "image_width_mobile": 50,
-        "item_heading_custom": false,
-        "Item_heading_font": "josefin_sans_n4",
-        "item_heading_size": 18,
-        "item_heading_size_mobile": 18,
-        "item_heading_height": 130,
-        "item_heading_align": "center",
-        "item_heading_mt": 24,
-        "item_text_custom": false,
-        "Item_text_font": "josefin_sans_n4",
-        "item_text_size": 14,
-        "item_text_size_mobile": 14,
-        "item_text_height": 130,
-        "item_text_align": "center",
-        "item_text_mt": 12,
-        "heading_color": "#000000",
-        "items_bg_color": "rgba(0,0,0,0)",
-        "item_heading_color": "#0f334b",
-        "item_text_color": "#0f334b",
-        "pagination_color": "#0f334b",
-        "background_color": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "content_width": 120,
-        "border_thickness": 0
-      }
-    },
-    "1678195870068cfbbb": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "659ab707-9b07-433d-9944-6b0b1de6da81": {
-      "type": "multi-column",
-      "blocks": {
-        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Supporting_Stroller1_4-3_WEB.jpg",
-            "column_size": "3",
-            "title": "For strollers",
-            "heading_tag": "h4",
-            "content": "<p>The Sleepytroll baby rocker attaches to your stroller, providing a gentle rocking motion that helps soothe babies and extend those daytime naps. It is portable and lightweight, making it convenient to use while out and about.<\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
-            "link_text": "Learn more",
-            "link_style": "link"
-          }
-        },
-        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Supporting_Crib2_4-3_WEB.jpg",
-            "column_size": "3",
-            "title": "For cribs",
-            "heading_tag": "h4",
-            "content": "<p>By using extra adaptors, the Sleepytroll Baby Rocker easily attaches to the crib, providing a gentle rocking motion to help soothe and calm your baby to sleep. With the help of Sensor mode Sleepytroll can bridge those sleep cycles at night.<\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
-            "link_text": "Learn more",
-            "link_style": "link"
-          }
-        },
-        "faaef78f-5245-4d1f-9293-647681151b1a": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sleepytroll_Baby_Rocker_Bouncer_4-3.jpg",
-            "column_size": "3",
-            "title": "For baby bouncers",
-            "heading_tag": "h4",
-            "content": "<p>Let Sleepytroll lend a foot! Sleepytroll Bouncer Adapter easily attaches to your bouncer seat and rocks your little one to sleep – or simply keeps your baby settled when you are showering, making dinner, or playing with the siblings.<\/p><p><\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
-            "link_text": "Learn more",
-            "link_style": "link"
-          }
-        },
-        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CarSeat.png",
-            "column_size": "3",
-            "title": "For car seats",
-            "heading_tag": "h4",
-            "content": "<p>Sleepytroll can also be used for your baby’s Car Seat by attaching it securely to the top of your car seat’s handle using Sleepytroll’s integrated strap.<\/p><p><\/p>",
-            "link_url": "https:\/\/us.sleepytroll.com\/pages\/versitality",
-            "link_text": "Learn more",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-0",
-        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-1",
-        "faaef78f-5245-4d1f-9293-647681151b1a",
-        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "The ultimate sleeping aid for every parent",
-        "content": "<p>Sleepytroll is designed to be used where you and your little one need it<\/p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#0f334b"
-      }
-    },
-    "04b79acc-b1d5-4f7c-be01-d53e7d4768d0": {
-      "type": "shop-the-look",
-      "blocks": {
-        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-0": {
-          "type": "product",
-          "settings": {
-            "product": "sleepytroll-baby-rocker-gen-2",
-            "horizontal_position": 49,
-            "vertical_position": 87
-          }
-        },
-        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-1": {
-          "type": "product",
-          "settings": {
-            "product": "sleepytroll-bed-rocker-feet",
-            "horizontal_position": 77,
-            "vertical_position": 83
-          }
-        },
-        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-2": {
-          "type": "product",
-          "settings": {
-            "product": "sleepytroll-bed-adaptor",
-            "horizontal_position": 45,
-            "vertical_position": 69
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-0",
-        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-1",
-        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": false,
-        "image": "shopify:\/\/shop_images\/Supporting_Crib3_4-3_WEB.jpg",
-        "title": "Versatile sleeping innovation",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#0f334b",
-        "heading_color": "#0f334b",
-        "heading_gradient": "",
-        "product_card_background": "#f6e9e0",
-        "product_card_text_color": "#0f334b",
-        "product_card_mobile_background": "",
-        "product_card_mobile_text_color": "#0f334b",
-        "background_dots": "#ffffff"
-      }
-    },
-    "14514719-16b0-4779-bfd4-9d2acbcf57de": {
-      "type": "media-with-text",
-      "blocks": {
-        "475ff960-fb01-4ef8-aee2-571bc8780fd1": {
-          "type": "video",
-          "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--17692579594522__14514719-16b0-4779-bfd4-9d2acbcf57de-167808186203b31cfb-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "475ff960-fb01-4ef8-aee2-571bc8780fd1",
-        "template--17692579594522__14514719-16b0-4779-bfd4-9d2acbcf57de-167808186203b31cfb-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "small"
-      }
-    },
-    "1678195952c774e798": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "52713e37-56d6-4cc3-85fd-49cb584df0ee": {
-      "type": "design_pack_-_heading",
-      "blocks": {
-        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-0": {
-          "type": "heading",
-          "settings": {
-            "title": "A versitale tool for",
-            "block_heading_color": "",
-            "block_heading_size": "",
-            "heading_level": "h2"
-          }
-        },
-        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Description for section<\/p>",
-            "text_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-0",
-        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_size": 100,
-        "text_alignment": "center",
-        "text_position": "center center",
-        "text_width": "600px",
-        "text_color": "#121212",
-        "text_background_color": "",
-        "background_color": "",
-        "animation": "none",
-        "max_width": "",
-        "inner_padding": 40,
-        "outer_margin": 0,
-        "custom_css": "",
-        "mobile_custom_css": "",
-        "override_theme_font": false,
-        "heading_font": "serif",
-        "main_font": "sans-serif"
-      }
-    },
-    "a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01": {
-      "type": "kava-slider-bailey-01",
-      "blocks": {
-        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-0": {
-          "type": "slide",
-          "settings": {
-            "image_position": "right",
-            "slide_heading": "How sleepytroll benefits parents",
-            "heading_tag": "h3",
-            "divider_color": "#63c850",
-            "slide_text": "<p>Personalized customer experience refers to developing products, services, and interactions that meet your customer's unique requirements.<\/p>"
-          }
-        },
-        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-1": {
-          "type": "slide",
-          "settings": {
-            "image_position": "right",
-            "slide_heading": "Build Trust",
-            "heading_tag": "h3",
-            "divider_color": "#63c850",
-            "slide_text": "<p>If your site is not seen as trustworthy, people might hesitate to purchase your products or pay for your service. This is especially true if they intend to spend a lot of money.<\/p>"
-          }
-        },
-        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-2": {
-          "type": "slide",
-          "settings": {
-            "image_position": "right",
-            "slide_heading": "Differentiation",
-            "heading_tag": "h3",
-            "divider_color": "#63c850",
-            "slide_text": "<p>In our experience, a custom website with a storytelling perspective and compelling visuals makes an impact on both the market and the consumer that won't soon be forgotten.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-0",
-        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-1",
-        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "is_fullwidth": false,
-        "inherit_fonts": false,
-        "controls": true,
-        "delay": 5000,
-        "autoplay": false,
-        "loop": true,
-        "section_padding_top": 50,
-        "section_padding_bottom": 50,
-        "container_max_width": 1350,
-        "custom_css": ""
-      }
-    },
-    "f92eefce-4572-4308-abbe-62524bc354a8": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-0": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2.5,
-            "subheading": "How sleepytroll benefits parents",
-            "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-1": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -4,
-            "subheading": "Perfect for strollers",
-            "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "8a4a416d-7d84-4986-b2a4-d3ee713861ea": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 0,
-            "subheading": "Use it on carseats",
-            "title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-0",
-        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-1",
-        "8a4a416d-7d84-4986-b2a4-d3ee713861ea"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "d2d9e5bf-5847-4888-ab84-1e5e927462c4": {
-      "type": "blog-posts",
-      "blocks": {
-        "template--17692579594522__d2d9e5bf-5847-4888-ab84-1e5e927462c4-167464776346a7f556-0": {
-          "type": "blog",
-          "settings": {
-            "blog": "stories",
-            "posts_count": 3,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__d2d9e5bf-5847-4888-ab84-1e5e927462c4-167464776346a7f556-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": false,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "Stories and tips",
-        "content": "",
-        "link_url": "https:\/\/us.sleepytroll.com\/blogs\/stories",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#0f334b",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Where do you ship from?",
-            "content": "<p>We ship with express delivery from our warehouse in Sweden<\/p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my order?",
-            "content": "<p>It depends on where you are. Orders usually only take 1 day to process before shipment.<\/p><p>Most orders arrive right to your door within 2-5 days.<\/p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any questions?",
-            "content": "<p>You can contact us through our support! We usually answer all queries within 24 hours.<\/p><p>You can find our support e-mail at our <a href=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\" title=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\">FAQ<\/a> page.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Here we have gathered some questions you might have. You can also find more information like this on our <a href=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\" title=\"https:\/\/us.sleepytroll.com\/pages\/frequently-asked-question\">\"FAQ\"<\/a> page<\/p>",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#b5c4e4",
-        "background_gradient": "",
-        "text_color": "#0f334b",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "#ffffff",
-        "accordion_text_color": "#1a1a1a"
-      }
-    },
-    "4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sleepytroll-hero-2.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sleepytroll-hero-6.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "e83fa875-2903-497f-972c-b29bd4f83a99": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-0",
-        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-1",
-        "e83fa875-2903-497f-972c-b29bd4f83a99"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "md",
-        "controls_type": "outline_arrows",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    }
-  },
   "order": [
     "slideshow",
     "rich_text_nywHXr",
@@ -1682,5 +34,1653 @@
     "d2d9e5bf-5847-4888-ab84-1e5e927462c4",
     "faq",
     "4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c"
-  ]
+  ],
+  "sections": {
+    "04b79acc-b1d5-4f7c-be01-d53e7d4768d0": {
+      "block_order": [
+        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-0",
+        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-1",
+        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-2"
+      ],
+      "blocks": {
+        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-0": {
+          "settings": {
+            "horizontal_position": 49,
+            "product": "sleepytroll-baby-rocker-gen-2",
+            "vertical_position": 87
+          },
+          "type": "product"
+        },
+        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-1": {
+          "settings": {
+            "horizontal_position": 77,
+            "product": "sleepytroll-bed-rocker-feet",
+            "vertical_position": 83
+          },
+          "type": "product"
+        },
+        "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-2": {
+          "settings": {
+            "horizontal_position": 45,
+            "product": "sleepytroll-bed-adaptor",
+            "vertical_position": 69
+          },
+          "type": "product"
+        }
+      },
+      "settings": {
+        "background": "",
+        "background_dots": "#ffffff",
+        "background_gradient": "",
+        "content": "",
+        "full_width": true,
+        "heading_color": "#0f334b",
+        "heading_gradient": "",
+        "image": "shopify://shop_images/Supporting_Crib3_4-3_WEB.jpg",
+        "product_card_background": "#f6e9e0",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "#0f334b",
+        "product_card_text_color": "#0f334b",
+        "stack_mobile": false,
+        "text_color": "#0f334b",
+        "title": "Versatile sleeping innovation"
+      },
+      "type": "shop-the-look"
+    },
+    "1265d83b-705a-4f87-91e8-7d7b3df5012b": {
+      "block_order": [
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-0",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-1",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-2",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-3",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-4",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-5",
+        "1802b4ad-a78e-4927-a08d-fc9d0415bf1b",
+        "0b5584a6-d705-4bde-a382-c743f2ff64ea",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-6",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-7",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-8",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-9",
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-10",
+        "02e8c5dc-e84f-4315-a990-76f93c1b2a74",
+        "2661f6fd-befe-4db2-b990-a1e5ce012113"
+      ],
+      "blocks": {
+        "02e8c5dc-e84f-4315-a990-76f93c1b2a74": {
+          "settings": {
+            "background": "#b5c4e4",
+            "link": "shopify://products/sleepytroll-baby-rocker-gen-2",
+            "size": "xl",
+            "stretch": true,
+            "style": "fill",
+            "text": "Explore now",
+            "text_color": "#0f334b"
+          },
+          "type": "button"
+        },
+        "0b5584a6-d705-4bde-a382-c743f2ff64ea": {
+          "disabled": true,
+          "settings": {
+            "alignment": "center",
+            "max_width": 500
+          },
+          "type": "image"
+        },
+        "1802b4ad-a78e-4927-a08d-fc9d0415bf1b": {
+          "disabled": true,
+          "settings": {
+            "alignment": "center",
+            "max_width": 500
+          },
+          "type": "image"
+        },
+        "2661f6fd-befe-4db2-b990-a1e5ce012113": {
+          "disabled": true,
+          "settings": {
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Title"
+          },
+          "type": "collapsible_text"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-0": {
+          "disabled": true,
+          "settings": {},
+          "type": "vendor"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-1": {
+          "settings": {
+            "heading_tag": "h2"
+          },
+          "type": "title"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-10": {
+          "settings": {},
+          "type": "pickup_availability"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-2": {
+          "settings": {},
+          "type": "badges"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-3": {
+          "settings": {
+            "show_taxes_notice": false
+          },
+          "type": "price"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-4": {
+          "settings": {
+            "show_empty": false
+          },
+          "type": "rating"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-5": {
+          "disabled": true,
+          "settings": {},
+          "type": "separator"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-6": {
+          "settings": {
+            "collapse_content": true
+          },
+          "type": "description"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-7": {
+          "settings": {
+            "color_mode": "color",
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "size_chart_page": "",
+            "stack_blocks": true
+          },
+          "type": "variant_picker"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-8": {
+          "disabled": true,
+          "settings": {},
+          "type": "quantity_selector"
+        },
+        "template--18686512759066__1265d83b-705a-4f87-91e8-7d7b3df5012b-1682593686f5064284-9": {
+          "settings": {
+            "atc_button_background": "#0f334b",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": "",
+            "show_payment_button": false
+          },
+          "type": "buy_buttons"
+        }
+      },
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_width": 50,
+        "enable_image_zoom": true,
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "full_width": true,
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": "",
+        "max_image_zoom_level": 3,
+        "mobile_carousel_control": "floating_dots",
+        "mobile_media_size": "expanded",
+        "product": "sleepytroll-baby-rocker-gen-2",
+        "text_color": "#0f334b"
+      },
+      "type": "featured-product"
+    },
+    "14514719-16b0-4779-bfd4-9d2acbcf57de": {
+      "block_order": [
+        "475ff960-fb01-4ef8-aee2-571bc8780fd1",
+        "template--17692579594522__14514719-16b0-4779-bfd4-9d2acbcf57de-167808186203b31cfb-0"
+      ],
+      "blocks": {
+        "475ff960-fb01-4ef8-aee2-571bc8780fd1": {
+          "settings": {
+            "background": "#000000",
+            "background_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "icon": "none",
+            "icon_width": 48,
+            "link_text": "",
+            "link_url": "",
+            "media_position": "start",
+            "media_width": 50,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "text_position": "place-self-center text-center",
+            "title": "Heading"
+          },
+          "type": "video"
+        },
+        "template--17692579594522__14514719-16b0-4779-bfd4-9d2acbcf57de-167808186203b31cfb-0": {
+          "disabled": true,
+          "settings": {
+            "background": "#000000",
+            "background_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "icon": "none",
+            "icon_width": 48,
+            "link_text": "",
+            "link_url": "",
+            "media_position": "start",
+            "media_width": 50,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "text_position": "place-self-center text-center",
+            "title": "Heading"
+          },
+          "type": "image"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "enable_parallax": true,
+        "full_width": false,
+        "spacing": "small"
+      },
+      "type": "media-with-text"
+    },
+    "1678195870068cfbbb": {
+      "disabled": true,
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "enable_review_integration": true,
+        "full_width": true,
+        "remove_horizontal_spacing": false,
+        "remove_vertical_spacing": false,
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff",
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "text_color": ""
+      },
+      "type": "apps"
+    },
+    "1678195952c774e798": {
+      "disabled": true,
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "enable_review_integration": true,
+        "full_width": true,
+        "remove_horizontal_spacing": false,
+        "remove_vertical_spacing": false,
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff",
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "text_color": ""
+      },
+      "type": "apps"
+    },
+    "1715e90c-f91f-45d9-a924-191ccac942b0": {
+      "block_order": [
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0",
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1",
+        "testimonial_HjJRNf",
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2"
+      ],
+      "blocks": {
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-0": {
+          "settings": {
+            "author": "Pia",
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">Absolutely magical product! I didn’t have any faith in it what so ever before it came, but wow was I wrong! It has really revolutionized our naps, and given us so much extra free time with two hands available. </a></p>",
+            "rating": 5,
+            "round_avatar": false,
+            "show_rating": true,
+            "title": "Like Having a Nanny!"
+          },
+          "type": "testimonial"
+        },
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-1": {
+          "settings": {
+            "author": "Emma B.",
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">I find this product when I had my second child and it has been a lifesaver. On the bassinet, bouncer or pram and make my boy go to sleep everytime.</a></p><p></p><p></p><p></p>",
+            "rating": 5,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Best Baby Product"
+          },
+          "type": "testimonial"
+        },
+        "template--18686512759066__1715e90c-f91f-45d9-a924-191ccac942b0-16847437452ec64f1f-2": {
+          "settings": {
+            "author": "Diana",
+            "content": "<p><a href=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\" title=\"https://us.sleepytroll.com/products/sleepytroll#shopify-block-92c50b33-37e3-42d8-bddc-c57a2cf2c6af\">This is absolutely the best device for a baby, it helps a lot. Must have device for a baby.</a></p><p></p><p></p><p></p><p></p><p></p>",
+            "rating": 5,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Must Have Device"
+          },
+          "type": "testimonial"
+        },
+        "testimonial_HjJRNf": {
+          "disabled": true,
+          "settings": {
+            "author": "",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "rating": 4,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Testimonial"
+          },
+          "type": "testimonial"
+        }
+      },
+      "settings": {
+        "background": "#f6e9e0",
+        "background_gradient": "",
+        "content": "<p>Read more of our reviews <a href=\"https://us.sleepytroll.com/products/sleepytroll-baby-rocker-gen-2#shopify-section-template--22858829037875__17011775569cabd1e5\" title=\"Sleepytroll Baby Rocker Gen 2 Reviews\">here</a></p>",
+        "full_width": true,
+        "heading_color": "#0f334b",
+        "heading_gradient": "",
+        "link_text": "",
+        "link_url": "https://sleepytroll.com/products/sleepytroll#shopify-section-template--19419678048538__1678866063fa9bc912",
+        "stack_testimonials": false,
+        "subheading": "",
+        "testimonial_card_background": "#f9f9f9",
+        "testimonial_card_text_color": "#0f334b",
+        "text_color": "",
+        "title": "Parents Approve – See Their Reviews"
+      },
+      "type": "testimonials"
+    },
+    "4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c": {
+      "block_order": [
+        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-0",
+        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-1",
+        "e83fa875-2903-497f-972c-b29bd4f83a99"
+      ],
+      "blocks": {
+        "e83fa875-2903-497f-972c-b29bd4f83a99": {
+          "disabled": true,
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "button_text_color": "#000000",
+            "content_max_width": 780,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "heading_tag": "h0",
+            "mobile_text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "subheading": "Tell your story",
+            "text_color": "#ffffff",
+            "title": "Slide title"
+          },
+          "type": "image"
+        },
+        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-0": {
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "button_text_color": "#000000",
+            "content_max_width": 780,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "heading_tag": "h0",
+            "image": "shopify://shop_images/sleepytroll-hero-2.jpg",
+            "mobile_text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "title": ""
+          },
+          "type": "image"
+        },
+        "template--17692579594522__4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c-167472274552084bbe-1": {
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "button_text_color": "#000000",
+            "content_max_width": 780,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "heading_tag": "h0",
+            "image": "shopify://shop_images/sleepytroll-hero-6.jpg",
+            "mobile_text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "title": ""
+          },
+          "type": "image"
+        }
+      },
+      "settings": {
+        "allow_transparent_header": true,
+        "autoplay": false,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "controls_type": "outline_arrows",
+        "cycle_speed": 6,
+        "full_width": true,
+        "image_size": "md",
+        "transition_type": "fade_with_text"
+      },
+      "type": "slideshow"
+    },
+    "52713e37-56d6-4cc3-85fd-49cb584df0ee": {
+      "block_order": [
+        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-0",
+        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-1"
+      ],
+      "blocks": {
+        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-0": {
+          "settings": {
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "heading_level": "h2",
+            "title": "A versitale tool for"
+          },
+          "type": "heading"
+        },
+        "template--17692579594522__52713e37-56d6-4cc3-85fd-49cb584df0ee-1678082214421de498-1": {
+          "settings": {
+            "text": "<p>Description for section</p>",
+            "text_alignment": "center"
+          },
+          "type": "text"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "animation": "none",
+        "background_color": "",
+        "custom_css": "",
+        "heading_font": "serif",
+        "inner_padding": 40,
+        "main_font": "sans-serif",
+        "max_width": "",
+        "mobile_custom_css": "",
+        "outer_margin": 0,
+        "override_theme_font": false,
+        "text_alignment": "center",
+        "text_background_color": "",
+        "text_color": "#121212",
+        "text_position": "center center",
+        "text_size": 100,
+        "text_width": "600px"
+      },
+      "type": "design_pack_-_heading"
+    },
+    "659ab707-9b07-433d-9944-6b0b1de6da81": {
+      "block_order": [
+        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-0",
+        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-1",
+        "faaef78f-5245-4d1f-9293-647681151b1a",
+        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2"
+      ],
+      "blocks": {
+        "faaef78f-5245-4d1f-9293-647681151b1a": {
+          "settings": {
+            "column_size": "3",
+            "content": "<p>Let Sleepytroll lend a foot! Sleepytroll Bouncer Adapter easily attaches to your bouncer seat and rocks your little one to sleep – or simply keeps your baby settled when you are showering, making dinner, or playing with the siblings.</p><p></p>",
+            "heading_tag": "h4",
+            "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Bouncer_4-3.jpg",
+            "link_style": "link",
+            "link_text": "Learn more",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
+            "title": "For baby bouncers"
+          },
+          "type": "item"
+        },
+        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-0": {
+          "settings": {
+            "column_size": "3",
+            "content": "<p>The Sleepytroll baby rocker attaches to your stroller, providing a gentle rocking motion that helps soothe babies and extend those daytime naps. It is portable and lightweight, making it convenient to use while out and about.</p>",
+            "heading_tag": "h4",
+            "image": "shopify://shop_images/Supporting_Stroller1_4-3_WEB.jpg",
+            "link_style": "link",
+            "link_text": "Learn more",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
+            "title": "For strollers"
+          },
+          "type": "item"
+        },
+        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-1": {
+          "settings": {
+            "column_size": "3",
+            "content": "<p>By using extra adaptors, the Sleepytroll Baby Rocker easily attaches to the crib, providing a gentle rocking motion to help soothe and calm your baby to sleep. With the help of Sensor mode Sleepytroll can bridge those sleep cycles at night.</p>",
+            "heading_tag": "h4",
+            "image": "shopify://shop_images/Supporting_Crib2_4-3_WEB.jpg",
+            "link_style": "link",
+            "link_text": "Learn more",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
+            "title": "For cribs"
+          },
+          "type": "item"
+        },
+        "template--17692579594522__659ab707-9b07-433d-9944-6b0b1de6da81-1678087710c401100e-2": {
+          "disabled": true,
+          "settings": {
+            "column_size": "3",
+            "content": "<p>Sleepytroll can also be used for your baby’s Car Seat by attaching it securely to the top of your car seat’s handle using Sleepytroll’s integrated strap.</p><p></p>",
+            "heading_tag": "h4",
+            "image": "shopify://shop_images/CarSeat.png",
+            "link_style": "link",
+            "link_text": "Learn more",
+            "link_url": "https://us.sleepytroll.com/pages/versitality",
+            "title": "For car seats"
+          },
+          "type": "item"
+        }
+      },
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content": "<p>Sleepytroll is designed to be used where you and your little one need it</p>",
+        "full_width": true,
+        "gap": "medium",
+        "stack_on_mobile": false,
+        "subheading": "",
+        "text_alignment": "start",
+        "text_color": "#0f334b",
+        "title": "The ultimate sleeping aid for every parent"
+      },
+      "type": "multi-column"
+    },
+    "82a8196f-1398-4abf-85b6-3333867acecb": {
+      "block_order": [
+        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-0",
+        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-1"
+      ],
+      "blocks": {
+        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-0": {
+          "settings": {
+            "column_size": "2",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "heading_tag": "h4",
+            "link_style": "link",
+            "link_text": "",
+            "link_url": "",
+            "title": "Column title"
+          },
+          "type": "item"
+        },
+        "template--19419677393178__82a8196f-1398-4abf-85b6-3333867acecb-1687766221b5b8b813-1": {
+          "settings": {
+            "column_size": "2",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "heading_tag": "h4",
+            "link_style": "button",
+            "link_text": "test",
+            "link_url": "",
+            "title": "Column title"
+          },
+          "type": "item"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "full_width": true,
+        "gap": "medium",
+        "stack_on_mobile": false,
+        "subheading": "About",
+        "text_alignment": "start",
+        "text_color": "",
+        "title": "Featured content"
+      },
+      "type": "multi-column"
+    },
+    "8858f782-0ccb-4a12-aaa4-299f2ec3c9b8": {
+      "block_order": [
+        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-0",
+        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-1"
+      ],
+      "blocks": {
+        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-0": {
+          "settings": {
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "heading_level": "h2",
+            "title": "What makes Sleepytroll special?"
+          },
+          "type": "heading"
+        },
+        "template--19296472924442__8858f782-0ccb-4a12-aaa4-299f2ec3c9b8-16861411830714ddd3-1": {
+          "disabled": true,
+          "settings": {
+            "text": "<p>Description for section</p>",
+            "text_alignment": "center"
+          },
+          "type": "text"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "animation": "none",
+        "background_color": "",
+        "custom_css": "",
+        "heading_font": "serif",
+        "inner_padding": 40,
+        "main_font": "sans-serif",
+        "max_width": "",
+        "mobile_custom_css": "",
+        "outer_margin": 0,
+        "override_theme_font": false,
+        "text_alignment": "center",
+        "text_background_color": "",
+        "text_color": "#0f334b",
+        "text_position": "center center",
+        "text_size": 100,
+        "text_width": "600px"
+      },
+      "type": "design_pack_-_heading"
+    },
+    "921fa0d6-7ad0-4c74-b353-3f924813d775": {
+      "block_order": [
+        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-0",
+        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-1"
+      ],
+      "blocks": {
+        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-0": {
+          "settings": {
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "heading_level": "h2",
+            "title": "The world's first smart automatic baby rocker"
+          },
+          "type": "heading"
+        },
+        "template--17692579594522__921fa0d6-7ad0-4c74-b353-3f924813d775-16769006596e33c48c-1": {
+          "settings": {
+            "text": "<p>Sleepytroll is the first baby rocker that listens and rocks your stroller, crib or car seat using sound and motion sensors.</p>",
+            "text_alignment": "center"
+          },
+          "type": "text"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "animation": "none",
+        "background_color": "",
+        "custom_css": "",
+        "heading_font": "poppins_n5",
+        "inner_padding": 25,
+        "main_font": "din_next_n4",
+        "max_width": "",
+        "mobile_custom_css": "",
+        "outer_margin": 25,
+        "override_theme_font": false,
+        "text_alignment": "center",
+        "text_background_color": "",
+        "text_color": "#0f334b",
+        "text_position": "center center",
+        "text_size": 100,
+        "text_width": "600px"
+      },
+      "type": "design_pack_-_heading"
+    },
+    "9a095dd1-b307-4d31-95a2-31206501a67b": {
+      "block_order": [
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-2",
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-1",
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3",
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-4",
+        "b467bf19-d9a2-4726-bb20-557ede569b02",
+        "e07114c0-0b0f-4b7f-b314-3ab93b9cc597",
+        "d5d527d9-4ce6-4b87-a912-0020586c6427",
+        "f9b9de2c-dd26-482c-87f0-575be9d53c74"
+      ],
+      "blocks": {
+        "b467bf19-d9a2-4726-bb20-557ede569b02": {
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/5_-_Thumb_76bb5c02-8bb6-4efc-b8f0-0fe2a0b13875.png",
+            "text": "",
+            "video": "shopify://files/videos/5.mp4"
+          },
+          "type": "video"
+        },
+        "d5d527d9-4ce6-4b87-a912-0020586c6427": {
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/7_-_Thumb_v2.png",
+            "text": "",
+            "video": "shopify://files/videos/7.mp4"
+          },
+          "type": "video"
+        },
+        "e07114c0-0b0f-4b7f-b314-3ab93b9cc597": {
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/6_-_Thumb_8e74fa3e-ae9e-453d-8f60-f45e50fd5ec2.png",
+            "text": "",
+            "video": "shopify://files/videos/6.mp4"
+          },
+          "type": "video"
+        },
+        "f9b9de2c-dd26-482c-87f0-575be9d53c74": {
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/8_-_Thumb_4b649c12-2407-4b18-84d2-0e305ea9b2c4.png",
+            "text": "",
+            "video": "shopify://files/videos/8.mp4"
+          },
+          "type": "video"
+        },
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-1": {
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/2_-_Thumb_v2.png",
+            "text": "",
+            "video": "shopify://files/videos/2.mp4"
+          },
+          "type": "video"
+        },
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-2": {
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/1_-_Thumb_v2.png",
+            "text": "",
+            "video": "shopify://files/videos/1.mp4"
+          },
+          "type": "video"
+        },
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-3": {
+          "disabled": true,
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/3_-_Thumb_v2.png",
+            "text": "",
+            "video": "shopify://files/videos/3.mov"
+          },
+          "type": "video"
+        },
+        "template--21912877039923__9a095dd1-b307-4d31-95a2-31206501a67b-video-4": {
+          "settings": {
+            "icon_type": "none",
+            "poster": "shopify://shop_images/4_-_Thumb_v2.png",
+            "text": "",
+            "video": "shopify://files/videos/4.mp4"
+          },
+          "type": "video"
+        }
+      },
+      "settings": {
+        "background_color": "#f9f9f9",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_thickness": 0,
+        "columns_gap": 24,
+        "columns_gap_mobile": 24,
+        "columns_row": 4,
+        "columns_row_mobile": 1,
+        "content_padding_horizontal": 16,
+        "content_padding_vertical": 20,
+        "content_width": 130,
+        "full_width": false,
+        "heading": "See Sleepytroll in action",
+        "heading_align": "center",
+        "heading_color": "#0f334b",
+        "heading_custom": false,
+        "heading_font": "din_next_n4",
+        "heading_height": 130,
+        "heading_size": 36,
+        "hide_arrow": false,
+        "icon_bg_color": "#b5c4e4",
+        "icon_color": "#ffffff",
+        "icon_padding": 15,
+        "icon_size": 60,
+        "item_bg_color": "#ffffff",
+        "item_border_color": "#120a0a",
+        "item_border_thickness": 0,
+        "item_padding_horizontal": 0,
+        "item_padding_vertical": 0,
+        "item_radius": 12,
+        "items_mt": 36,
+        "items_type": "slider",
+        "items_type_mobile": "slider",
+        "lazy": true,
+        "link_align": "center",
+        "link_bg_color": "#ffffff",
+        "link_bg_hover_color": "#120a0a",
+        "link_border_color": "#120a0a",
+        "link_border_hover_color": "#120a0a",
+        "link_border_thickness": 2,
+        "link_custom": false,
+        "link_font": "assistant_n4",
+        "link_height": 130,
+        "link_mt": 36,
+        "link_padding_horizontal": 50,
+        "link_padding_vertical": 16,
+        "link_radius": 12,
+        "link_size": 18,
+        "link_text": "Shop Now",
+        "link_text_color": "#120a0a",
+        "link_text_hover_color": "#ffffff",
+        "link_url": "shopify://products/sleepytroll-baby-rocker-gen-2",
+        "margin_bottom": 0,
+        "margin_top": 0,
+        "padding_bottom": 96,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "padding_top": 96,
+        "slider_nav": "buttons",
+        "slider_nav_border": "#b5c4e4",
+        "slider_nav_border_hover": "#b5c4e4",
+        "slider_nav_btn_bg": "#ffffff",
+        "slider_nav_btn_hover_bg": "#0f334b",
+        "slider_nav_hover_icon": "#ffffff",
+        "slider_nav_icon": "#b5c4e4",
+        "slider_nav_mobile": "pagination",
+        "slider_nav_size": 40,
+        "slider_nav_size_mobile": 30,
+        "slider_pagination_color": "#b5c4e4",
+        "slider_pagination_hover_color": "#b5c4e4",
+        "slider_pagination_size": 15,
+        "slider_pagination_size_mobile": 10,
+        "text_align": "center",
+        "text_color": "#120a0a",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_height": 130,
+        "text_size": 16,
+        "video_size": "large",
+        "video_size_mobile": "medium"
+      },
+      "type": "ss-video-socials"
+    },
+    "a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01": {
+      "block_order": [
+        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-0",
+        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-1",
+        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-2"
+      ],
+      "blocks": {
+        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-0": {
+          "settings": {
+            "divider_color": "#63c850",
+            "heading_tag": "h3",
+            "image_position": "right",
+            "slide_heading": "How sleepytroll benefits parents",
+            "slide_text": "<p>Personalized customer experience refers to developing products, services, and interactions that meet your customer's unique requirements.</p>"
+          },
+          "type": "slide"
+        },
+        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-1": {
+          "settings": {
+            "divider_color": "#63c850",
+            "heading_tag": "h3",
+            "image_position": "right",
+            "slide_heading": "Build Trust",
+            "slide_text": "<p>If your site is not seen as trustworthy, people might hesitate to purchase your products or pay for your service. This is especially true if they intend to spend a lot of money.</p>"
+          },
+          "type": "slide"
+        },
+        "template--17692579594522__a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01-1676899056a93c8605-2": {
+          "settings": {
+            "divider_color": "#63c850",
+            "heading_tag": "h3",
+            "image_position": "right",
+            "slide_heading": "Differentiation",
+            "slide_text": "<p>In our experience, a custom website with a storytelling perspective and compelling visuals makes an impact on both the market and the consumer that won't soon be forgotten.</p>"
+          },
+          "type": "slide"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "autoplay": false,
+        "container_max_width": 1350,
+        "controls": true,
+        "custom_css": "",
+        "delay": 5000,
+        "inherit_fonts": false,
+        "is_fullwidth": false,
+        "loop": true,
+        "section_padding_bottom": 50,
+        "section_padding_top": 50
+      },
+      "type": "kava-slider-bailey-01"
+    },
+    "a6371114-8380-4b46-a645-6aca4fecea7b": {
+      "block_order": [
+        "691897a6-c03f-4cf3-88d2-3c31c2eda259",
+        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-0",
+        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-1",
+        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-2"
+      ],
+      "blocks": {
+        "691897a6-c03f-4cf3-88d2-3c31c2eda259": {
+          "disabled": true,
+          "settings": {
+            "background": "#d8c2ac",
+            "size": "xl",
+            "style": "fill",
+            "text": "Read more",
+            "text_color": "#000000",
+            "url": "shopify://products/sleepytroll"
+          },
+          "type": "button"
+        },
+        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-0": {
+          "disabled": true,
+          "settings": {
+            "text": "What makes Sleepytroll special?"
+          },
+          "type": "subheading"
+        },
+        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-1": {
+          "settings": {
+            "gradient": "",
+            "heading_tag": "h1",
+            "text": "What makes Sleepytroll special?",
+            "text_color": ""
+          },
+          "type": "heading"
+        },
+        "template--17692579594522__a6371114-8380-4b46-a645-6aca4fecea7b-1678111698b8ccbab4-2": {
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          },
+          "type": "richtext"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "background": "#ffffff",
+        "background_gradient": "",
+        "content_width": "small",
+        "full_width": true,
+        "text_color": "",
+        "text_position": "center"
+      },
+      "type": "rich-text"
+    },
+    "bd9de1ea-44eb-41c9-a13d-2e52e379109e": {
+      "block_order": [
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-0",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-1",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-2",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-3",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-4",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-5",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-6",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-7",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-8",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-9",
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-10"
+      ],
+      "blocks": {
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-0": {
+          "settings": {},
+          "type": "vendor"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-1": {
+          "settings": {
+            "heading_tag": "h2"
+          },
+          "type": "title"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-10": {
+          "settings": {},
+          "type": "pickup_availability"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-2": {
+          "settings": {},
+          "type": "badges"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-3": {
+          "settings": {
+            "show_taxes_notice": false
+          },
+          "type": "price"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-4": {
+          "settings": {
+            "show_empty": false
+          },
+          "type": "rating"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-5": {
+          "settings": {},
+          "type": "separator"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-6": {
+          "settings": {
+            "collapse_content": false
+          },
+          "type": "description"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-7": {
+          "settings": {
+            "color_mode": "color",
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "size_chart_page": "",
+            "stack_blocks": true
+          },
+          "type": "variant_picker"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-8": {
+          "settings": {},
+          "type": "quantity_selector"
+        },
+        "template--17692579594522__bd9de1ea-44eb-41c9-a13d-2e52e379109e-16781913860eb0a2c2-9": {
+          "settings": {
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": "",
+            "show_payment_button": true
+          },
+          "type": "buy_buttons"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_width": 55,
+        "enable_image_zoom": true,
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "full_width": true,
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": "",
+        "max_image_zoom_level": 3,
+        "mobile_carousel_control": "floating_dots",
+        "mobile_media_size": "expanded",
+        "product": "sleepytroll",
+        "text_color": ""
+      },
+      "type": "featured-product"
+    },
+    "d2d9e5bf-5847-4888-ab84-1e5e927462c4": {
+      "block_order": [
+        "template--17692579594522__d2d9e5bf-5847-4888-ab84-1e5e927462c4-167464776346a7f556-0"
+      ],
+      "blocks": {
+        "template--17692579594522__d2d9e5bf-5847-4888-ab84-1e5e927462c4-167464776346a7f556-0": {
+          "settings": {
+            "blog": "stories",
+            "posts_count": 3,
+            "stack_items": false
+          },
+          "type": "blog"
+        }
+      },
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content": "",
+        "full_width": true,
+        "heading_color": "",
+        "heading_gradient": "",
+        "link_text": "View all",
+        "link_url": "https://us.sleepytroll.com/blogs/stories",
+        "show_author": false,
+        "show_category": true,
+        "show_comments_count": false,
+        "show_date": false,
+        "show_excerpt": true,
+        "subheading": "",
+        "text_color": "#0f334b",
+        "title": "Stories and tips"
+      },
+      "type": "blog-posts"
+    },
+    "e9690f3e-fcfe-4d8e-9d56-ebcad536f328": {
+      "block_order": [
+        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-0",
+        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-1",
+        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-2"
+      ],
+      "blocks": {
+        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-0": {
+          "settings": {
+            "content": "<p>Free international shipping on orders above 99 USD.</p>",
+            "icon": "picto-plane",
+            "icon_background": "#f6e9e0",
+            "icon_background_type": "circle",
+            "icon_color": "#0f334b",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "Free shipping"
+          },
+          "type": "item"
+        },
+        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-1": {
+          "settings": {
+            "content": "<p>Try your Sleepytroll risk-free for 30 days*</p>",
+            "icon": "picto-love",
+            "icon_background": "#f6e9e0",
+            "icon_background_type": "circle",
+            "icon_color": "#0f334b",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "30-day satisfaction guarantee"
+          },
+          "type": "item"
+        },
+        "template--17692579594522__e9690f3e-fcfe-4d8e-9d56-ebcad536f328-167507719083af6671-2": {
+          "settings": {
+            "content": "<p>We cover all expenses. Everything is pre-paid.</p>",
+            "icon": "picto-validation",
+            "icon_background": "#f6e9e0",
+            "icon_background_type": "circle",
+            "icon_color": "#0f334b",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "No duty or taxes"
+          },
+          "type": "item"
+        }
+      },
+      "custom_css": [],
+      "settings": {
+        "background": "#f6e9e0",
+        "background_gradient": "",
+        "full_width": true,
+        "heading_tag": "h6",
+        "icon_spacing": "small",
+        "text_alignment": "center",
+        "text_color": "#0f334b",
+        "title": ""
+      },
+      "type": "text-with-icons"
+    },
+    "f40f5f1c-c322-4687-8fb6-0ea7f2a544d0": {
+      "block_order": [
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3",
+        "882a278a-be69-4f12-8b7e-c68e80458695",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2",
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4",
+        "eb93505a-6ce8-4c03-a301-628dd8419e2a"
+      ],
+      "blocks": {
+        "882a278a-be69-4f12-8b7e-c68e80458695": {
+          "settings": {
+            "link": "",
+            "logo": "shopify://shop_images/Junior_Design_Award.png",
+            "logo_width": 170
+          },
+          "type": "logo"
+        },
+        "eb93505a-6ce8-4c03-a301-628dd8419e2a": {
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "logo_width": 300
+          },
+          "type": "logo"
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-0": {
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "logo": "shopify://shop_images/1_3dc0040e-727b-4134-9b25-ba13208b9afb.png",
+            "logo_width": 300
+          },
+          "type": "logo"
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-1": {
+          "settings": {
+            "link": "",
+            "logo": "shopify://shop_images/2_c3bd669f-3a55-4ac8-8994-192146a236a7.png",
+            "logo_width": 300
+          },
+          "type": "logo"
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-2": {
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "logo": "shopify://shop_images/6_ad726ec7-f2e6-46c2-b34a-ca9c974c8965.png",
+            "logo_width": 300
+          },
+          "type": "logo"
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-3": {
+          "settings": {
+            "link": "",
+            "logo": "shopify://shop_images/TIM241111_Cover-BestInventions_FINAL_3.jpg",
+            "logo_width": 300
+          },
+          "type": "logo"
+        },
+        "template--17692579594522__f40f5f1c-c322-4687-8fb6-0ea7f2a544d0-1678094919a4b44633-4": {
+          "settings": {
+            "link": "",
+            "logo": "shopify://shop_images/Gold_Badge_2023_Best_Sleep_Aid.png",
+            "logo_width": 300
+          },
+          "type": "logo"
+        }
+      },
+      "settings": {
+        "background": "#0f334b",
+        "background_gradient": "",
+        "content": "<p>We’re thrilled to share that <em>TIME.com</em> has featured Sleepytroll as one of the 'Best Inventions of the Year'—helping parents and babies worldwide get better sleep!</p><p>Read more about our awards <a href=\"/pages/awards-and-recognition\" title=\"Awards and Recognition\"><em><strong>here</strong></em></a></p>",
+        "full_width": true,
+        "heading_color": "#ffffff",
+        "heading_gradient": "",
+        "items_per_row": 7,
+        "logo_item_background": "rgba(0,0,0,0)",
+        "logo_item_border": "",
+        "stack_mobile": false,
+        "text_alignment": "start",
+        "text_color": "#f0f0f0",
+        "title": "Our awards and press coverage"
+      },
+      "type": "logo-list"
+    },
+    "f92eefce-4572-4308-abbe-62524bc354a8": {
+      "block_order": [
+        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-0",
+        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-1",
+        "8a4a416d-7d84-4986-b2a4-d3ee713861ea"
+      ],
+      "blocks": {
+        "8a4a416d-7d84-4986-b2a4-d3ee713861ea": {
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "image_rotation_degrees": 0,
+            "subheading": "Use it on carseats",
+            "title": ""
+          },
+          "type": "item"
+        },
+        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-0": {
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "image_rotation_degrees": -2.5,
+            "subheading": "How sleepytroll benefits parents",
+            "title": ""
+          },
+          "type": "item"
+        },
+        "template--17692579594522__f92eefce-4572-4308-abbe-62524bc354a8-1674740826ea940253-1": {
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "image_rotation_degrees": -4,
+            "subheading": "Perfect for strollers",
+            "title": ""
+          },
+          "type": "item"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "collage_images_alignment": "middle",
+        "full_width": true,
+        "images_layout": "stacked",
+        "text_color": ""
+      },
+      "type": "multiple-images-with-text"
+    },
+    "faq": {
+      "block_order": [
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2"
+      ],
+      "blocks": {
+        "166442457738b23caf-0": {
+          "settings": {
+            "content": "<p>We ship with express delivery from our warehouse in Sweden</p>",
+            "title": "Where do you ship from?"
+          },
+          "type": "item"
+        },
+        "166442457738b23caf-1": {
+          "settings": {
+            "content": "<p>It depends on where you are. Orders usually only take 1 day to process before shipment.</p><p>Most orders arrive right to your door within 2-5 days.</p>",
+            "title": "How long will it take to get my order?"
+          },
+          "type": "item"
+        },
+        "166442457738b23caf-2": {
+          "settings": {
+            "content": "<p>You can contact us through our support! We usually answer all queries within 24 hours.</p><p>You can find our support e-mail at our <a href=\"https://us.sleepytroll.com/pages/frequently-asked-question\" title=\"https://us.sleepytroll.com/pages/frequently-asked-question\">FAQ</a> page.</p>",
+            "title": "Any questions?"
+          },
+          "type": "item"
+        }
+      },
+      "settings": {
+        "accordion_background": "#ffffff",
+        "accordion_text_color": "#1a1a1a",
+        "answer_time": "Average answer time: 24h",
+        "background": "#b5c4e4",
+        "background_gradient": "",
+        "button_background": "",
+        "button_text": "",
+        "button_text_color": "",
+        "button_url": "",
+        "content": "<p>Here we have gathered some questions you might have. You can also find more information like this on our <a href=\"https://us.sleepytroll.com/pages/frequently-asked-question\" title=\"https://us.sleepytroll.com/pages/frequently-asked-question\">\"FAQ\"</a> page</p>",
+        "full_width": false,
+        "heading_color": "",
+        "heading_gradient": "",
+        "subheading": "",
+        "support_hours": "",
+        "team_avatar_width": 160,
+        "text_color": "#0f334b",
+        "text_position": "start",
+        "title": "FAQ"
+      },
+      "type": "faq"
+    },
+    "fd4ead67-23e7-4b8e-bd06-6583c0c63f10": {
+      "block_order": [
+        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-0",
+        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-1"
+      ],
+      "blocks": {
+        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-0": {
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "button_text_color": "#000000",
+            "content_max_width": 700,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "heading_tag": "h0",
+            "mobile_text_position": "place-self-start-end text-end",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "title": ""
+          },
+          "type": "image"
+        },
+        "template--17692579594522__fd4ead67-23e7-4b8e-bd06-6583c0c63f10-1678087058e72c7473-1": {
+          "disabled": true,
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "button_text_color": "#000000",
+            "content_max_width": 780,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "heading_tag": "h0",
+            "mobile_text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "subheading": "Tell your story",
+            "text_color": "#ffffff",
+            "title": "Slide 2"
+          },
+          "type": "image"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": true,
+        "autoplay": false,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "controls_type": "dots",
+        "cycle_speed": 6,
+        "full_width": false,
+        "image_size": "auto",
+        "transition_type": "fade_with_text"
+      },
+      "type": "slideshow"
+    },
+    "rich_text_nywHXr": {
+      "block_order": [
+        "richtext_tWMn9w"
+      ],
+      "blocks": {
+        "richtext_tWMn9w": {
+          "settings": {
+            "content": "<h5><strong>Please note: Due to high demand, our first batch of Sleepytroll Baby Rocker Gen 2 has sold out faster than expected. But don't worry! Order now, and we’ll make sure you’re among the first to receive yours when new stock arrives later this week!</strong></h5>"
+          },
+          "type": "richtext"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content_width": "small",
+        "full_width": true,
+        "text_color": "",
+        "text_position": "center"
+      },
+      "type": "rich-text"
+    },
+    "slideshow": {
+      "block_order": [
+        "slide-1",
+        "slide-2"
+      ],
+      "blocks": {
+        "slide-1": {
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#0f334b",
+            "button_link": "shopify://products/sleepytroll-baby-rocker-gen-2",
+            "button_text": "Shop Now!",
+            "button_text_color": "#ffffff",
+            "content_max_width": 820,
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "heading_tag": "h3",
+            "image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero.jpg",
+            "mobile_image": "shopify://shop_images/Sleepytroll_Baby_Rocker_Gen_2_FP_Hero_MOB.jpg",
+            "mobile_text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 24,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "title": "Sleepytroll Gen 2 -Finally Back in Stock!"
+          },
+          "type": "image"
+        },
+        "slide-2": {
+          "disabled": true,
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "button_text_color": "#000000",
+            "content_max_width": 780,
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "heading_tag": "h0",
+            "mobile_text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "subheading": "Tell your story",
+            "text_color": "#ffffff",
+            "title": "Slide title"
+          },
+          "type": "image"
+        }
+      },
+      "settings": {
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)",
+        "controls_type": "numbers",
+        "cycle_speed": 6,
+        "full_width": true,
+        "image_size": "auto",
+        "transition_type": "fade_with_text"
+      },
+      "type": "slideshow"
+    },
+    "ss_feature_7_TtBmJH": {
+      "block_order": [
+        "item_Nc9Xyh",
+        "item_mJUKG9",
+        "item_ijRNwR",
+        "item_WixRPG",
+        "item_AMCxpJ",
+        "item_X9gRVW"
+      ],
+      "blocks": {
+        "item_AMCxpJ": {
+          "settings": {
+            "heading": "<p>Powerful</p>",
+            "icon": "pin",
+            "image": "shopify://shop_images/Icon_3.png",
+            "image_block_bg": "#a8c9c4",
+            "image_svg_color": "",
+            "text": "<p>Sleepytroll is the most powerful Baby Rocker on the market, thanks to its high-quality design and 5 different intensity settings.</p>"
+          },
+          "type": "item"
+        },
+        "item_Nc9Xyh": {
+          "settings": {
+            "heading": "<p>Versatility</p>",
+            "icon": "time",
+            "image": "shopify://shop_images/Icon_5.png",
+            "image_block_bg": "#b5c4e3",
+            "image_svg_color": "",
+            "text": "<p>Sleepytroll rocks both your stroller, car seat, baby hammock and crib*, making it the only multi-purpose Baby Rocker on the market.</p><p>‎ </p><p><a href=\"https://us.sleepytroll.com/pages/versitality\" title=\"https://us.sleepytroll.com/pages/versitality\"><em><strong>Learn more</strong></em></a></p>"
+          },
+          "type": "item"
+        },
+        "item_WixRPG": {
+          "settings": {
+            "heading": "<p>Made for rough weather</p>",
+            "icon": "bi-ecology",
+            "image": "shopify://shop_images/Icon_2.png",
+            "image_block_bg": "#eee3c7",
+            "image_svg_color": "",
+            "text": "<p>Sleepytroll is designed to handle that rough Scandinavian weather. With an IPX4 rating it handles both heavy rain and snow, from -10 to +35 degrees.</p>"
+          },
+          "type": "item"
+        },
+        "item_X9gRVW": {
+          "settings": {
+            "heading": "<p>Award-winning Design</p>",
+            "icon": "plant",
+            "image": "shopify://shop_images/Icon_1.png",
+            "image_block_bg": "#b5c4e3",
+            "image_svg_color": "",
+            "text": "<p>With its modern and sleek design, Sleepytroll fits perfectly on your stroller’s handle without disrupting the visual design of the stroller.</p><p>‎ </p><p><a href=\"https://us.sleepytroll.com/blogs/news/awards-recognition\" title=\"https://us.sleepytroll.com/blogs/news/awards-recognition\"><em><strong>Learn more</strong></em></a></p>"
+          },
+          "type": "item"
+        },
+        "item_ijRNwR": {
+          "settings": {
+            "heading": "<p>Quality Battery</p>",
+            "icon": "time",
+            "image": "shopify://shop_images/Icon_6.png",
+            "image_block_bg": "#a8c9c4",
+            "image_svg_color": "",
+            "text": "<p>Sleepytroll uses lithium batteries, which lasts up to 12 hours and recharges in just 2,5 hours!</p>"
+          },
+          "type": "item"
+        },
+        "item_mJUKG9": {
+          "settings": {
+            "heading": "<h3>Sensor Mode</h3>",
+            "icon": "people",
+            "image": "shopify://shop_images/Icon_4.png",
+            "image_block_bg": "#eee3c7",
+            "image_svg_color": "",
+            "text": "<p>If you don’t want your baby to be rocked all the time, simply turn on Sensor Mode and Sleepytroll will only rock when your baby needs it.</p>"
+          },
+          "type": "item"
+        }
+      },
+      "custom_css": [
+        ".feature-title-template--21997171671347__ss_feature_7_TtBmJH {font-family: var(--custom-heading-font);}",
+        ".feature-text-template--21997171671347__ss_feature_7_TtBmJH {font-family: var(--custom-body-font);}"
+      ],
+      "settings": {
+        "Item_heading_font": "josefin_sans_n4",
+        "Item_text_font": "josefin_sans_n4",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_thickness": 0,
+        "content_width": 120,
+        "heading": "",
+        "heading_align": "center",
+        "heading_color": "#000000",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_height": 130,
+        "heading_size": 34,
+        "heading_size_mobile": 20,
+        "image_block_radius": 200,
+        "image_block_width": 40,
+        "image_block_width_mobile": 60,
+        "image_width": 50,
+        "image_width_mobile": 50,
+        "item_heading_align": "center",
+        "item_heading_color": "#0f334b",
+        "item_heading_custom": false,
+        "item_heading_height": 130,
+        "item_heading_mt": 24,
+        "item_heading_size": 18,
+        "item_heading_size_mobile": 18,
+        "item_text_align": "center",
+        "item_text_color": "#0f334b",
+        "item_text_custom": false,
+        "item_text_height": 130,
+        "item_text_mt": 12,
+        "item_text_size": 14,
+        "item_text_size_mobile": 14,
+        "items_bg_color": "rgba(0,0,0,0)",
+        "items_gap": 20,
+        "items_gap_mobile": 12,
+        "items_mt": 0,
+        "items_padding_horizontal": 0,
+        "items_padding_vertical": 0,
+        "items_radius": 0,
+        "items_row": 3,
+        "items_row_mobile": 1,
+        "items_style": "slider",
+        "margin_bottom": 0,
+        "margin_top": 0,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "padding_top": 36,
+        "pagination_color": "#0f334b"
+      },
+      "type": "ss-feature-7"
+    }
+  }
 }
