@@ -43,7 +43,7 @@
       "settings": {
         "full_width": false,
         "enable_parallax": true,
-        "spacing": "small"
+        "spacing": "none"
       }
     },
     "slideshow": {
