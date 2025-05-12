@@ -9,6 +9,43 @@
  */
 {
   "sections": {
+    "media_with_text_UywTYW": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_magqxF": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Sleepytroll Gen 2 Promo_1-1_COMP).mov",
+            "external_video_url": "",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Sleepytroll gently rocks your baby, so you can take a well-deserved break.",
+            "title": "Every Parent's Must-Have",
+            "content": "<p>Hands finally free — now what? Rest, recharge, or enjoy that hot cup of coffee. Sleepytroll helps your baby sleep, so you can too.</p>",
+            "link_text": "Shop Sleepytroll",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#7d6e6a",
+            "text_gradient": "",
+            "button_background": "#7d6e6a",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_magqxF"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -20,8 +57,8 @@
             "content_max_width": 820,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Explore the next generation",
-            "title": "Sleepytroll Gen 2",
+            "subheading": "We’re working on making Sleepytroll available again soon. Leave your email and be the first to know when we're back!",
+            "title": "Currently Out of Stock in the US",
             "heading_tag": "h3",
             "button_text": "Read more",
             "button_link": "shopify://products/sleepytroll-baby-rocker-gen-2",
@@ -60,6 +97,7 @@
         "slide-1",
         "slide-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -1485,40 +1523,6 @@
         "button_text_color": ""
       }
     },
-    "d2d9e5bf-5847-4888-ab84-1e5e927462c4": {
-      "type": "blog-posts",
-      "blocks": {
-        "template--17692579594522__d2d9e5bf-5847-4888-ab84-1e5e927462c4-167464776346a7f556-0": {
-          "type": "blog",
-          "settings": {
-            "blog": "stories",
-            "posts_count": 3,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17692579594522__d2d9e5bf-5847-4888-ab84-1e5e927462c4-167464776346a7f556-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": false,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "Stories and tips",
-        "content": "",
-        "link_url": "https://us.sleepytroll.com/blogs/stories",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#0f334b",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -1657,6 +1661,7 @@
     }
   },
   "order": [
+    "media_with_text_UywTYW",
     "slideshow",
     "rich_text_nywHXr",
     "1715e90c-f91f-45d9-a924-191ccac942b0",
@@ -1679,7 +1684,6 @@
     "52713e37-56d6-4cc3-85fd-49cb584df0ee",
     "a5df5fc3-e8bc-4134-b0c0-4fd5cf943d01",
     "f92eefce-4572-4308-abbe-62524bc354a8",
-    "d2d9e5bf-5847-4888-ab84-1e5e927462c4",
     "faq",
     "4b8f7ec5-feaa-45e2-8b9d-162d0c4bb41c"
   ]
