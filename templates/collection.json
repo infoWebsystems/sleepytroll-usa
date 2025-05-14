@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "8bf80fdd-a26f-4ae9-a686-7137dbca1d76": {
@@ -5,9 +14,10 @@
       "blocks": {
         "template--17692579299610__8bf80fdd-a26f-4ae9-a686-7137dbca1d76-1678052238847266bb-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/cab753ea-d877-44bc-bc54-2fdeb5cc3d13.png",
-            "mobile_image": "shopify:\/\/shop_images\/d605b53a-d960-4928-8a18-a4db5a0429c2.png",
+            "image": "shopify://shop_images/cab753ea-d877-44bc-bc54-2fdeb5cc3d13.png",
+            "mobile_image": "shopify://shop_images/d605b53a-d960-4928-8a18-a4db5a0429c2.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -63,6 +73,20 @@
         "background_gradient": ""
       }
     },
+    "custom_liquid_khACer": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"text-align: center; margin: 0.5rem 0 1rem 0;\">\n  <a href=\"/collections/all\" style=\"margin: 0 8px;\">All Products</a> |\n  <a href=\"/collections/accessories\" style=\"margin: 0 8px;\">Accessories</a> |\n  <a href=\"/collections/bundles\" style=\"margin: 0 8px;\">Bundles</a>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "banner": {
       "type": "collection-banner",
       "disabled": true,
@@ -103,6 +127,7 @@
   },
   "order": [
     "8bf80fdd-a26f-4ae9-a686-7137dbca1d76",
+    "custom_liquid_khACer",
     "banner",
     "main"
   ]
