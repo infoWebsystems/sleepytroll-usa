@@ -9,6 +9,26 @@
  */
 {
   "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#7d6e6a",
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_opacity": 30
+      }
+    },
     "8bf80fdd-a26f-4ae9-a686-7137dbca1d76": {
       "type": "slideshow",
       "blocks": {
@@ -61,6 +81,7 @@
         "template--17692579299610__8bf80fdd-a26f-4ae9-a686-7137dbca1d76-1678052238847266bb-0",
         "template--17692579299610__8bf80fdd-a26f-4ae9-a686-7137dbca1d76-1678052238847266bb-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -84,28 +105,7 @@
         "liquid": "<div style=\"text-align: center; margin: 0.5rem 0 1rem 0;\">\n  <a href=\"/collections/all\" style=\"margin: 0 8px;\">All Products</a> |\n  <a href=\"/collections/accessories\" style=\"margin: 0 8px;\">Accessories</a> |\n  <a href=\"/collections/bundles\" style=\"margin: 0 8px;\">Bundles</a>\n</div>",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "banner": {
-      "type": "collection-banner",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": true,
-        "show_collection_title": true,
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "collection_title_size": "h0",
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "featured_product": "",
-        "featured_product_heading": "Featured product",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "text_color": "#7d6e6a"
       }
     },
     "main": {
@@ -126,9 +126,9 @@
     }
   },
   "order": [
+    "banner",
     "8bf80fdd-a26f-4ae9-a686-7137dbca1d76",
     "custom_liquid_khACer",
-    "banner",
     "main"
   ]
 }
