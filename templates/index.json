@@ -302,8 +302,8 @@
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#f6e9e0",
-            "icon_color": "#0f334b",
+            "icon_background": "#e9e5e3",
+            "icon_color": "#7d6e6a",
             "title": "Free shipping",
             "content": "<p>Free international shipping on orders above 99 USD.</p>"
           }
@@ -315,8 +315,8 @@
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#f6e9e0",
-            "icon_color": "#0f334b",
+            "icon_background": "#e9e5e3",
+            "icon_color": "#7d6e6a",
             "title": "30-day satisfaction guarantee",
             "content": "<p>Try your Sleepytroll risk-free for 30 days*</p>"
           }
@@ -328,8 +328,8 @@
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#f6e9e0",
-            "icon_color": "#0f334b",
+            "icon_background": "#e9e5e3",
+            "icon_color": "#7d6e6a",
             "title": "No duty or taxes",
             "content": "<p>We cover all expenses. Everything is pre-paid.</p>"
           }
@@ -347,9 +347,9 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#f6e9e0",
+        "background": "#e9e5e3",
         "background_gradient": "",
-        "text_color": "#0f334b"
+        "text_color": "#7d6e6a"
       }
     },
     "921fa0d6-7ad0-4c74-b353-3f924813d775": {
