@@ -19,7 +19,7 @@
         "show_collection_description": true,
         "show_collection_image": false,
         "collection_title_size": "h0",
-        "image_size": "auto",
+        "image_size": "md",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
