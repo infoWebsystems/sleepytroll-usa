@@ -1365,11 +1365,68 @@
       "blocks": {
         "92c50b33-37e3-42d8-bddc-c57a2cf2c6af": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
         "92c50b33-37e3-42d8-bddc-c57a2cf2c6af"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1756281115f52dd5b6": {
+      "type": "apps",
+      "blocks": {
+        "wod_preorder_now_app_block_3jc9Y6": {
+          "type": "shopify://apps/wod-preorder-now/blocks/app-block/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
+          "settings": {
+            "color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "wod_preorder_now_app_block_3jc9Y6"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1756281162b1c0372d": {
+      "type": "apps",
+      "blocks": {
+        "wod_preorder_now_popups_block_eWNVTh": {
+          "type": "shopify://apps/wod-preorder-now/blocks/popups-block/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
+          "settings": {
+            "color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "wod_preorder_now_popups_block_eWNVTh"
       ],
       "settings": {
         "full_width": true,
@@ -1409,6 +1466,8 @@
     "4daadfec-7539-4363-abe0-4ca567f8f46f",
     "0d2fc195-22ef-48bf-993d-c9ade0a81541",
     "f32371d8-300c-4d46-9056-d27a09a58579",
-    "17011775569cabd1e5"
+    "17011775569cabd1e5",
+    "1756281115f52dd5b6",
+    "1756281162b1c0372d"
   ]
 }
