@@ -391,6 +391,11 @@
         "type": "shopify://apps/wod-preorder-now/blocks/app-embed/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
         "disabled": false,
         "settings": {}
+      },
+      "5754511542625124000": {
+        "type": "shopify://apps/gdpr-cookie-consent/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
