@@ -1393,6 +1393,7 @@
       "blocks": {
         "wod_preorder_now_app_block_3jc9Y6": {
           "type": "shopify://apps/wod-preorder-now/blocks/app-block/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
+          "disabled": true,
           "settings": {
             "color": "#000000"
           }
@@ -1420,6 +1421,7 @@
       "blocks": {
         "wod_preorder_now_popups_block_eWNVTh": {
           "type": "shopify://apps/wod-preorder-now/blocks/popups-block/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
+          "disabled": true,
           "settings": {
             "color": "#000000"
           }
