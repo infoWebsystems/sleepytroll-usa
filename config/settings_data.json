@@ -362,11 +362,6 @@
         "disabled": false,
         "settings": {}
       },
-      "9097558199762247683": {
-        "type": "shopify://apps/replaypro/blocks/recorder/9c500141-cbb8-4433-a2e9-4f4b5b3433be",
-        "disabled": false,
-        "settings": {}
-      },
       "1173261918193615741": {
         "type": "shopify://apps/geo-pro-geolocation-redirects/blocks/geopro/16fc5313-7aee-4e90-ac95-f50fc7c8b657",
         "disabled": false,
@@ -387,24 +382,14 @@
         "disabled": false,
         "settings": {}
       },
-      "12657775114333427046": {
-        "type": "shopify://apps/essential-countdown/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-        "disabled": false,
-        "settings": {}
-      },
       "11753626725791430220": {
         "type": "shopify://apps/one-click-upsell/blocks/cart-drawer/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
         "settings": {}
       },
-      "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
-        "type": "shopify://apps/back-in-stock-restock-alerts/blocks/main/4bb73be2-b7c2-4870-949f-c528145452a3",
+      "3577669850698438243": {
+        "type": "shopify://apps/wod-preorder-now/blocks/app-embed/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
         "disabled": false,
-        "settings": {}
-      },
-      "6478312753674380289": {
-        "type": "shopify://apps/gempages-builder/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3",
-        "disabled": true,
         "settings": {}
       }
     }
