@@ -110,6 +110,7 @@
         "blocks": {
           "3289b62c-3634-44b8-bf47-b1a84818b475": {
             "type": "Country",
+            "disabled": true,
             "settings": {
               "country_img": "shopify://shop_images/USA_CANDA.png",
               "country_text": "US + Canada",
@@ -119,6 +120,7 @@
           },
           "1e28f069-2000-469d-bee3-494268576668": {
             "type": "Country",
+            "disabled": true,
             "settings": {
               "country_img": "shopify://shop_images/64px-United-kingdom_flag_icon_round_svg.png",
               "country_text": "United Kingdom",
@@ -128,6 +130,7 @@
           },
           "0a3d2ea1-1402-4ec0-9717-84c168528d4a": {
             "type": "Country",
+            "disabled": true,
             "settings": {
               "country_img": "shopify://shop_images/EU_Symbol.png",
               "country_text": "EU + Norway",
@@ -137,6 +140,7 @@
           },
           "7187eea0-8d5c-4c0c-8ace-45b62fd0f4d6": {
             "type": "Country",
+            "disabled": true,
             "settings": {
               "country_img": "shopify://shop_images/www_582aa00f-a6a4-4b02-a7d8-9e4117846985.png",
               "country_text": "International",
