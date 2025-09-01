@@ -135,6 +135,10 @@
             "size_chart_page": ""
           }
         },
+        "es_back_in_stock_product_restore_email_LcejVk": {
+          "type": "shopify://apps/es-back-in-stock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+          "settings": {}
+        },
         "0d376993-82f4-49f4-a204-802b5d396f21": {
           "type": "text",
           "disabled": true,
@@ -210,6 +214,7 @@
         "cc41ddfc-f891-4df0-ad5c-c52da04ded01",
         "56ebd306-40e6-4509-b955-bb834dd51abf",
         "variant_picker",
+        "es_back_in_stock_product_restore_email_LcejVk",
         "0d376993-82f4-49f4-a204-802b5d396f21",
         "f3f014df-134a-4db6-921f-24a9e8aa2677",
         "e9a87df6-4c26-4ef4-a63a-6279dc87d7dd",
@@ -1342,7 +1347,10 @@
       "blocks": {
         "92c50b33-37e3-42d8-bddc-c57a2cf2c6af": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
