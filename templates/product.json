@@ -191,6 +191,10 @@
             "alignment": "start",
             "max_width": 150
           }
+        },
+        "es_back_in_stock_product_restore_email_TDRG9W": {
+          "type": "shopify://apps/es-back-in-stock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+          "settings": {}
         }
       },
       "block_order": [
@@ -221,7 +225,8 @@
         "84f39230-fe9b-4c9e-9d61-87bfb72e95e0",
         "853233f7-5e06-4d37-9754-49dbed8f0163",
         "9949e939-606e-4c26-9c27-3c242d894d09",
-        "7afa2b48-9559-4cfe-8f8b-cc67244d5f79"
+        "7afa2b48-9559-4cfe-8f8b-cc67244d5f79",
+        "es_back_in_stock_product_restore_email_TDRG9W"
       ],
       "custom_css": [
         "h2 {color: #ededf5;}",
