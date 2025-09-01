@@ -84,6 +84,10 @@
             "payment_button_text_color": ""
           }
         },
+        "es_back_in_stock_product_restore_email_LcejVk": {
+          "type": "shopify://apps/es-back-in-stock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+          "settings": {}
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -134,10 +138,6 @@
             "color_mode": "color",
             "size_chart_page": ""
           }
-        },
-        "es_back_in_stock_product_restore_email_LcejVk": {
-          "type": "shopify://apps/es-back-in-stock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
-          "settings": {}
         },
         "0d376993-82f4-49f4-a204-802b5d396f21": {
           "type": "text",
@@ -206,6 +206,7 @@
         "292e72ff-600b-44c7-8c22-bb745890b709",
         "one_click_upsell_zipify_ocu_on_page_qk8jJf",
         "buy_buttons",
+        "es_back_in_stock_product_restore_email_LcejVk",
         "payment_terms",
         "text_adppVM",
         "separator",
@@ -214,7 +215,6 @@
         "cc41ddfc-f891-4df0-ad5c-c52da04ded01",
         "56ebd306-40e6-4509-b955-bb834dd51abf",
         "variant_picker",
-        "es_back_in_stock_product_restore_email_LcejVk",
         "0d376993-82f4-49f4-a204-802b5d396f21",
         "f3f014df-134a-4db6-921f-24a9e8aa2677",
         "e9a87df6-4c26-4ef4-a63a-6279dc87d7dd",
