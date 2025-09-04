@@ -70,10 +70,6 @@
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
-        "one_click_upsell_zipify_ocu_on_page_qk8jJf": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -105,7 +101,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
         "88cbd326-fa03-46a1-93d6-cd0e5c33c017": {
@@ -208,7 +204,6 @@
         "quantity_selector",
         "badges",
         "292e72ff-600b-44c7-8c22-bb745890b709",
-        "one_click_upsell_zipify_ocu_on_page_qk8jJf",
         "buy_buttons",
         "es_back_in_stock_product_restore_email_LcejVk",
         "payment_terms",
