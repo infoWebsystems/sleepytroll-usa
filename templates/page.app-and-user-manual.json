@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "9ffdcf69-5049-4cae-b014-d2d51ee1f205": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18182921388314__9ffdcf69-5049-4cae-b014-d2d51ee1f205-1678800491d756cf73-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18182921388314__9ffdcf69-5049-4cae-b014-d2d51ee1f205-1678800491d756cf73-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18182921388314__9ffdcf69-5049-4cae-b014-d2d51ee1f205-1678800491d756cf73-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18182921388314__9ffdcf69-5049-4cae-b014-d2d51ee1f205-1678800491d756cf73-0",
+        "template--18182921388314__9ffdcf69-5049-4cae-b014-d2d51ee1f205-1678800491d756cf73-1",
+        "template--18182921388314__9ffdcf69-5049-4cae-b014-d2d51ee1f205-1678800491d756cf73-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "746fabd4-f7da-42d8-945d-3e8fc68e110b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18182921388314__746fabd4-f7da-42d8-945d-3e8fc68e110b-1678800553d4fd3ede-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18182921388314__746fabd4-f7da-42d8-945d-3e8fc68e110b-1678800553d4fd3ede-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Developed in Norway",
+            "heading_tag": "h1",
+            "text_color": "#0f334b",
+            "gradient": ""
+          }
+        },
+        "template--18182921388314__746fabd4-f7da-42d8-945d-3e8fc68e110b-1678800553d4fd3ede-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>What do you do when your baby just won ́t sleep unless you rock, carry, stroll, or drive him around? You pray there exists something to help you and your child. And if it doesn’t? You invent it yourself! That ́s what one desperate and exhausted Norwegian dad, Ståle Flataker, did.</p>"
+          }
+        },
+        "4a9e5035-cc44-4358-97fb-15af446f3b2f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flataker_928x544_d2415e0a-bfe5-49ae-ac0a-f1d258666876.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18182921388314__746fabd4-f7da-42d8-945d-3e8fc68e110b-1678800553d4fd3ede-0",
+        "template--18182921388314__746fabd4-f7da-42d8-945d-3e8fc68e110b-1678800553d4fd3ede-1",
+        "template--18182921388314__746fabd4-f7da-42d8-945d-3e8fc68e110b-1678800553d4fd3ede-2",
+        "4a9e5035-cc44-4358-97fb-15af446f3b2f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "fdc1faa5-b8ef-4de5-9c28-d69d3d9fbcbc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18182921388314__fdc1faa5-b8ef-4de5-9c28-d69d3d9fbcbc-16788006725b2e3b6c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flataker.jpg",
+            "mobile_image": "shopify://shop_images/flataker.jpg",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--18182921388314__fdc1faa5-b8ef-4de5-9c28-d69d3d9fbcbc-16788006725b2e3b6c-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18182921388314__fdc1faa5-b8ef-4de5-9c28-d69d3d9fbcbc-16788006725b2e3b6c-0",
+        "template--18182921388314__fdc1faa5-b8ef-4de5-9c28-d69d3d9fbcbc-16788006725b2e3b6c-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "a8514f0e-c156-4856-9a0e-2e4ac3290ee4": {
+      "type": "video",
+      "blocks": {
+        "template--18269509026074__a8514f0e-c156-4856-9a0e-2e4ac3290ee4-1681720128db94ebf4-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--18269509026074__a8514f0e-c156-4856-9a0e-2e4ac3290ee4-1681720128db94ebf4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18269509026074__a8514f0e-c156-4856-9a0e-2e4ac3290ee4-1681720128db94ebf4-0",
+        "template--18269509026074__a8514f0e-c156-4856-9a0e-2e4ac3290ee4-1681720128db94ebf4-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Our Story Final.mp4",
+        "external_video_url": "",
+        "poster": "shopify://shop_images/flataker.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "780fee38-3c07-4829-bd5f-9c3f656a2372": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18239970378010__780fee38-3c07-4829-bd5f-9c3f656a2372-167886845613024926-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18239970378010__780fee38-3c07-4829-bd5f-9c3f656a2372-167886845613024926-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sleepytroll Baby Rocker",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18239970378010__780fee38-3c07-4829-bd5f-9c3f656a2372-167886845613024926-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From one parent to another</p><p></p>"
+          }
+        },
+        "121b311d-5692-496e-adc9-6e77bd6e9aa0": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18239970378010__780fee38-3c07-4829-bd5f-9c3f656a2372-167886845613024926-0",
+        "template--18239970378010__780fee38-3c07-4829-bd5f-9c3f656a2372-167886845613024926-1",
+        "template--18239970378010__780fee38-3c07-4829-bd5f-9c3f656a2372-167886845613024926-2",
+        "121b311d-5692-496e-adc9-6e77bd6e9aa0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "87de2d81-50e0-4ff8-8be4-023d572effa1": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--18182921388314__87de2d81-50e0-4ff8-8be4-023d572effa1-167880063232e0d69b-0": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--18182921388314__87de2d81-50e0-4ff8-8be4-023d572effa1-167880063232e0d69b-1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18182921388314__87de2d81-50e0-4ff8-8be4-023d572effa1-167880063232e0d69b-0",
+        "template--18182921388314__87de2d81-50e0-4ff8-8be4-023d572effa1-167880063232e0d69b-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "ca815051-0c13-4d07-83a3-74baadce56cd": {
+      "type": "xo-about-03",
+      "custom_css": [
+        ".xo-m-textbox__heading {color: #0f334b;}"
+      ],
+      "settings": {
+        "img00": "shopify://shop_images/staale.jpg",
+        "heading10": "Who are we?",
+        "text10": "We are a small Norwegian company, with big international ambitions! We are fortunate enough to take part in every detail in our process, from development and marketing to customer service and sales. This way we can make sure the Sleepytroll spirit is with us every step of the way.We are both parents and between us we have 5 kids aged 1 to 17. So, we truly understand the challenges new parents face – especially with kids that have trouble sleeping more than 20–30-minute naps. Sleepytroll truly is from parents to parents, and we will do our best to help you navigate the crazy world of sleep (deprivations).",
+        "button10": "#",
+        "button10label": ""
+      }
+    },
+    "148bd5b0-8125-4070-929b-15b6bb1f6642": {
+      "type": "xo-about-03-reverse",
+      "custom_css": [
+        ".xo-m-textbox__heading {color: #0f334b;}"
+      ],
+      "settings": {
+        "heading10": "Responsibility",
+        "text10": "Our main goal is to help tired parents and babies with that important daytime sleep. But we also have a big responsibility when it comes to sustainability and our environmental footprint. That is why we work hard to provide a high-quality product that is rechargeable and free of toxins. In addition, we make sure that the factories where we produce our beloved Sleepytroll follows the SA8000® Standard, which includes regulations on child labor, forced or compulsory labor, health and safety, discrimination and working hours.",
+        "button10": "#",
+        "button10label": ""
+      }
+    }
+  },
+  "order": [
+    "9ffdcf69-5049-4cae-b014-d2d51ee1f205",
+    "746fabd4-f7da-42d8-945d-3e8fc68e110b",
+    "fdc1faa5-b8ef-4de5-9c28-d69d3d9fbcbc",
+    "main",
+    "a8514f0e-c156-4856-9a0e-2e4ac3290ee4",
+    "780fee38-3c07-4829-bd5f-9c3f656a2372",
+    "87de2d81-50e0-4ff8-8be4-023d572effa1",
+    "ca815051-0c13-4d07-83a3-74baadce56cd",
+    "148bd5b0-8125-4070-929b-15b6bb1f6642"
+  ]
+}
