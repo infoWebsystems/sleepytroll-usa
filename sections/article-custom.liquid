@@ -1,0 +1,23 @@
+<section class="blog-article-layout">
+  <div class="blog-header">
+    {% if article.image %}
+      <div class="blog-image">
+        <img src="{{ article.image | image_url: width: 1200 }}" alt="{{ article.title }}">
+      </div>
+    {% endif %}
+    <h1 class="blog-title">{{ article.title }}</h1>
+  </div>
+
+  <div class="blog-content-wrapper">
+    <div class="blog-content">
+      {{ article.content }}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Blogg to-kolonne",
+  "settings": []
+}
+{% endschema %}
