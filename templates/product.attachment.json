@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,8 +15,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -23,13 +31,11 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
@@ -43,7 +49,7 @@
           "disabled": true,
           "settings": {
             "title": "Title",
-            "content": "<p>Share some content to your customers about your products.<\/p>"
+            "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "buy_buttons": {
@@ -65,13 +71,11 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
@@ -83,14 +87,14 @@
           "type": "collapsible_text",
           "settings": {
             "title": "No duties or import fees",
-            "content": "<p>All tolls, duties, and import fees are covered by us and pre-paid.<\/p>"
+            "content": "<p>All tolls, duties, and import fees are covered by us and pre-paid.</p>"
           }
         },
         "56ebd306-40e6-4509-b955-bb834dd51abf": {
           "type": "collapsible_text",
           "settings": {
             "title": "Shipping",
-            "content": "<p>We ship your order from our warehouse in Sweden.<\/p><p>Orders are usually delivered within 3-5 working days.<\/p><p>Please note that unexpected delays can occure due to US customs. <\/p>"
+            "content": "<p>We ship your order from our warehouse in Sweden.</p><p>Orders are usually delivered within 3-5 working days.</p><p>Please note that unexpected delays can occure due to US customs. </p>"
           }
         },
         "variant_picker": {
@@ -107,19 +111,19 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share some content to your customers about your products.<\/p>"
+            "text": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "f3f014df-134a-4db6-921f-24a9e8aa2677": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Some of our awards<\/strong><\/p>"
+            "text": "<p><strong>Some of our awards</strong></p>"
           }
         },
         "e9a87df6-4c26-4ef4-a63a-6279dc87d7dd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Din_avsnittstekst_1.png",
+            "image": "shopify://shop_images/Din_avsnittstekst_1.png",
             "alignment": "center",
             "max_width": 450
           }
@@ -173,7 +177,7 @@
         "template--17692579365146__90de6eb9-398e-4111-a022-251c0a2fb356-1678074987fc944bec-0": {
           "type": "product",
           "settings": {
-            "product": "sleepytroll-bed-adaptor",
+            "product": "sleepytroll-bed-adapter",
             "horizontal_position": 55,
             "vertical_position": 60
           }
@@ -205,7 +209,7 @@
         "full_width": true,
         "stack_mobile": true,
         "title": "Complete the purchase",
-        "content": "<p>Sleepytroll is a versitaile rocking tool that can be used not only for strollers, but also cribs and cots.<\/p>",
+        "content": "<p>Sleepytroll is a versitaile rocking tool that can be used not only for strollers, but also cribs and cots.</p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -224,7 +228,7 @@
         "template--17692579365146__ea3275b6-55e3-4169-934b-0dd9da01e425-1678074987fc944bec-0": {
           "type": "product",
           "settings": {
-            "product": "sleepytroll-bed-adaptor",
+            "product": "sleepytroll-bed-adapter",
             "horizontal_position": 46,
             "vertical_position": 31
           }
@@ -256,9 +260,9 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/AdapterCribFullBed.png",
+        "image": "shopify://shop_images/AdapterCribFullBed.png",
         "title": "Want to use it for cribs?",
-        "content": "<p>Make sure to check out our attachements that allows you to use the Sleepytroll on your crib<\/p>",
+        "content": "<p>Make sure to check out our attachements that allows you to use the Sleepytroll on your crib</p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -290,7 +294,7 @@
         "template--17692579365146__aa31f75d-0e09-4f87-a79e-f96755454bed-1674727041db296fa7-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -322,11 +326,11 @@
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/Design_uten_navn_5.png",
+            "custom_icon": "shopify://shop_images/Design_uten_navn_5.png",
             "icon_width": 76,
             "subheading": "",
             "title": "What's included",
-            "content": "<p>With the purchase of a Sleepytroll baby rocker you will get <\/p><p>1 x Sleepytroll smart baby rocker<\/p><p>1 x International charger<\/p>",
+            "content": "<p>With the purchase of a Sleepytroll baby rocker you will get </p><p>1 x Sleepytroll smart baby rocker</p><p>1 x International charger</p>",
             "link_text": "",
             "link_url": "",
             "background": "#638078",
@@ -354,7 +358,7 @@
         "template--17692579365146__66719182-13f6-46cc-9b80-a356fd197bc9-1678049964e7ac40a2-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/StrollerSiblings.jpg",
+            "image": "shopify://shop_images/StrollerSiblings.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
@@ -362,7 +366,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "We take safety seriously",
-            "content": "<p>Sleepytroll is safety tested by TÜV, one of the world’s leading testing service providers.<\/p><p><\/p><p>Complies with CE and FCC regulations regarding exposure to electromagnetic fields and is ROHS (Reduction of Hazardous Substances) compliant. Sleepytroll uses safe NiMH batteries (not lithium). Sleepytroll can be safely taken on a plane.<\/p>",
+            "content": "<p>Sleepytroll is safety tested by TÜV, one of the world’s leading testing service providers.</p><p></p><p>Complies with CE and FCC regulations regarding exposure to electromagnetic fields and is ROHS (Reduction of Hazardous Substances) compliant. Sleepytroll uses safe NiMH batteries (not lithium). Sleepytroll can be safely taken on a plane.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#5a7971",
@@ -397,7 +401,7 @@
             "icon_background": "#0f334b",
             "icon_color": "#ffffff",
             "title": "Free shipping",
-            "content": "<p>Free and quick international shipping on all orders<\/p>"
+            "content": "<p>Free and quick international shipping on all orders</p>"
           }
         },
         "template--17692579365146__855944f8-b3ba-47c7-967a-bee00263406b-1674640457bb511903-1": {
@@ -410,7 +414,7 @@
             "icon_background": "#0f334b",
             "icon_color": "#ffffff",
             "title": "30 day return",
-            "content": "<p><\/p><p>Try the product at no risk! <\/p>"
+            "content": "<p></p><p>Try the product at no risk! </p>"
           }
         },
         "template--17692579365146__855944f8-b3ba-47c7-967a-bee00263406b-1674640457bb511903-2": {
@@ -423,7 +427,7 @@
             "icon_background": "#0f334b",
             "icon_color": "#ffffff",
             "title": "No duties or fees",
-            "content": "<p>We cover all your expenses in regards to tolls, fees and shipping.<\/p>"
+            "content": "<p>We cover all your expenses in regards to tolls, fees and shipping.</p>"
           }
         }
       },
@@ -465,9 +469,7 @@
       "disabled": true,
       "settings": {
         "recommendations_count": 6,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -490,8 +492,7 @@
       "blocks": {
         "template--17692579365146__ea4e1428-410a-44fd-a5cc-ebf9dcd65d1c-16750780265cfe1486-0": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17692579365146__ea4e1428-410a-44fd-a5cc-ebf9dcd65d1c-16750780265cfe1486-1": {
           "type": "heading",
@@ -511,7 +512,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -523,8 +524,8 @@
         "88fd903b-94dd-4d64-bc55-1dad4e358cca": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Our Story Final.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video": "shopify://files/videos/Our Story Final.mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -532,9 +533,9 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Our story",
-            "content": "<p>Let our founder Ståle tell you about how he invented Sleepytroll to help him in his<br\/>day-to-day life as a father of three.<\/p>",
+            "content": "<p>Let our founder Ståle tell you about how he invented Sleepytroll to help him in his<br/>day-to-day life as a father of three.</p>",
             "link_text": "Read more",
-            "link_url": "shopify:\/\/pages\/our-story",
+            "link_url": "shopify://pages/our-story",
             "background": "#b5c4e4",
             "background_gradient": "",
             "text_color": "#0f334b",
@@ -554,7 +555,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -588,7 +589,7 @@
             "vertical_position_mobile": 70,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         },
         "template--17692579365146__341dc260-472d-472e-aacf-89dfee112fed-167464009165c4cfb6-1": {
@@ -600,7 +601,7 @@
             "vertical_position_mobile": 14,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         },
         "template--17692579365146__341dc260-472d-472e-aacf-89dfee112fed-167464009165c4cfb6-2": {
@@ -612,7 +613,7 @@
             "vertical_position_mobile": 75,
             "icon_width": 32,
             "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "content": "<p>Share useful information about your product features.</p>"
           }
         }
       },
@@ -650,11 +651,11 @@
         "template--17692579365146__632b0178-ecb8-42ce-bb58-bb900b0d8609-16746418677c82b218-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flataker_928x544_d2415e0a-bfe5-49ae-ac0a-f1d258666876.png",
+            "image": "shopify://shop_images/flataker_928x544_d2415e0a-bfe5-49ae-ac0a-f1d258666876.png",
             "navigation_label": "",
             "subheading": "The story of a busy parent",
             "title": "Developed in Norway",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "template--17692579365146__632b0178-ecb8-42ce-bb58-bb900b0d8609-16746418677c82b218-1": {
@@ -663,7 +664,7 @@
             "navigation_label": "1960",
             "subheading": "Subheading",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "template--17692579365146__632b0178-ecb8-42ce-bb58-bb900b0d8609-16746418677c82b218-2": {
@@ -672,7 +673,7 @@
             "navigation_label": "1966",
             "subheading": "Subheading",
             "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -759,12 +760,12 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>Dimensions<\/p>",
-            "value_2": "<p>Weight<\/p>",
-            "value_3": "<p>Batteries<\/p>",
-            "value_4": "<p>IP rating<\/p>",
-            "value_5": "<p>Plug types included<\/p>",
-            "value_6": "<p>Sensors<\/p>",
+            "value_1": "<p>Dimensions</p>",
+            "value_2": "<p>Weight</p>",
+            "value_3": "<p>Batteries</p>",
+            "value_4": "<p>IP rating</p>",
+            "value_5": "<p>Plug types included</p>",
+            "value_6": "<p>Sensors</p>",
             "value_7": "",
             "value_8": "",
             "value_9": "",
@@ -787,12 +788,12 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>74 x 90 x 167mm<\/p>",
-            "value_2": "<p>0.65kg<\/p>",
-            "value_3": "<p>Rehargable NiMh (Can be brought on airplanes)<\/p>",
-            "value_4": "<p>IPX2 - Light rain \/ Showers<\/p>",
-            "value_5": "<p>International: US, UK, AUS, EU<\/p>",
-            "value_6": "<p>Microphone, movement<\/p>",
+            "value_1": "<p>74 x 90 x 167mm</p>",
+            "value_2": "<p>0.65kg</p>",
+            "value_3": "<p>Rehargable NiMh (Can be brought on airplanes)</p>",
+            "value_4": "<p>IPX2 - Light rain / Showers</p>",
+            "value_5": "<p>International: US, UK, AUS, EU</p>",
+            "value_6": "<p>Microphone, movement</p>",
             "value_7": "",
             "value_8": "",
             "value_9": "",
@@ -876,10 +877,10 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>Yes<\/p>",
-            "value_2": "<p>Yes. Estimated 6 hours of use<\/p>",
-            "value_3": "<p>No<\/p>",
-            "value_4": "<p>No<\/p>",
+            "value_1": "<p>Yes</p>",
+            "value_2": "<p>Yes. Estimated 6 hours of use</p>",
+            "value_3": "<p>No</p>",
+            "value_4": "<p>No</p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -934,10 +935,10 @@
           "disabled": true,
           "settings": {
             "product": "",
-            "value_1": "<p>No<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>Yes<\/p>",
-            "value_4": "<p>No<\/p>",
+            "value_1": "<p>No</p>",
+            "value_2": "<p>Yes</p>",
+            "value_3": "<p>Yes</p>",
+            "value_4": "<p>No</p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -970,7 +971,7 @@
         "full_width": true,
         "subheading": "Compare",
         "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.<\/p>",
+        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -999,7 +1000,7 @@
         "full_width": true,
         "show_icon": false,
         "title": "Newsletter",
-        "content": "<p>Join our newsletter to be the first to know about Sleepytroll<br\/>innovations, great stories – and maybe some great offers as well?<\/p>",
+        "content": "<p>Join our newsletter to be the first to know about Sleepytroll<br/>innovations, great stories – and maybe some great offers as well?</p>",
         "button_text": "Subscribe",
         "subtext": "",
         "background": "#e7d6be",
@@ -1016,7 +1017,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab 1",
-            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
             "page": ""
           }
         },
@@ -1024,7 +1025,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
             "page": ""
           }
         },
@@ -1032,7 +1033,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.<\/p>",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
             "page": ""
           }
         }
@@ -1139,7 +1140,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "button_url": "",
             "button_text": ""
           }
@@ -1150,7 +1151,7 @@
             "image_rotation_degrees": 1.5,
             "subheading": "",
             "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "button_url": "",
             "button_text": ""
           }
@@ -1204,10 +1205,10 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>Yes<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>No<\/p>",
-            "value_4": "<p>No<\/p>",
+            "value_1": "<p>Yes</p>",
+            "value_2": "<p>Yes</p>",
+            "value_3": "<p>No</p>",
+            "value_4": "<p>No</p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -1232,10 +1233,10 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>No<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>Yes<\/p>",
-            "value_4": "<p>No<\/p>",
+            "value_1": "<p>No</p>",
+            "value_2": "<p>Yes</p>",
+            "value_3": "<p>Yes</p>",
+            "value_4": "<p>No</p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -1267,7 +1268,7 @@
         "full_width": true,
         "subheading": "Compare",
         "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.<\/p>",
+        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -1423,9 +1424,7 @@
       "disabled": true,
       "settings": {
         "recommendations_count": 6,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
