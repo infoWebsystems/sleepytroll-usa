@@ -85,10 +85,6 @@
             "content": "<p>Share some content to your customers about your products.</p>"
           }
         },
-        "one_click_upsell_zipify_ocu_on_page_qk8jJf": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        },
         "collapsible_text_g3Kzhn": {
           "type": "collapsible_text",
           "settings": {
@@ -223,7 +219,6 @@
         "quantity_selector",
         "badges",
         "292e72ff-600b-44c7-8c22-bb745890b709",
-        "one_click_upsell_zipify_ocu_on_page_qk8jJf",
         "collapsible_text_g3Kzhn",
         "buy_buttons",
         "payment_terms",
@@ -282,7 +277,7 @@
         "template--17692579365146__ea3275b6-55e3-4169-934b-0dd9da01e425-1678074987fc944bec-0": {
           "type": "product",
           "settings": {
-            "product": "sleepytroll-bed-adaptor",
+            "product": "sleepytroll-bed-adapter",
             "horizontal_position": 44,
             "vertical_position": 67
           }
@@ -1390,18 +1385,6 @@
     },
     "1756281115f52dd5b6": {
       "type": "apps",
-      "blocks": {
-        "wod_preorder_now_app_block_3jc9Y6": {
-          "type": "shopify://apps/wod-preorder-now/blocks/app-block/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
-          "disabled": true,
-          "settings": {
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "wod_preorder_now_app_block_3jc9Y6"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -1418,18 +1401,6 @@
     },
     "1756281162b1c0372d": {
       "type": "apps",
-      "blocks": {
-        "wod_preorder_now_popups_block_eWNVTh": {
-          "type": "shopify://apps/wod-preorder-now/blocks/popups-block/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
-          "disabled": true,
-          "settings": {
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "wod_preorder_now_popups_block_eWNVTh"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,

@@ -281,7 +281,7 @@
         "template--17692579365146__90de6eb9-398e-4111-a022-251c0a2fb356-1678074987fc944bec-0": {
           "type": "product",
           "settings": {
-            "product": "sleepytroll-bed-adaptor",
+            "product": "sleepytroll-bed-adapter",
             "horizontal_position": 55,
             "vertical_position": 60
           }
@@ -333,7 +333,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "sleepytroll-bed-adaptor",
+            "product": "sleepytroll-bed-adapter",
             "horizontal_position": 46,
             "vertical_position": 31
           }
