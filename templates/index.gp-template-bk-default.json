@@ -42,7 +42,7 @@
         "template--17692579594522__04b79acc-b1d5-4f7c-be01-d53e7d4768d0-1678192000a4869505-0": {
           "type": "product",
           "settings": {
-            "product": "sleepytroll-baby-rocker-gen-2",
+            "product": "sleepytroll-stroller-rocker-gen-2",
             "horizontal_position": 49,
             "vertical_position": 87
           }
@@ -93,7 +93,7 @@
         "02e8c5dc-e84f-4315-a990-76f93c1b2a74": {
           "type": "button",
           "settings": {
-            "link": "shopify://products/sleepytroll-baby-rocker-gen-2",
+            "link": "shopify://products/sleepytroll-stroller-rocker-gen-2",
             "text": "Explore now",
             "size": "xl",
             "style": "fill",
@@ -213,7 +213,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "sleepytroll-baby-rocker-gen-2",
+        "product": "sleepytroll-stroller-rocker-gen-2",
         "desktop_media_width": 50,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
@@ -856,7 +856,7 @@
         "text_height": 130,
         "text_align": "center",
         "link_text": "Shop Now",
-        "link_url": "shopify://products/sleepytroll-baby-rocker-gen-2",
+        "link_url": "shopify://products/sleepytroll-stroller-rocker-gen-2",
         "link_custom": false,
         "link_font": "assistant_n4",
         "link_size": 18,
@@ -1498,7 +1498,7 @@
             "title": "Sleepytroll Gen 2 -Finally Back in Stock!",
             "heading_tag": "h3",
             "button_text": "Shop Now!",
-            "button_link": "shopify://products/sleepytroll-baby-rocker-gen-2",
+            "button_link": "shopify://products/sleepytroll-stroller-rocker-gen-2",
             "text_color": "#ffffff",
             "button_background": "#0f334b",
             "button_text_color": "#ffffff",
