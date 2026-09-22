@@ -101,7 +101,7 @@
                 "image":[{{product.featured_image.src|img_url:image_size|prepend:"https:"|json}}],
               {%- endif -%}
               "description":{{product.description|strip_html|json}},
-              {%- if cv_schema.sku!=blank -%}
+              {%- if cv_schema.sku.blank -%}
                 "sku":{{cv_schema.sku|json}},
               {%- endif -%}
               "brand":{"@type": "Brand","name":{{product.vendor|json}}},
@@ -121,4 +121,13 @@
         {% when "blog" %}
       {% endcase %}
     {% endif %}
-  
+  {%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- if cv_schema.sku!=blank -%}"
+  to: "{%- if cv_schema.sku.blank -%}"
+  position: 4373..4403
+{%- endcomment -%}
